@@ -321,14 +321,14 @@ intros.
 unfold on_line in  *;use H0.
 generalize (is_fano_plane_inst); unfold is_fano_plane in *; intro Hw ;use Hw.
 
-time(case_clear P;
+case_clear P;
 case_clear Q;
 case_clear R;
 try collinear_line;
 case_clear P';
 case_clear Q';
 case_clear R';
-try collinear_line).
+try collinear_line.
 case_clear lPQ;
 case_clear lP'Q';
 case_clear lPR;

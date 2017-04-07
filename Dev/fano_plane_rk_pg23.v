@@ -445,7 +445,7 @@ Proof.
 intros.
 assert(HH0 := quadruple_rk2_to_triple_rk2 P Q R S H0 H10).
 generalize rk_planes;intro HH;use HH.
-time(case_clear_1 P;subst;
+case_clear_1 P;subst;
 case_clear_1 Q;subst;
 try equal_degens;
 case_clear_1 R;subst;
@@ -456,7 +456,7 @@ try equal_degens;
 try solve[rk_quadruple_2_3_bis_bis];
 case_clear_1 T;subst;
 try equal_degens;
-try solve[rk_quadruple_to_triple_bis_bis]).
+try solve[rk_quadruple_to_triple_bis_bis].
 Qed.
 
 Lemma quintuple_distinct_rk3 : forall P Q R S T : Point, 
@@ -619,42 +619,24 @@ assert(HH := rk_distinct HH0);clear HH0;my_split;eq_duplicate;my_split.
 generalize rk_lines;intro HH;use HH.
 generalize rk_planes;intro HH;use HH.
 case_clear_P1 P Q R.
-idtac "1".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "2".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "3".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "4".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "5".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "6".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "7".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "8".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "9".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "10".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "11".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "12".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "13".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "14".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "15".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "16".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "17".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "18".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
 Qed exporting.
 
 Lemma Desargues_from_A_spec_2 :  forall P Q R P' Q' R' alpha beta gamma,
@@ -676,42 +658,24 @@ assert(HH := rk_distinct HH0);clear HH0;my_split;eq_duplicate;my_split.
 generalize rk_lines;intro HH;use HH.
 generalize rk_planes;intro HH;use HH.
 case_clear_P1 P Q R.
-idtac "1".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "2".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "3".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "4".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "5".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "6".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "7".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "8".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "9".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "10".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "11".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "12".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "13".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "14".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "15".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "16".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "17".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "18".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
 Qed exporting.
 
 Lemma Desargues_from_A_spec_3 :  forall P Q R P' Q' R' alpha beta gamma,
@@ -733,42 +697,24 @@ assert(HH := rk_distinct HH0);clear HH0;my_split;eq_duplicate;my_split.
 generalize rk_lines;intro HH;use HH.
 generalize rk_planes;intro HH;use HH.
 case_clear_P1 P Q R.
-idtac "1".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "2".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "3".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "4".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "5".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "6".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "7".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "8".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "9".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "10".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "11".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "12".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "13".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "14".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "15".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "16".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "17".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "18".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
 Qed exporting.
 
 Lemma Desargues_from_A_spec_4 :  forall P Q R P' Q' R' alpha beta gamma,
@@ -790,42 +736,24 @@ assert(HH := rk_distinct HH0);clear HH0;my_split;eq_duplicate;my_split.
 generalize rk_lines;intro HH;use HH.
 generalize rk_planes;intro HH;use HH.
 case_clear_P1 P Q R.
-idtac "1".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "2".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "3".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "4".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "5".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "6".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "7".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "8".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "9".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "10".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "11".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "12".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "13".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "14".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "15".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "16".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "17".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
-idtac "18".
-time(abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma)).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
+abstract (case_clear_P2_P3 P' Q' R' alpha beta gamma).
 Qed exporting.
 
 Ltac case_clear_4 P := case_clear_1 P;subst;try solve[equal_degens];try solve[rk_quadruple_2_3_bis_bis].
@@ -2434,54 +2362,56 @@ my_split.
 assert(HH4 := degens_or P P' Q Q' R R' H68);my_split.
 generalize rk_planes;intro HH5;use HH5.
 case_clear_P4 X Y Z.
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
-time(abstract (case_clear_P4 X' Y' Z';
-abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4))).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
+abstract (case_clear_P4 X' Y' Z';
+abstract (case_clear_P4 X'' Y'' Z'';try solve_desargues_from_A_spec P Q R P' Q' R' alpha beta gamma HH HH0 HH1 HH2 HH3 HH4)).
 Qed.
 
 End Desargues_from_A.

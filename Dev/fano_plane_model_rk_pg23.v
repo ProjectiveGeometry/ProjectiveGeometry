@@ -341,7 +341,7 @@ rk (P :: Q :: R :: nil) = 2 /\ rk (Q :: R :: nil) = 2 /\ rk (P :: R :: nil) = 2.
 Proof.
 intros.
 assert(HH := rk_distinct_points);assert(HH0 := rk_lines);use HH;use HH0.
-time(case_clear_2 P;case_clear_2 Q;rk_three_points_simplify_bis).
+case_clear_2 P;case_clear_2 Q;rk_three_points_simplify_bis.
 Qed.
 
 Ltac solve_ex_2 L := solve [exists L;repeat split;try degens_rk2;rk_triple_to_quadruple_bis_bis].
@@ -433,8 +433,8 @@ Lemma rk_inter : forall P Q R S, exists J, rk (P :: Q :: J :: nil) = 2 /\ rk (R 
 Proof.
 intros.
 assert(HH := rk_distinct_points);assert(HH0 := rk_lines);use HH;use HH0.
-time(case_clear_2 P;case_clear_2 Q;
-abstract(case_clear_2 R;case_clear_2 S;try rk_inter_simplify_bis_bis_bis)).
+case_clear_2 P;case_clear_2 Q;
+abstract(case_clear_2 R;case_clear_2 S;try rk_inter_simplify_bis_bis_bis).
 Qed.
 
 (** rk-lower_dim : There exist three points which are not collinear **)

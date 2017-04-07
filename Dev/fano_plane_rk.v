@@ -357,7 +357,7 @@ assert(HH0 := rk_distinct_points).
 assert(HH := rk_distinct HH0);clear HH0;my_split;eq_duplicate;my_split.
 generalize rk_lines;intro HH;use HH;
 generalize rk_planes;intro HH;use HH.
-time(case_clear_2 P;
+case_clear_2 P;
 case_clear_2 Q;
 case_clear_2 R;try solve[rk_triple_3_2_bis_bis];
 case_clear_2 P';
@@ -370,7 +370,7 @@ clear H H0;
 clear_rk3;
 degens_rk2;
 clear_neq;
-rk_triple_bis_bis).
+rk_triple_bis_bis.
 Qed.
 
 Ltac case_clear_4 P := case_clear_1 P;subst;try solve[equal_degens];try solve[rk_triple_2_3_bis_bis].
