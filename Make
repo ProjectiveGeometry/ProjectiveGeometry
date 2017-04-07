@@ -38,7 +38,6 @@
 ./Dev/psoh_equiv_rk_lemmas.v
 ./Dev/pp_equiv_to_rk.v
 ./Dev/pp_p_to_pp.v
-#./Dev/fano_space_rk_pg32.v
 ./Dev/p_equiv_list_additions.v
 ./Dev/fano_plane.v
 ./Dev/pp_lines_bij.v
@@ -52,7 +51,7 @@
 ./Dev/desargues_3D_lemmas.v
 ./Dev/ps_equiv_to_rk.v
 ./Dev/desargues_2D_lemmasV3.v
-#./Dev/flat.v
+./Dev/fano_plane_pg23.v
 ./Dev/matroid_axioms.v
 ./Dev/rank_space_or_higher_properties.v
 ./Dev/basic_matroid_list.v

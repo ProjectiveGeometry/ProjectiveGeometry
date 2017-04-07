@@ -44,5 +44,7 @@ Contributors
 ============
 
 David Braun
+
 Nicolas Magaud
+
 Julien Narboux
