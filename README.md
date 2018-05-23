@@ -22,10 +22,19 @@ The compilation can take several hours with our large benchmark Coq files. For f
 - Dev/fano_plane_rk_pg23.v
 - Dev/fano_space_pg32.v
 
+Branches
+========
+
+We are currently dividing the deposit into 3 branches:
+
+- amai2018 for work about proof equivalence presented in the journal Annals of Mathematics and Artificial Intelligence
+- aisc2018 for work about finite models submitted to International Conference on Artificial Intelligence and Symbolic Computation
+- master for the last revision 
+
 Files
 =====
 
-The archive has 2 subdirectories:
+The archive has 3 subdirectories:
 Dev/ contains the code of:
 - axiom systems of incidence projective geometry
 - axiom systems of rank and matroid theory
@@ -34,10 +43,15 @@ Dev/ contains the code of:
 - benchmark of finites models using incidence projective geometry and rank
 - bijection between points and lines
 - some tests on Desargues / Pappus / hexamys / moulton / homegeneous model
+- proofs automatically generated from a certificate
 - tactics
 - ...
 
-Benchmark contains the tests performed in Coq and with the TPTP provers (http://www.cs.miami.edu/~tptp/)
+Benchmark/ contains the tests performed in Coq and with the TPTP provers (http://www.cs.miami.edu/~tptp/)
+
+Prog/ contains non-Coq programs allowing:
+- finite model generation
+- incidence proof generation
 
 
 Contributors
