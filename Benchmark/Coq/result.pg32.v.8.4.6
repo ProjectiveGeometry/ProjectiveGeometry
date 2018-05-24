@@ -1,0 +1,60 @@
+The Coq Proof Assistant, version 8.4pl6 (March 2017)
+compiled on Mar 06 2017 16:59:41 with OCaml 4.02.3
+Incid_bool
+     : Point -> Line -> bool
+Finished transaction in 1. secs (0.14u,0.s)
+incid_dec
+     : forall (P : pg32.Point) (l : pg32.Line), {Incid P l} + {~ Incid P l}
+proving a1_exists
+Finished transaction in 1. secs (1.056u,0.008s)
+Finished transaction in 0. secs (0.084u,0.s)
+a1_exists
+     : forall A B : Point, {l : Line | Incid A l /\ Incid B l}
+proving a1_unique
+Finished transaction in 10. secs (10.196u,0.028s)
+Finished transaction in 1. secs (1.u,0.s)
+a1_unique
+     : forall (A B : Point) (l1 l2 : Line),
+       A <> B ->
+       Incid A l1 -> Incid B l1 -> Incid A l2 -> Incid B l2 -> l1 = l2
+-> proving uniqueness
+Finished transaction in 4. secs (4.112u,0.024s)
+Finished transaction in 0. secs (0.016u,0.s)
+uniqueness
+     : forall (A B : Point) (l1 l2 : Line),
+       Incid A l1 ->
+       Incid B l1 -> Incid A l2 -> Incid B l2 -> A = B \/ l1 = l2
+Finished transaction in 0. secs (0.06u,0.s)
+-> proving a2
+Finished transaction in 1097. secs (1096.216u,1.768s)
+Finished transaction in 1. secs (0.0719999999999u,0.s)
+a2
+     : forall (A B C D : Point) (lAB lCD lAC lBD : Line),
+       dist_4 Point A B C D ->
+       Incid A lAB /\ Incid B lAB ->
+       Incid C lCD /\ Incid D lCD ->
+       Incid A lAC /\ Incid C lAC ->
+       Incid B lBD /\ Incid D lBD ->
+       (exists I : Point, Incid I lAB /\ Incid I lCD) ->
+       exists J : Point, Incid J lAC /\ Incid J lBD
+-> proving a3_3
+Finished transaction in 473. secs (473.356u,0.272s)
+Finished transaction in 0. secs (0.0839999999998u,0.s)
+a3_3
+     : forall l1 l2 l3 : Line,
+       dist_3 Line l1 l2 l3 ->
+       exists (l4 : Line) (J1 J2 J3 : Point),
+         Intersect_In l1 l4 J1 /\
+         Intersect_In l2 l4 J2 /\ Intersect_In l3 l4 J3
+-> proving a3_1
+Finished transaction in 22. secs (21.952u,0.004s)
+Finished transaction in 0. secs (0.04u,0.s)
+a3_1
+     : forall l : Line,
+       exists A B C : Point,
+         dist_3 Point A B C /\ Incid A l /\ Incid B l /\ Incid C l
+-> proving a3_2
+Finished transaction in 0. secs (0.028u,0.s)
+Finished transaction in 0. secs (0.u,0.s)
+a3_2
+     : exists l1 l2 : Line, forall p : Point, ~ (Incid p l1 /\ Incid p l2)

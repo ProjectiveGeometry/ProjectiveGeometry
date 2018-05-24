@@ -1,0 +1,1635 @@
+%===> I can't work out where you are. Please email Geoff Sutcliffe, including this material -->HTTP::Response=HASH(0x269f5f8)->content
+agsyHOL---1.0   system information being retrieved
+agsyHOL---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x agsyHOL --proof --time-out %d --include-dir /home/tptp/TPTP/ %s
+agsyHOL---1.0's SOT_Cn_cef does not need preparation
+agsyHOL---1.0   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - agsyHOL---1.0 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - agsyHOL---1.0 says None - CPU = 0 WC = 0 
+Alt-Ergo---0.95.2   system information being retrieved
+Alt-Ergo---0.95.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_alt_ergo %d %s
+Alt-Ergo---0.95.2's SOT_Cn_cef does not need preparation
+Alt-Ergo---0.95.2   being executed on SOT_Cn_cef using /home/tptp/Systems/Alt-Ergo---0.95.2/run_alt_ergo 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 10 wall clock seconds gone, waiting for system output
+% 20 wall clock seconds gone, waiting for system output
+% 30 wall clock seconds gone, waiting for system output
+% 40 wall clock seconds gone, waiting for system output
+% 50 wall clock seconds gone, waiting for system output
+% 60 wall clock seconds gone, waiting for system output
+% 70 wall clock seconds gone, waiting for system output
+% 80 wall clock seconds gone, waiting for system output
+% 90 wall clock seconds gone, waiting for system output
+% 100 wall clock seconds gone, waiting for system output
+% 110 wall clock seconds gone, waiting for system output
+% 120 wall clock seconds gone, waiting for system output
+% 130 wall clock seconds gone, waiting for system output
+% 140 wall clock seconds gone, waiting for system output
+% 150 wall clock seconds gone, waiting for system output
+% 160 wall clock seconds gone, waiting for system output
+% 170 wall clock seconds gone, waiting for system output
+% 180 wall clock seconds gone, waiting for system output
+% 190 wall clock seconds gone, waiting for system output
+% 200 wall clock seconds gone, waiting for system output
+% 210 wall clock seconds gone, waiting for system output
+% 220 wall clock seconds gone, waiting for system output
+% 230 wall clock seconds gone, waiting for system output
+% 240 wall clock seconds gone, waiting for system output
+% 250 wall clock seconds gone, waiting for system output
+% 260 wall clock seconds gone, waiting for system output
+% 270 wall clock seconds gone, waiting for system output
+% 280 wall clock seconds gone, waiting for system output
+% 290 wall clock seconds gone, waiting for system output
+% 300 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Alt-Ergo---0.95.2 says Timeout - CPU = 300.08 WC = 300.09 
+OUTPUT: SOT_Cn_cef - Alt-Ergo---0.95.2 says None - CPU = 0 WC = 0 
+Beagle---0.9.47   system information being retrieved
+Beagle---0.9.47's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_beagle %d %s
+Beagle---0.9.47's SOT_Cn_cef does not need preparation
+Beagle---0.9.47   being executed on SOT_Cn_cef using /home/tptp/Systems/Beagle---0.9.47/run_beagle 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 310 wall clock seconds gone, waiting for system output
+% 320 wall clock seconds gone, waiting for system output
+% 330 wall clock seconds gone, waiting for system output
+% 340 wall clock seconds gone, waiting for system output
+% 350 wall clock seconds gone, waiting for system output
+% 360 wall clock seconds gone, waiting for system output
+% 370 wall clock seconds gone, waiting for system output
+% 380 wall clock seconds gone, waiting for system output
+% 390 wall clock seconds gone, waiting for system output
+% 400 wall clock seconds gone, waiting for system output
+% 410 wall clock seconds gone, waiting for system output
+% 420 wall clock seconds gone, waiting for system output
+% 430 wall clock seconds gone, waiting for system output
+% 440 wall clock seconds gone, waiting for system output
+% 450 wall clock seconds gone, waiting for system output
+% 460 wall clock seconds gone, waiting for system output
+% 470 wall clock seconds gone, waiting for system output
+% 480 wall clock seconds gone, waiting for system output
+% 490 wall clock seconds gone, waiting for system output
+% 500 wall clock seconds gone, waiting for system output
+% 510 wall clock seconds gone, waiting for system output
+% 520 wall clock seconds gone, waiting for system output
+% 530 wall clock seconds gone, waiting for system output
+% 540 wall clock seconds gone, waiting for system output
+% 550 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Beagle---0.9.47 says Timeout - CPU = 300.26 WC = 251.83 
+OUTPUT: SOT_Cn_cef - Beagle---0.9.47 says None - CPU = 0 WC = 0 
+Beagle---SAT-0.9.47   system information being retrieved
+Beagle---SAT-0.9.47's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_beagle_SAT %d %s
+Beagle---SAT-0.9.47's SOT_Cn_cef does not need preparation
+Beagle---SAT-0.9.47   being executed on SOT_Cn_cef using /home/tptp/Systems/Beagle---SAT-0.9.47/run_beagle_SAT 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 560 wall clock seconds gone, waiting for system output
+% 570 wall clock seconds gone, waiting for system output
+% 580 wall clock seconds gone, waiting for system output
+% 590 wall clock seconds gone, waiting for system output
+% 600 wall clock seconds gone, waiting for system output
+% 610 wall clock seconds gone, waiting for system output
+% 620 wall clock seconds gone, waiting for system output
+% 630 wall clock seconds gone, waiting for system output
+% 640 wall clock seconds gone, waiting for system output
+% 650 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Beagle---SAT-0.9.47 says Timeout - CPU = 300.22 WC = 101.68 
+OUTPUT: SOT_Cn_cef - Beagle---SAT-0.9.47 says None - CPU = 0 WC = 0 
+Bliksem---1.12   system information being retrieved
+Bliksem---1.12's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_bliksem %s
+Bliksem---1.12's SOT_Cn_cef does not need preparation
+Bliksem---1.12   being executed on SOT_Cn_cef using /home/tptp/Systems/Bliksem---1.12/run_bliksem '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 660 wall clock seconds gone, waiting for system output
+% 670 wall clock seconds gone, waiting for system output
+% 680 wall clock seconds gone, waiting for system output
+% 690 wall clock seconds gone, waiting for system output
+% 700 wall clock seconds gone, waiting for system output
+% 710 wall clock seconds gone, waiting for system output
+% 720 wall clock seconds gone, waiting for system output
+% 730 wall clock seconds gone, waiting for system output
+% 740 wall clock seconds gone, waiting for system output
+% 750 wall clock seconds gone, waiting for system output
+% 760 wall clock seconds gone, waiting for system output
+% 770 wall clock seconds gone, waiting for system output
+% 780 wall clock seconds gone, waiting for system output
+% 790 wall clock seconds gone, waiting for system output
+% 800 wall clock seconds gone, waiting for system output
+% 810 wall clock seconds gone, waiting for system output
+% 820 wall clock seconds gone, waiting for system output
+% 830 wall clock seconds gone, waiting for system output
+% 840 wall clock seconds gone, waiting for system output
+% 850 wall clock seconds gone, waiting for system output
+% 860 wall clock seconds gone, waiting for system output
+% 870 wall clock seconds gone, waiting for system output
+% 880 wall clock seconds gone, waiting for system output
+% 890 wall clock seconds gone, waiting for system output
+% 900 wall clock seconds gone, waiting for system output
+% 910 wall clock seconds gone, waiting for system output
+% 920 wall clock seconds gone, waiting for system output
+% 930 wall clock seconds gone, waiting for system output
+% 940 wall clock seconds gone, waiting for system output
+% 950 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Bliksem---1.12 says Timeout - CPU = 300.04 WC = 300.02 
+OUTPUT: SOT_Cn_cef - Bliksem---1.12 says None - CPU = 0 WC = 0 
+CiME---2.01   system information being retrieved
+CiME---2.01's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x tptp2X_and_run_cime %s
+CiME---2.01's SOT_Cn_cef does not need preparation
+CiME---2.01   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - CiME---2.01 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - CiME---2.01 says None - CPU = 0 WC = 0 
+cocATP---0.2.0   system information being retrieved
+cocATP---0.2.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x bin/CASC.py %s
+cocATP---0.2.0's SOT_Cn_cef does not need preparation
+% 960 wall clock seconds gone, waiting for system output
+cocATP---0.2.0   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - cocATP---0.2.0 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - cocATP---0.2.0 says None - CPU = 0 WC = 0 
+CVC4---FNT-1.5.1   system information being retrieved
+CVC4---FNT-1.5.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x do_FNT %s
+CVC4---FNT-1.5.1's SOT_Cn_cef does not need preparation
+CVC4---FNT-1.5.1   being executed on SOT_Cn_cef using /home/tptp/Systems/CVC4---FNT-1.5.1/do_FNT '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 970 wall clock seconds gone, waiting for system output
+% 980 wall clock seconds gone, waiting for system output
+% 990 wall clock seconds gone, waiting for system output
+% 1000 wall clock seconds gone, waiting for system output
+% 1010 wall clock seconds gone, waiting for system output
+% 1020 wall clock seconds gone, waiting for system output
+% 1030 wall clock seconds gone, waiting for system output
+% 1040 wall clock seconds gone, waiting for system output
+% 1050 wall clock seconds gone, waiting for system output
+% 1060 wall clock seconds gone, waiting for system output
+% 1070 wall clock seconds gone, waiting for system output
+% 1080 wall clock seconds gone, waiting for system output
+% 1090 wall clock seconds gone, waiting for system output
+% 1100 wall clock seconds gone, waiting for system output
+% 1110 wall clock seconds gone, waiting for system output
+% 1120 wall clock seconds gone, waiting for system output
+% 1130 wall clock seconds gone, waiting for system output
+% 1140 wall clock seconds gone, waiting for system output
+% 1150 wall clock seconds gone, waiting for system output
+% 1160 wall clock seconds gone, waiting for system output
+% 1170 wall clock seconds gone, waiting for system output
+% 1180 wall clock seconds gone, waiting for system output
+% 1190 wall clock seconds gone, waiting for system output
+% 1200 wall clock seconds gone, waiting for system output
+% 1210 wall clock seconds gone, waiting for system output
+% 1220 wall clock seconds gone, waiting for system output
+% 1230 wall clock seconds gone, waiting for system output
+% 1240 wall clock seconds gone, waiting for system output
+% 1250 wall clock seconds gone, waiting for system output
+% 1260 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - CVC4---FNT-1.5.1 says Timeout - CPU = 300.08 WC = 300.39 
+OUTPUT: SOT_Cn_cef - CVC4---FNT-1.5.1 says None - CPU = 0 WC = 0 
+CVC4---FOF-1.5.1   system information being retrieved
+CVC4---FOF-1.5.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x do_FOF %s
+CVC4---FOF-1.5.1's SOT_Cn_cef does not need preparation
+CVC4---FOF-1.5.1   being executed on SOT_Cn_cef using /home/tptp/Systems/CVC4---FOF-1.5.1/do_FOF '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 1270 wall clock seconds gone, waiting for system output
+% 1280 wall clock seconds gone, waiting for system output
+% 1290 wall clock seconds gone, waiting for system output
+% 1300 wall clock seconds gone, waiting for system output
+% 1310 wall clock seconds gone, waiting for system output
+% 1320 wall clock seconds gone, waiting for system output
+% 1330 wall clock seconds gone, waiting for system output
+% 1340 wall clock seconds gone, waiting for system output
+% 1350 wall clock seconds gone, waiting for system output
+% 1360 wall clock seconds gone, waiting for system output
+% 1370 wall clock seconds gone, waiting for system output
+% 1380 wall clock seconds gone, waiting for system output
+% 1390 wall clock seconds gone, waiting for system output
+% 1400 wall clock seconds gone, waiting for system output
+% 1410 wall clock seconds gone, waiting for system output
+% 1420 wall clock seconds gone, waiting for system output
+% 1430 wall clock seconds gone, waiting for system output
+% 1440 wall clock seconds gone, waiting for system output
+% 1450 wall clock seconds gone, waiting for system output
+% 1460 wall clock seconds gone, waiting for system output
+% 1470 wall clock seconds gone, waiting for system output
+% 1480 wall clock seconds gone, waiting for system output
+% 1490 wall clock seconds gone, waiting for system output
+% 1500 wall clock seconds gone, waiting for system output
+% 1510 wall clock seconds gone, waiting for system output
+% 1520 wall clock seconds gone, waiting for system output
+% 1530 wall clock seconds gone, waiting for system output
+% 1540 wall clock seconds gone, waiting for system output
+% 1550 wall clock seconds gone, waiting for system output
+% 1560 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - CVC4---FOF-1.5.1 says Timeout - CPU = 300.06 WC = 300.66 
+OUTPUT: SOT_Cn_cef - CVC4---FOF-1.5.1 says None - CPU = 0 WC = 0 
+CVC4---TFF-1.5.1   system information being retrieved
+CVC4---TFF-1.5.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x do_TFF %s
+CVC4---TFF-1.5.1's SOT_Cn_cef does not need preparation
+CVC4---TFF-1.5.1   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - CVC4---TFF-1.5.1 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - CVC4---TFF-1.5.1 says None - CPU = 0 WC = 0 
+CVC4---TFN-1.5.1   system information being retrieved
+CVC4---TFN-1.5.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x do_TFN %s
+CVC4---TFN-1.5.1's SOT_Cn_cef does not need preparation
+CVC4---TFN-1.5.1   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - CVC4---TFN-1.5.1 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - CVC4---TFN-1.5.1 says None - CPU = 0 WC = 0 
+Darwin---1.4.5   system information being retrieved
+Darwin---1.4.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x darwin -pl 0 -pmc true -to %d %s
+Darwin---1.4.5's SOT_Cn_cef does not need preparation
+Darwin---1.4.5   being executed on SOT_Cn_cef using /home/tptp/Systems/Darwin---1.4.5/darwin -pl 0 -pmc true -to 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 1570 wall clock seconds gone, waiting for system output
+% 1580 wall clock seconds gone, waiting for system output
+% 1590 wall clock seconds gone, waiting for system output
+% 1600 wall clock seconds gone, waiting for system output
+% 1610 wall clock seconds gone, waiting for system output
+% 1620 wall clock seconds gone, waiting for system output
+% 1630 wall clock seconds gone, waiting for system output
+% 1640 wall clock seconds gone, waiting for system output
+% 1650 wall clock seconds gone, waiting for system output
+% 1660 wall clock seconds gone, waiting for system output
+% 1670 wall clock seconds gone, waiting for system output
+% 1680 wall clock seconds gone, waiting for system output
+% 1690 wall clock seconds gone, waiting for system output
+% 1700 wall clock seconds gone, waiting for system output
+% 1710 wall clock seconds gone, waiting for system output
+% 1720 wall clock seconds gone, waiting for system output
+% 1730 wall clock seconds gone, waiting for system output
+% 1740 wall clock seconds gone, waiting for system output
+% 1750 wall clock seconds gone, waiting for system output
+% 1760 wall clock seconds gone, waiting for system output
+% 1770 wall clock seconds gone, waiting for system output
+% 1780 wall clock seconds gone, waiting for system output
+% 1790 wall clock seconds gone, waiting for system output
+% 1800 wall clock seconds gone, waiting for system output
+% 1810 wall clock seconds gone, waiting for system output
+% 1820 wall clock seconds gone, waiting for system output
+% 1830 wall clock seconds gone, waiting for system output
+% 1840 wall clock seconds gone, waiting for system output
+% 1850 wall clock seconds gone, waiting for system output
+% 1860 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Darwin---1.4.5 says Timeout - CPU = 300.03 WC = 300.17 
+OUTPUT: SOT_Cn_cef - Darwin---1.4.5 says None - CPU = 0 WC = 0 
+DarwinFM---1.4.5   system information being retrieved
+DarwinFM---1.4.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x darwin -fd true -ppp true -pl 0 -to %d -pmtptp true %s
+DarwinFM---1.4.5's SOT_Cn_cef does not need preparation
+DarwinFM---1.4.5   being executed on SOT_Cn_cef using /home/tptp/Systems/DarwinFM---1.4.5/darwin -fd true -ppp true -pl 0 -to 300 -pmtptp true '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 1870 wall clock seconds gone, waiting for system output
+% 1880 wall clock seconds gone, waiting for system output
+% 1890 wall clock seconds gone, waiting for system output
+% 1900 wall clock seconds gone, waiting for system output
+% 1910 wall clock seconds gone, waiting for system output
+% 1920 wall clock seconds gone, waiting for system output
+% 1930 wall clock seconds gone, waiting for system output
+% 1940 wall clock seconds gone, waiting for system output
+% 1950 wall clock seconds gone, waiting for system output
+% 1960 wall clock seconds gone, waiting for system output
+% 1970 wall clock seconds gone, waiting for system output
+% 1980 wall clock seconds gone, waiting for system output
+% 1990 wall clock seconds gone, waiting for system output
+% 2000 wall clock seconds gone, waiting for system output
+% 2010 wall clock seconds gone, waiting for system output
+% 2020 wall clock seconds gone, waiting for system output
+% 2030 wall clock seconds gone, waiting for system output
+% 2040 wall clock seconds gone, waiting for system output
+% 2050 wall clock seconds gone, waiting for system output
+% 2060 wall clock seconds gone, waiting for system output
+% 2070 wall clock seconds gone, waiting for system output
+% 2080 wall clock seconds gone, waiting for system output
+% 2090 wall clock seconds gone, waiting for system output
+% 2100 wall clock seconds gone, waiting for system output
+% 2110 wall clock seconds gone, waiting for system output
+% 2120 wall clock seconds gone, waiting for system output
+% 2130 wall clock seconds gone, waiting for system output
+% 2140 wall clock seconds gone, waiting for system output
+% 2150 wall clock seconds gone, waiting for system output
+% 2160 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - DarwinFM---1.4.5 says Timeout - CPU = 300.02 WC = 300.39 
+OUTPUT: SOT_Cn_cef - DarwinFM---1.4.5 says None - CPU = 0 WC = 0 
+E---2.0   system information being retrieved
+E---2.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x eprover --definitional-cnf=24 -s --print-statistics -R --print-version --proof-object --auto-schedule --cpu-limit=%d %s
+E---2.0's SOT_Cn_cef does not need preparation
+E---2.0   being executed on SOT_Cn_cef using /home/tptp/Systems/E---2.0/eprover --definitional-cnf=24 -s --print-statistics -R --print-version --proof-object --auto-schedule --cpu-limit=300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 2170 wall clock seconds gone, waiting for system output
+% 2180 wall clock seconds gone, waiting for system output
+% 2190 wall clock seconds gone, waiting for system output
+% 2200 wall clock seconds gone, waiting for system output
+% 2210 wall clock seconds gone, waiting for system output
+% 2220 wall clock seconds gone, waiting for system output
+% 2230 wall clock seconds gone, waiting for system output
+% 2240 wall clock seconds gone, waiting for system output
+% 2250 wall clock seconds gone, waiting for system output
+% 2260 wall clock seconds gone, waiting for system output
+% 2270 wall clock seconds gone, waiting for system output
+% 2280 wall clock seconds gone, waiting for system output
+% 2290 wall clock seconds gone, waiting for system output
+% 2300 wall clock seconds gone, waiting for system output
+% 2310 wall clock seconds gone, waiting for system output
+% 2320 wall clock seconds gone, waiting for system output
+% 2330 wall clock seconds gone, waiting for system output
+% 2340 wall clock seconds gone, waiting for system output
+% 2350 wall clock seconds gone, waiting for system output
+% 2360 wall clock seconds gone, waiting for system output
+% 2370 wall clock seconds gone, waiting for system output
+% 2380 wall clock seconds gone, waiting for system output
+% 2390 wall clock seconds gone, waiting for system output
+% 2400 wall clock seconds gone, waiting for system output
+% 2410 wall clock seconds gone, waiting for system output
+% 2420 wall clock seconds gone, waiting for system output
+% 2430 wall clock seconds gone, waiting for system output
+% 2440 wall clock seconds gone, waiting for system output
+% 2450 wall clock seconds gone, waiting for system output
+% 2460 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - E---2.0 says Timeout - CPU = 300.05 WC = 300.21 
+OUTPUT: SOT_Cn_cef - E---2.0 says None - CPU = 0 WC = 0 
+E-Darwin---1.5   system information being retrieved
+E-Darwin---1.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x e-darwin -pev "TPTP" -pmd true -if tptp -pl 2 -pc false -ps false %s
+E-Darwin---1.5's SOT_Cn_cef does not need preparation
+E-Darwin---1.5   being executed on SOT_Cn_cef using /home/tptp/Systems/E-Darwin---1.5/e-darwin -pev "TPTP" -pmd true -if tptp -pl 2 -pc false -ps false '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 2470 wall clock seconds gone, waiting for system output
+% 2480 wall clock seconds gone, waiting for system output
+% 2490 wall clock seconds gone, waiting for system output
+% 2500 wall clock seconds gone, waiting for system output
+% 2510 wall clock seconds gone, waiting for system output
+% 2520 wall clock seconds gone, waiting for system output
+% 2530 wall clock seconds gone, waiting for system output
+% 2540 wall clock seconds gone, waiting for system output
+% 2550 wall clock seconds gone, waiting for system output
+% 2560 wall clock seconds gone, waiting for system output
+% 2570 wall clock seconds gone, waiting for system output
+% 2580 wall clock seconds gone, waiting for system output
+% 2590 wall clock seconds gone, waiting for system output
+% 2600 wall clock seconds gone, waiting for system output
+% 2610 wall clock seconds gone, waiting for system output
+% 2620 wall clock seconds gone, waiting for system output
+% 2630 wall clock seconds gone, waiting for system output
+% 2640 wall clock seconds gone, waiting for system output
+% 2650 wall clock seconds gone, waiting for system output
+% 2660 wall clock seconds gone, waiting for system output
+% 2670 wall clock seconds gone, waiting for system output
+% 2680 wall clock seconds gone, waiting for system output
+% 2690 wall clock seconds gone, waiting for system output
+% 2700 wall clock seconds gone, waiting for system output
+% 2710 wall clock seconds gone, waiting for system output
+% 2720 wall clock seconds gone, waiting for system output
+% 2730 wall clock seconds gone, waiting for system output
+% 2740 wall clock seconds gone, waiting for system output
+% 2750 wall clock seconds gone, waiting for system output
+% 2760 wall clock seconds gone, waiting for system output
+% 2770 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - E-Darwin---1.5 says Timeout - CPU = 300.13 WC = 300.42 
+OUTPUT: SOT_Cn_cef - E-Darwin---1.5 says None - CPU = 0 WC = 0 
+E-MaLeS---1.2   system information being retrieved
+E-MaLeS---1.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x Source/MaLeS/males.py -t %d -p %s
+E-MaLeS---1.2's SOT_Cn_cef does not need preparation
+E-MaLeS---1.2   being executed on SOT_Cn_cef using /home/tptp/Systems/E-MaLeS---1.2/Source/MaLeS/males.py -t 300 -p '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+RESULT: SOT_Cn_cef - E-MaLeS---1.2 says Unknown - CPU = 0.22 WC = 0.95 
+OUTPUT: SOT_Cn_cef - E-MaLeS---1.2 says None - CPU = 0 WC = 0 
+EQP---0.9e   system information being retrieved
+EQP---0.9e's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x tptp2X_and_run_eqp %s
+EQP---0.9e's SOT_Cn_cef does not need preparation
+EQP---0.9e   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - EQP---0.9e says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - EQP---0.9e says None - CPU = 0 WC = 0 
+Fampire---1.3   system information being retrieved
+Fampire---1.3's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x FlotterOnTPTP.pl -f oldtptp -s vampire -t %d %s
+Fampire---1.3's SOT_Cn_cef being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP42541 
+    -t none 
+    -f tptp
+    -x 
+    /tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef
+Fampire---1.3   being executed on SOT_Cn_cef using /home/tptp/Systems/Fampire---1.3/FlotterOnTPTP.pl -f oldtptp -s vampire -t 300 '/tmp/SystemOnTPTP42541/SOT_Cn_cef.tptp'
+% 2780 wall clock seconds gone, waiting for system output
+% 2790 wall clock seconds gone, waiting for system output
+% 2800 wall clock seconds gone, waiting for system output
+% 2810 wall clock seconds gone, waiting for system output
+% 2820 wall clock seconds gone, waiting for system output
+% 2830 wall clock seconds gone, waiting for system output
+% 2840 wall clock seconds gone, waiting for system output
+% 2850 wall clock seconds gone, waiting for system output
+% 2860 wall clock seconds gone, waiting for system output
+% 2870 wall clock seconds gone, waiting for system output
+% 2880 wall clock seconds gone, waiting for system output
+% 2890 wall clock seconds gone, waiting for system output
+% 2900 wall clock seconds gone, waiting for system output
+% 2910 wall clock seconds gone, waiting for system output
+% 2920 wall clock seconds gone, waiting for system output
+% 2930 wall clock seconds gone, waiting for system output
+% 2940 wall clock seconds gone, waiting for system output
+% 2950 wall clock seconds gone, waiting for system output
+% 2960 wall clock seconds gone, waiting for system output
+% 2970 wall clock seconds gone, waiting for system output
+% 2980 wall clock seconds gone, waiting for system output
+% 2990 wall clock seconds gone, waiting for system output
+% 3000 wall clock seconds gone, waiting for system output
+% 3010 wall clock seconds gone, waiting for system output
+% 3020 wall clock seconds gone, waiting for system output
+% 3030 wall clock seconds gone, waiting for system output
+% 3040 wall clock seconds gone, waiting for system output
+% 3050 wall clock seconds gone, waiting for system output
+% 3060 wall clock seconds gone, waiting for system output
+% 3070 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Fampire---1.3 says Timeout - CPU = 300.06 WC = 300.05 
+OUTPUT: SOT_Cn_cef - Fampire---1.3 says None - CPU = 0 WC = 0 
+Fiesta---2   system information being retrieved
+Fiesta---2's non-default parameters being retrieved
+    -t none
+    -f dedam
+    -x fiesta-wrapper %s
+Fiesta---2's SOT_Cn_cef being prepared by /home/tptp/TPTP/TPTP2X/tptp2X
+    -d /tmp/SystemOnTPTP42844 
+    -t none 
+    -f dedam
+    /tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef
+Fiesta---2   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - Fiesta---2 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - Fiesta---2 says None - CPU = 0 WC = 0 
+FIMO---0.3   system information being retrieved
+FIMO---0.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x bin/fimo -nosplit -iclingo-opts "--heuristic=Vsids --iheuristic=keep" %s
+FIMO---0.3's SOT_Cn_cef does not need preparation
+FIMO---0.3   being executed on SOT_Cn_cef using /home/tptp/Systems/FIMO---0.3/bin/fimo -nosplit -iclingo-opts "--heuristic=Vsids --iheuristic=keep" '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+RESULT: SOT_Cn_cef - FIMO---0.3 says Unknown - CPU = 0.10 WC = 0.18 
+OUTPUT: SOT_Cn_cef - FIMO---0.3 says None - CPU = 0 WC = 0 
+Geo-III---2016C   system information being retrieved
+Geo-III---2016C's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x geo -tptp_input -nonempty -include /home/tptp/TPTP -inputfile %s
+Geo-III---2016C's SOT_Cn_cef does not need preparation
+Geo-III---2016C   being executed on SOT_Cn_cef using /home/tptp/Systems/Geo-III---2016C/geo -tptp_input -nonempty -include /home/tptp/TPTP -inputfile '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 3080 wall clock seconds gone, waiting for system output
+% 3090 wall clock seconds gone, waiting for system output
+% 3100 wall clock seconds gone, waiting for system output
+% 3110 wall clock seconds gone, waiting for system output
+% 3120 wall clock seconds gone, waiting for system output
+% 3130 wall clock seconds gone, waiting for system output
+% 3140 wall clock seconds gone, waiting for system output
+% 3150 wall clock seconds gone, waiting for system output
+% 3160 wall clock seconds gone, waiting for system output
+% 3170 wall clock seconds gone, waiting for system output
+% 3180 wall clock seconds gone, waiting for system output
+% 3190 wall clock seconds gone, waiting for system output
+% 3200 wall clock seconds gone, waiting for system output
+% 3210 wall clock seconds gone, waiting for system output
+% 3220 wall clock seconds gone, waiting for system output
+% 3230 wall clock seconds gone, waiting for system output
+% 3240 wall clock seconds gone, waiting for system output
+% 3250 wall clock seconds gone, waiting for system output
+% 3260 wall clock seconds gone, waiting for system output
+% 3270 wall clock seconds gone, waiting for system output
+% 3280 wall clock seconds gone, waiting for system output
+% 3290 wall clock seconds gone, waiting for system output
+% 3300 wall clock seconds gone, waiting for system output
+% 3310 wall clock seconds gone, waiting for system output
+% 3320 wall clock seconds gone, waiting for system output
+% 3330 wall clock seconds gone, waiting for system output
+% 3340 wall clock seconds gone, waiting for system output
+% 3350 wall clock seconds gone, waiting for system output
+% 3360 wall clock seconds gone, waiting for system output
+% 3370 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Geo-III---2016C says Timeout - CPU = 300.02 WC = 299.95 
+OUTPUT: SOT_Cn_cef - Geo-III---2016C says None - CPU = 0 WC = 0 
+GrAnDe---1.1   system information being retrieved
+GrAnDe---1.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x And %s %d
+GrAnDe---1.1's SOT_Cn_cef does not need preparation
+GrAnDe---1.1   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - GrAnDe---1.1 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - GrAnDe---1.1 says None - CPU = 0 WC = 0 
+HOLyHammer---0.21   system information being retrieved
+HOLyHammer---0.21's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_hh %d %s
+HOLyHammer---0.21's SOT_Cn_cef does not need preparation
+HOLyHammer---0.21   being executed on SOT_Cn_cef using /home/tptp/Systems/HOLyHammer---0.21/run_hh 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+RESULT: SOT_Cn_cef - HOLyHammer---0.21 says Unknown - CPU = 0.00 WC = 0.05 
+OUTPUT: SOT_Cn_cef - HOLyHammer---0.21 says None - CPU = 0 WC = 0 
+Imogen---2.0   system information being retrieved
+Imogen---2.0's non-default parameters being retrieved
+    -t stdfof+add_equality
+    -f tptp
+    -x imogen fol prove -c -f FileName -s Tptp -pt %s
+Imogen---2.0's SOT_Cn_cef being prepared by /home/tptp/TPTP/TPTP2X/tptp2X
+    -d /tmp/SystemOnTPTP43160 
+    -t stdfof+add_equality 
+    -f tptp
+    /tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef
+Imogen---2.0   being executed on SOT_Cn_cef using /home/tptp/Systems/Imogen---2.0/imogen fol prove -c -f FileName -s Tptp -pt '/tmp/SystemOnTPTP43160//SOT_Cn_cef+stdfof+eq_rstfp.tptp'
+% 3380 wall clock seconds gone, waiting for system output
+% 3390 wall clock seconds gone, waiting for system output
+% 3400 wall clock seconds gone, waiting for system output
+% 3410 wall clock seconds gone, waiting for system output
+% 3420 wall clock seconds gone, waiting for system output
+% 3430 wall clock seconds gone, waiting for system output
+% 3440 wall clock seconds gone, waiting for system output
+% 3450 wall clock seconds gone, waiting for system output
+% 3460 wall clock seconds gone, waiting for system output
+% 3470 wall clock seconds gone, waiting for system output
+% 3480 wall clock seconds gone, waiting for system output
+% 3490 wall clock seconds gone, waiting for system output
+% 3500 wall clock seconds gone, waiting for system output
+% 3510 wall clock seconds gone, waiting for system output
+% 3520 wall clock seconds gone, waiting for system output
+% 3530 wall clock seconds gone, waiting for system output
+% 3540 wall clock seconds gone, waiting for system output
+% 3550 wall clock seconds gone, waiting for system output
+% 3560 wall clock seconds gone, waiting for system output
+% 3570 wall clock seconds gone, waiting for system output
+% 3580 wall clock seconds gone, waiting for system output
+% 3590 wall clock seconds gone, waiting for system output
+% 3600 wall clock seconds gone, waiting for system output
+% 3610 wall clock seconds gone, waiting for system output
+% 3620 wall clock seconds gone, waiting for system output
+% 3630 wall clock seconds gone, waiting for system output
+% 3640 wall clock seconds gone, waiting for system output
+% 3650 wall clock seconds gone, waiting for system output
+% 3660 wall clock seconds gone, waiting for system output
+% 3670 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Imogen---2.0 says Timeout - CPU = 300.05 WC = 300.44 
+OUTPUT: SOT_Cn_cef - Imogen---2.0 says None - CPU = 0 WC = 0 
+Infinox---1.0   system information being retrieved
+Infinox---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_infinox %s
+Infinox---1.0's SOT_Cn_cef does not need preparation
+Infinox---1.0   being executed on SOT_Cn_cef using /home/tptp/Systems/Infinox---1.0/run_infinox '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+RESULT: SOT_Cn_cef - Infinox---1.0 says Unknown - CPU = 0.00 WC = 0.02 
+OUTPUT: SOT_Cn_cef - Infinox---1.0 says None - CPU = 0 WC = 0 
+iProver---2.5   system information being retrieved
+iProver---2.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x iproveropt_run.sh %d %s
+iProver---2.5's SOT_Cn_cef does not need preparation
+iProver---2.5   being executed on SOT_Cn_cef using /home/tptp/Systems/iProver---2.5/iproveropt_run.sh 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 3680 wall clock seconds gone, waiting for system output
+% 3690 wall clock seconds gone, waiting for system output
+% 3700 wall clock seconds gone, waiting for system output
+% 3710 wall clock seconds gone, waiting for system output
+% 3720 wall clock seconds gone, waiting for system output
+% 3730 wall clock seconds gone, waiting for system output
+% 3740 wall clock seconds gone, waiting for system output
+% 3750 wall clock seconds gone, waiting for system output
+% 3760 wall clock seconds gone, waiting for system output
+% 3770 wall clock seconds gone, waiting for system output
+% 3780 wall clock seconds gone, waiting for system output
+% 3790 wall clock seconds gone, waiting for system output
+% 3800 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - iProver---2.5 says Theorem - CPU = 118.17 WC = 117.93  ILoops = 11933 RLoops = 2293 PropCalls = 821
+OUTPUT: SOT_Cn_cef - iProver---2.5 says CNFRefutation - CPU = 125.09 WC = 125.60 
+iProver---SAT-2.5   system information being retrieved
+iProver---SAT-2.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x iproveropt_run_sat.sh %d %s
+iProver---SAT-2.5's SOT_Cn_cef does not need preparation
+iProver---SAT-2.5   being executed on SOT_Cn_cef using /home/tptp/Systems/iProver---SAT-2.5/iproveropt_run_sat.sh 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 3810 wall clock seconds gone, waiting for system output
+% 3820 wall clock seconds gone, waiting for system output
+% 3830 wall clock seconds gone, waiting for system output
+% 3840 wall clock seconds gone, waiting for system output
+% 3850 wall clock seconds gone, waiting for system output
+% 3860 wall clock seconds gone, waiting for system output
+% 3870 wall clock seconds gone, waiting for system output
+% 3880 wall clock seconds gone, waiting for system output
+% 3890 wall clock seconds gone, waiting for system output
+% 3900 wall clock seconds gone, waiting for system output
+% 3910 wall clock seconds gone, waiting for system output
+% 3920 wall clock seconds gone, waiting for system output
+% 3930 wall clock seconds gone, waiting for system output
+% 3940 wall clock seconds gone, waiting for system output
+% 3950 wall clock seconds gone, waiting for system output
+% 3960 wall clock seconds gone, waiting for system output
+% 3970 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - iProver---SAT-2.5 says Timeout - CPU = 300.03 WC = 164.50 
+OUTPUT: SOT_Cn_cef - iProver---SAT-2.5 says None - CPU = 0 WC = 0 
+iProver-Eq---0.85   system information being retrieved
+iProver-Eq---0.85's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x iprover-cvc4-eq-nc --time_out_virtual %d %s
+iProver-Eq---0.85's SOT_Cn_cef does not need preparation
+iProver-Eq---0.85   being executed on SOT_Cn_cef using /home/tptp/Systems/iProver-Eq---0.85/iprover-cvc4-eq-nc --time_out_virtual 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+RESULT: SOT_Cn_cef - iProver-Eq---0.85 says Unknown - CPU = 0.00 WC = 0.00 
+OUTPUT: SOT_Cn_cef - iProver-Eq---0.85 says None - CPU = 0 WC = 0 
+iProverMo---0.7-0.3   system information being retrieved
+iProverMo---0.7-0.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x bin/iprover_modulo_launcher.sh %s %d
+iProverMo---0.7-0.3's SOT_Cn_cef does not need preparation
+iProverMo---0.7-0.3   being executed on SOT_Cn_cef using /home/tptp/Systems/iProverMo---0.7-0.3/bin/iprover_modulo_launcher.sh '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef' 300
+RESULT: SOT_Cn_cef - iProverMo---0.7-0.3 says Unknown - CPU = 0.00 WC = 0.01 
+OUTPUT: SOT_Cn_cef - iProverMo---0.7-0.3 says None - CPU = 0 WC = 0 
+Isabelle---2016   system information being retrieved
+Isabelle---2016's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x Source/bin/isabelle tptp_isabelle %d %s
+Isabelle---2016's SOT_Cn_cef does not need preparation
+Isabelle---2016   being executed on SOT_Cn_cef using /home/tptp/Systems/Isabelle---2016/Source/bin/isabelle tptp_isabelle 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 3980 wall clock seconds gone, waiting for system output
+% 3990 wall clock seconds gone, waiting for system output
+% 4000 wall clock seconds gone, waiting for system output
+% 4010 wall clock seconds gone, waiting for system output
+% 4020 wall clock seconds gone, waiting for system output
+% 4030 wall clock seconds gone, waiting for system output
+% 4040 wall clock seconds gone, waiting for system output
+% 4050 wall clock seconds gone, waiting for system output
+% 4060 wall clock seconds gone, waiting for system output
+% 4070 wall clock seconds gone, waiting for system output
+% 4080 wall clock seconds gone, waiting for system output
+% 4090 wall clock seconds gone, waiting for system output
+% 4100 wall clock seconds gone, waiting for system output
+% 4110 wall clock seconds gone, waiting for system output
+% 4120 wall clock seconds gone, waiting for system output
+% 4130 wall clock seconds gone, waiting for system output
+% 4140 wall clock seconds gone, waiting for system output
+% 4150 wall clock seconds gone, waiting for system output
+% 4160 wall clock seconds gone, waiting for system output
+% 4170 wall clock seconds gone, waiting for system output
+% 4180 wall clock seconds gone, waiting for system output
+% 4190 wall clock seconds gone, waiting for system output
+% 4200 wall clock seconds gone, waiting for system output
+% 4210 wall clock seconds gone, waiting for system output
+% 4220 wall clock seconds gone, waiting for system output
+% 4230 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Isabelle---2016 says Timeout - CPU = 300.03 WC = 264.53 
+OUTPUT: SOT_Cn_cef - Isabelle---2016 says None - CPU = 0 WC = 0 
+Isabelle-HOT---2016   system information being retrieved
+Isabelle-HOT---2016's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x Source/bin/isabelle tptp_isabelle_hot %d %s
+Isabelle-HOT---2016's SOT_Cn_cef does not need preparation
+Isabelle-HOT---2016   being executed on SOT_Cn_cef using /home/tptp/Systems/Isabelle-HOT---2016/Source/bin/isabelle tptp_isabelle_hot 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 4240 wall clock seconds gone, waiting for system output
+% 4250 wall clock seconds gone, waiting for system output
+% 4260 wall clock seconds gone, waiting for system output
+% 4270 wall clock seconds gone, waiting for system output
+% 4280 wall clock seconds gone, waiting for system output
+% 4290 wall clock seconds gone, waiting for system output
+% 4300 wall clock seconds gone, waiting for system output
+% 4310 wall clock seconds gone, waiting for system output
+% 4320 wall clock seconds gone, waiting for system output
+% 4330 wall clock seconds gone, waiting for system output
+% 4340 wall clock seconds gone, waiting for system output
+% 4350 wall clock seconds gone, waiting for system output
+% 4360 wall clock seconds gone, waiting for system output
+% 4370 wall clock seconds gone, waiting for system output
+% 4380 wall clock seconds gone, waiting for system output
+% 4390 wall clock seconds gone, waiting for system output
+% 4400 wall clock seconds gone, waiting for system output
+% 4410 wall clock seconds gone, waiting for system output
+% 4420 wall clock seconds gone, waiting for system output
+% 4430 wall clock seconds gone, waiting for system output
+% 4440 wall clock seconds gone, waiting for system output
+% 4450 wall clock seconds gone, waiting for system output
+% 4460 wall clock seconds gone, waiting for system output
+% 4470 wall clock seconds gone, waiting for system output
+% 4480 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Isabelle-HOT---2016 says Unknown - CPU = 278.13 WC = 245.84 
+OUTPUT: SOT_Cn_cef - Isabelle-HOT---2016 says None - CPU = 0 WC = 0 
+JGRM3---A-0.2   system information being retrieved
+JGRM3---A-0.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x jgrm3 %s %d allens_way vampire 80 vampirefmo 20
+JGRM3---A-0.2's SOT_Cn_cef does not need preparation
+JGRM3---A-0.2   being executed on SOT_Cn_cef using /home/tptp/Systems/JGRM3---A-0.2/jgrm3 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef' 300 allens_way vampire 80 vampirefmo 20
+% 4490 wall clock seconds gone, waiting for system output
+% 4500 wall clock seconds gone, waiting for system output
+% 4510 wall clock seconds gone, waiting for system output
+% 4520 wall clock seconds gone, waiting for system output
+% 4530 wall clock seconds gone, waiting for system output
+% 4540 wall clock seconds gone, waiting for system output
+% 4550 wall clock seconds gone, waiting for system output
+% 4560 wall clock seconds gone, waiting for system output
+% 4570 wall clock seconds gone, waiting for system output
+% 4580 wall clock seconds gone, waiting for system output
+% 4590 wall clock seconds gone, waiting for system output
+% 4600 wall clock seconds gone, waiting for system output
+% 4610 wall clock seconds gone, waiting for system output
+% 4620 wall clock seconds gone, waiting for system output
+% 4630 wall clock seconds gone, waiting for system output
+% 4640 wall clock seconds gone, waiting for system output
+% 4650 wall clock seconds gone, waiting for system output
+% 4660 wall clock seconds gone, waiting for system output
+% 4670 wall clock seconds gone, waiting for system output
+% 4680 wall clock seconds gone, waiting for system output
+% 4690 wall clock seconds gone, waiting for system output
+% 4700 wall clock seconds gone, waiting for system output
+% 4710 wall clock seconds gone, waiting for system output
+% 4720 wall clock seconds gone, waiting for system output
+% 4730 wall clock seconds gone, waiting for system output
+% 4740 wall clock seconds gone, waiting for system output
+% 4750 wall clock seconds gone, waiting for system output
+% 4760 wall clock seconds gone, waiting for system output
+% 4770 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - JGRM3---A-0.2 says Timeout - CPU = 300.03 WC = 294.38 
+OUTPUT: SOT_Cn_cef - JGRM3---A-0.2 says None - CPU = 0 WC = 0 
+JGRM3---J-0.2   system information being retrieved
+JGRM3---J-0.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x jgrm3 %s %d geoffs_way vampire 80 vampirefmo 20
+JGRM3---J-0.2's SOT_Cn_cef does not need preparation
+JGRM3---J-0.2   being executed on SOT_Cn_cef using /home/tptp/Systems/JGRM3---J-0.2/jgrm3 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef' 300 geoffs_way vampire 80 vampirefmo 20
+% 4780 wall clock seconds gone, waiting for system output
+% 4790 wall clock seconds gone, waiting for system output
+% 4800 wall clock seconds gone, waiting for system output
+% 4810 wall clock seconds gone, waiting for system output
+% 4820 wall clock seconds gone, waiting for system output
+% 4830 wall clock seconds gone, waiting for system output
+% 4840 wall clock seconds gone, waiting for system output
+% 4850 wall clock seconds gone, waiting for system output
+% 4860 wall clock seconds gone, waiting for system output
+% 4870 wall clock seconds gone, waiting for system output
+% 4880 wall clock seconds gone, waiting for system output
+% 4890 wall clock seconds gone, waiting for system output
+% 4900 wall clock seconds gone, waiting for system output
+% 4910 wall clock seconds gone, waiting for system output
+% 4920 wall clock seconds gone, waiting for system output
+% 4930 wall clock seconds gone, waiting for system output
+% 4940 wall clock seconds gone, waiting for system output
+% 4950 wall clock seconds gone, waiting for system output
+% 4960 wall clock seconds gone, waiting for system output
+% 4970 wall clock seconds gone, waiting for system output
+% 4980 wall clock seconds gone, waiting for system output
+% 4990 wall clock seconds gone, waiting for system output
+% 5000 wall clock seconds gone, waiting for system output
+% 5010 wall clock seconds gone, waiting for system output
+% 5020 wall clock seconds gone, waiting for system output
+% 5030 wall clock seconds gone, waiting for system output
+% 5040 wall clock seconds gone, waiting for system output
+% 5050 wall clock seconds gone, waiting for system output
+% 5060 wall clock seconds gone, waiting for system output
+% 5070 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - JGRM3---J-0.2 says Timeout - CPU = 300.01 WC = 294.65 
+OUTPUT: SOT_Cn_cef - JGRM3---J-0.2 says None - CPU = 0 WC = 0 
+leanCoP---2.2   system information being retrieved
+leanCoP---2.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x leancop.sh %s %d
+leanCoP---2.2's SOT_Cn_cef does not need preparation
+leanCoP---2.2   being executed on SOT_Cn_cef using /home/tptp/Systems/leanCoP---2.2/leancop.sh '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef' 300
+% 5080 wall clock seconds gone, waiting for system output
+% 5090 wall clock seconds gone, waiting for system output
+% 5100 wall clock seconds gone, waiting for system output
+% 5110 wall clock seconds gone, waiting for system output
+% 5120 wall clock seconds gone, waiting for system output
+% 5130 wall clock seconds gone, waiting for system output
+% 5140 wall clock seconds gone, waiting for system output
+% 5150 wall clock seconds gone, waiting for system output
+% 5160 wall clock seconds gone, waiting for system output
+% 5170 wall clock seconds gone, waiting for system output
+% 5180 wall clock seconds gone, waiting for system output
+% 5190 wall clock seconds gone, waiting for system output
+% 5200 wall clock seconds gone, waiting for system output
+% 5210 wall clock seconds gone, waiting for system output
+% 5220 wall clock seconds gone, waiting for system output
+% 5230 wall clock seconds gone, waiting for system output
+% 5240 wall clock seconds gone, waiting for system output
+% 5250 wall clock seconds gone, waiting for system output
+% 5260 wall clock seconds gone, waiting for system output
+% 5270 wall clock seconds gone, waiting for system output
+% 5280 wall clock seconds gone, waiting for system output
+% 5290 wall clock seconds gone, waiting for system output
+% 5300 wall clock seconds gone, waiting for system output
+% 5310 wall clock seconds gone, waiting for system output
+% 5320 wall clock seconds gone, waiting for system output
+% 5330 wall clock seconds gone, waiting for system output
+% 5340 wall clock seconds gone, waiting for system output
+% 5350 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - leanCoP---2.2 says Timeout - CPU = 300.03 WC = 282.55 
+OUTPUT: SOT_Cn_cef - leanCoP---2.2 says None - CPU = 0 WC = 0 
+leanCoP-Omega---0.1   system information being retrieved
+leanCoP-Omega---0.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x leancop_omega.sh %s %d
+leanCoP-Omega---0.1's SOT_Cn_cef does not need preparation
+leanCoP-Omega---0.1   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - leanCoP-Omega---0.1 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - leanCoP-Omega---0.1 says None - CPU = 0 WC = 0 
+LEO-II---1.7.0   system information being retrieved
+LEO-II---1.7.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x leo --timeout %d --proofoutput 1 --foatp e --atp e=/home/tptp/Systems/LEO-II---1.7.0/eprover %s
+LEO-II---1.7.0's SOT_Cn_cef does not need preparation
+LEO-II---1.7.0   being executed on SOT_Cn_cef using /home/tptp/Systems/LEO-II---1.7.0/leo --timeout 300 --proofoutput 1 --foatp e --atp e=/home/tptp/Systems/LEO-II---1.7.0/eprover '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 5360 wall clock seconds gone, waiting for system output
+% 5370 wall clock seconds gone, waiting for system output
+% 5380 wall clock seconds gone, waiting for system output
+% 5390 wall clock seconds gone, waiting for system output
+% 5400 wall clock seconds gone, waiting for system output
+% 5410 wall clock seconds gone, waiting for system output
+% 5420 wall clock seconds gone, waiting for system output
+% 5430 wall clock seconds gone, waiting for system output
+% 5440 wall clock seconds gone, waiting for system output
+% 5450 wall clock seconds gone, waiting for system output
+% 5460 wall clock seconds gone, waiting for system output
+% 5470 wall clock seconds gone, waiting for system output
+% 5480 wall clock seconds gone, waiting for system output
+% 5490 wall clock seconds gone, waiting for system output
+% 5500 wall clock seconds gone, waiting for system output
+% 5510 wall clock seconds gone, waiting for system output
+% 5520 wall clock seconds gone, waiting for system output
+% 5530 wall clock seconds gone, waiting for system output
+% 5540 wall clock seconds gone, waiting for system output
+% 5550 wall clock seconds gone, waiting for system output
+% 5560 wall clock seconds gone, waiting for system output
+% 5570 wall clock seconds gone, waiting for system output
+% 5580 wall clock seconds gone, waiting for system output
+% 5590 wall clock seconds gone, waiting for system output
+% 5600 wall clock seconds gone, waiting for system output
+% 5610 wall clock seconds gone, waiting for system output
+% 5620 wall clock seconds gone, waiting for system output
+% 5630 wall clock seconds gone, waiting for system output
+% 5640 wall clock seconds gone, waiting for system output
+% 5650 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - LEO-II---1.7.0 says Timeout - CPU = 300.03 WC = 300.07 
+OUTPUT: SOT_Cn_cef - LEO-II---1.7.0 says None - CPU = 0 WC = 0 
+Leo-III---1.0   system information being retrieved
+Leo-III---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_leo %d %s
+Leo-III---1.0's SOT_Cn_cef does not need preparation
+Leo-III---1.0   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - Leo-III---1.0 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - Leo-III---1.0 says None - CPU = 0 WC = 0 
+Mace2---2.2   system information being retrieved
+Mace2---2.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x tptp2X_and_run_mace2 %d %s
+Mace2---2.2's SOT_Cn_cef does not need preparation
+% 5660 wall clock seconds gone, waiting for system output
+Mace2---2.2   being executed on SOT_Cn_cef using /home/tptp/Systems/Mace2---2.2/tptp2X_and_run_mace2 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 5670 wall clock seconds gone, waiting for system output
+% 5680 wall clock seconds gone, waiting for system output
+% 5690 wall clock seconds gone, waiting for system output
+% 5700 wall clock seconds gone, waiting for system output
+% 5710 wall clock seconds gone, waiting for system output
+% 5720 wall clock seconds gone, waiting for system output
+% 5730 wall clock seconds gone, waiting for system output
+% 5740 wall clock seconds gone, waiting for system output
+% 5750 wall clock seconds gone, waiting for system output
+% 5760 wall clock seconds gone, waiting for system output
+% 5770 wall clock seconds gone, waiting for system output
+% 5780 wall clock seconds gone, waiting for system output
+% 5790 wall clock seconds gone, waiting for system output
+% 5800 wall clock seconds gone, waiting for system output
+% 5810 wall clock seconds gone, waiting for system output
+% 5820 wall clock seconds gone, waiting for system output
+% 5830 wall clock seconds gone, waiting for system output
+% 5840 wall clock seconds gone, waiting for system output
+% 5850 wall clock seconds gone, waiting for system output
+% 5860 wall clock seconds gone, waiting for system output
+% 5870 wall clock seconds gone, waiting for system output
+% 5880 wall clock seconds gone, waiting for system output
+% 5890 wall clock seconds gone, waiting for system output
+% 5900 wall clock seconds gone, waiting for system output
+% 5910 wall clock seconds gone, waiting for system output
+% 5920 wall clock seconds gone, waiting for system output
+% 5930 wall clock seconds gone, waiting for system output
+% 5940 wall clock seconds gone, waiting for system output
+% 5950 wall clock seconds gone, waiting for system output
+% 5960 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Mace2---2.2 says Timeout - CPU = 300.04 WC = 300.02  Size = 4
+OUTPUT: SOT_Cn_cef - Mace2---2.2 says None - CPU = 0 WC = 0 
+Mace4---1109a   system information being retrieved
+Mace4---1109a's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x tptp2X_and_run_mace4 %d %s
+Mace4---1109a's SOT_Cn_cef does not need preparation
+Mace4---1109a   being executed on SOT_Cn_cef using /home/tptp/Systems/Mace4---1109a/tptp2X_and_run_mace4 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 5970 wall clock seconds gone, waiting for system output
+% 5980 wall clock seconds gone, waiting for system output
+% 5990 wall clock seconds gone, waiting for system output
+% 6000 wall clock seconds gone, waiting for system output
+% 6010 wall clock seconds gone, waiting for system output
+% 6020 wall clock seconds gone, waiting for system output
+% 6030 wall clock seconds gone, waiting for system output
+% 6040 wall clock seconds gone, waiting for system output
+% 6050 wall clock seconds gone, waiting for system output
+% 6060 wall clock seconds gone, waiting for system output
+% 6070 wall clock seconds gone, waiting for system output
+% 6080 wall clock seconds gone, waiting for system output
+% 6090 wall clock seconds gone, waiting for system output
+% 6100 wall clock seconds gone, waiting for system output
+% 6110 wall clock seconds gone, waiting for system output
+% 6120 wall clock seconds gone, waiting for system output
+% 6130 wall clock seconds gone, waiting for system output
+% 6140 wall clock seconds gone, waiting for system output
+% 6150 wall clock seconds gone, waiting for system output
+% 6160 wall clock seconds gone, waiting for system output
+% 6170 wall clock seconds gone, waiting for system output
+% 6180 wall clock seconds gone, waiting for system output
+% 6190 wall clock seconds gone, waiting for system output
+% 6200 wall clock seconds gone, waiting for system output
+% 6210 wall clock seconds gone, waiting for system output
+% 6220 wall clock seconds gone, waiting for system output
+% 6230 wall clock seconds gone, waiting for system output
+% 6240 wall clock seconds gone, waiting for system output
+% 6250 wall clock seconds gone, waiting for system output
+% 6260 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Mace4---1109a says Timeout - CPU = 300.04 WC = 300.00 
+OUTPUT: SOT_Cn_cef - Mace4---1109a says None - CPU = 0 WC = 0 
+Matita---1.0   system information being retrieved
+Matita---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x matitaprover --timeout %d --tptppath /home/tptp/TPTP %s
+Matita---1.0's SOT_Cn_cef does not need preparation
+Matita---1.0   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - Matita---1.0 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - Matita---1.0 says None - CPU = 0 WC = 0 
+Metis---2.3   system information being retrieved
+Metis---2.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x metis --show proof --show saturation %s
+Metis---2.3's SOT_Cn_cef does not need preparation
+Metis---2.3   being executed on SOT_Cn_cef using /home/tptp/Systems/Metis---2.3/metis --show proof --show saturation '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 6270 wall clock seconds gone, waiting for system output
+% 6280 wall clock seconds gone, waiting for system output
+% 6290 wall clock seconds gone, waiting for system output
+% 6300 wall clock seconds gone, waiting for system output
+% 6310 wall clock seconds gone, waiting for system output
+% 6320 wall clock seconds gone, waiting for system output
+% 6330 wall clock seconds gone, waiting for system output
+% 6340 wall clock seconds gone, waiting for system output
+% 6350 wall clock seconds gone, waiting for system output
+% 6360 wall clock seconds gone, waiting for system output
+% 6370 wall clock seconds gone, waiting for system output
+% 6380 wall clock seconds gone, waiting for system output
+% 6390 wall clock seconds gone, waiting for system output
+% 6400 wall clock seconds gone, waiting for system output
+% 6410 wall clock seconds gone, waiting for system output
+% 6420 wall clock seconds gone, waiting for system output
+% 6430 wall clock seconds gone, waiting for system output
+% 6440 wall clock seconds gone, waiting for system output
+% 6450 wall clock seconds gone, waiting for system output
+% 6460 wall clock seconds gone, waiting for system output
+% 6470 wall clock seconds gone, waiting for system output
+% 6480 wall clock seconds gone, waiting for system output
+% 6490 wall clock seconds gone, waiting for system output
+% 6500 wall clock seconds gone, waiting for system output
+% 6510 wall clock seconds gone, waiting for system output
+% 6520 wall clock seconds gone, waiting for system output
+% 6530 wall clock seconds gone, waiting for system output
+% 6540 wall clock seconds gone, waiting for system output
+% 6550 wall clock seconds gone, waiting for system output
+% 6560 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Metis---2.3 says Timeout - CPU = 300.41 WC = 300.93 
+OUTPUT: SOT_Cn_cef - Metis---2.3 says None - CPU = 0 WC = 0 
+MetiTarski---1.9   system information being retrieved
+MetiTarski---1.9's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run-metitarski %s
+MetiTarski---1.9's SOT_Cn_cef does not need preparation
+MetiTarski---1.9   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - MetiTarski---1.9 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - MetiTarski---1.9 says None - CPU = 0 WC = 0 
+Muscadet---4.5   system information being retrieved
+Muscadet---4.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x muscadet %s
+Muscadet---4.5's SOT_Cn_cef does not need preparation
+Muscadet---4.5   being executed on SOT_Cn_cef using /home/tptp/Systems/Muscadet---4.5/muscadet '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 6570 wall clock seconds gone, waiting for system output
+% 6580 wall clock seconds gone, waiting for system output
+% 6590 wall clock seconds gone, waiting for system output
+% 6600 wall clock seconds gone, waiting for system output
+% 6610 wall clock seconds gone, waiting for system output
+% 6620 wall clock seconds gone, waiting for system output
+% 6630 wall clock seconds gone, waiting for system output
+% 6640 wall clock seconds gone, waiting for system output
+% 6650 wall clock seconds gone, waiting for system output
+% 6660 wall clock seconds gone, waiting for system output
+% 6670 wall clock seconds gone, waiting for system output
+% 6680 wall clock seconds gone, waiting for system output
+% 6690 wall clock seconds gone, waiting for system output
+% 6700 wall clock seconds gone, waiting for system output
+% 6710 wall clock seconds gone, waiting for system output
+% 6720 wall clock seconds gone, waiting for system output
+% 6730 wall clock seconds gone, waiting for system output
+% 6740 wall clock seconds gone, waiting for system output
+% 6750 wall clock seconds gone, waiting for system output
+% 6760 wall clock seconds gone, waiting for system output
+% 6770 wall clock seconds gone, waiting for system output
+% 6780 wall clock seconds gone, waiting for system output
+% 6790 wall clock seconds gone, waiting for system output
+% 6800 wall clock seconds gone, waiting for system output
+% 6810 wall clock seconds gone, waiting for system output
+% 6820 wall clock seconds gone, waiting for system output
+% 6830 wall clock seconds gone, waiting for system output
+% 6840 wall clock seconds gone, waiting for system output
+% 6850 wall clock seconds gone, waiting for system output
+% 6860 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Muscadet---4.5 says Timeout - CPU = 300.05 WC = 300.02 
+OUTPUT: SOT_Cn_cef - Muscadet---4.5 says None - CPU = 0 WC = 0 
+Nitpick---2016   system information being retrieved
+Nitpick---2016's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x Source/bin/isabelle tptp_nitpick %d %s
+Nitpick---2016's SOT_Cn_cef does not need preparation
+Nitpick---2016   being executed on SOT_Cn_cef using /home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 6870 wall clock seconds gone, waiting for system output
+% 6880 wall clock seconds gone, waiting for system output
+% 6890 wall clock seconds gone, waiting for system output
+% 6900 wall clock seconds gone, waiting for system output
+% 6910 wall clock seconds gone, waiting for system output
+% 6920 wall clock seconds gone, waiting for system output
+% 6930 wall clock seconds gone, waiting for system output
+% 6940 wall clock seconds gone, waiting for system output
+% 6950 wall clock seconds gone, waiting for system output
+% 6960 wall clock seconds gone, waiting for system output
+% 6970 wall clock seconds gone, waiting for system output
+% 6980 wall clock seconds gone, waiting for system output
+% 6990 wall clock seconds gone, waiting for system output
+% 7000 wall clock seconds gone, waiting for system output
+% 7010 wall clock seconds gone, waiting for system output
+% 7020 wall clock seconds gone, waiting for system output
+% 7030 wall clock seconds gone, waiting for system output
+% 7040 wall clock seconds gone, waiting for system output
+% 7050 wall clock seconds gone, waiting for system output
+% 7060 wall clock seconds gone, waiting for system output
+% 7070 wall clock seconds gone, waiting for system output
+% 7080 wall clock seconds gone, waiting for system output
+% 7090 wall clock seconds gone, waiting for system output
+% 7100 wall clock seconds gone, waiting for system output
+% 7110 wall clock seconds gone, waiting for system output
+% 7120 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Nitpick---2016 says Timeout - CPU = 300.03 WC = 253.85 
+OUTPUT: SOT_Cn_cef - Nitpick---2016 says None - CPU = 0 WC = 0 
+omkbTT---1.0   system information being retrieved
+omkbTT---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x omkbtt -t %d %s -p
+omkbTT---1.0's SOT_Cn_cef does not need preparation
+omkbTT---1.0   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - omkbTT---1.0 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - omkbTT---1.0 says None - CPU = 0 WC = 0 
+Otter---3.3   system information being retrieved
+Otter---3.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x otter-tptp-script %s
+Otter---3.3's SOT_Cn_cef does not need preparation
+Otter---3.3   being executed on SOT_Cn_cef using /home/tptp/Systems/Otter---3.3/otter-tptp-script '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 7130 wall clock seconds gone, waiting for system output
+% 7140 wall clock seconds gone, waiting for system output
+% 7150 wall clock seconds gone, waiting for system output
+% 7160 wall clock seconds gone, waiting for system output
+% 7170 wall clock seconds gone, waiting for system output
+% 7180 wall clock seconds gone, waiting for system output
+% 7190 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Otter---3.3 says GaveUp - CPU = 74.65 WC = 74.76  Given = 2044 Generated = 9943590 Kept = 2111
+OUTPUT: SOT_Cn_cef - Otter---3.3 says None - CPU = 0 WC = 0 
+PKRHyper---0805   system information being retrieved
+PKRHyper---0805's non-default parameters being retrieved
+    -t add_equality
+    -f protein
+    -x /bin/java -Xmx256m -jar /home/tptp/Systems/PKRHyper---0805/PocketKRHyper.jar %s
+PKRHyper---0805's SOT_Cn_cef being prepared by /home/tptp/TPTP/TPTP2X/tptp2X
+    -d /tmp/SystemOnTPTP57153 
+    -t add_equality 
+    -f protein
+    /tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef
+PKRHyper---0805   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - PKRHyper---0805 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - PKRHyper---0805 says None - CPU = 0 WC = 0 
+Princess---160606   system information being retrieved
+Princess---160606's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x princess-casc +printProof -timeout=%d %s
+Princess---160606's SOT_Cn_cef being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP57199 
+    -t none 
+    -f tptp
+    -x 
+    /tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef
+Princess---160606   being executed on SOT_Cn_cef using /home/tptp/Systems/Princess---160606/princess-casc +printProof -timeout=300 '/tmp/SystemOnTPTP57199/SOT_Cn_cef.tptp'
+% 7200 wall clock seconds gone, waiting for system output
+% 7210 wall clock seconds gone, waiting for system output
+% 7220 wall clock seconds gone, waiting for system output
+% 7230 wall clock seconds gone, waiting for system output
+% 7240 wall clock seconds gone, waiting for system output
+% 7250 wall clock seconds gone, waiting for system output
+% 7260 wall clock seconds gone, waiting for system output
+% 7270 wall clock seconds gone, waiting for system output
+% 7280 wall clock seconds gone, waiting for system output
+% 7290 wall clock seconds gone, waiting for system output
+% 7300 wall clock seconds gone, waiting for system output
+% 7310 wall clock seconds gone, waiting for system output
+% 7320 wall clock seconds gone, waiting for system output
+% 7330 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Princess---160606 says Timeout - CPU = 300.10 WC = 132.99 
+OUTPUT: SOT_Cn_cef - Princess---160606 says None - CPU = 0 WC = 0 
+Prover9---1109a   system information being retrieved
+Prover9---1109a's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x tptp2X_and_run_prover9 %d %s
+Prover9---1109a's SOT_Cn_cef does not need preparation
+Prover9---1109a   being executed on SOT_Cn_cef using /home/tptp/Systems/Prover9---1109a/tptp2X_and_run_prover9 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 7340 wall clock seconds gone, waiting for system output
+% 7350 wall clock seconds gone, waiting for system output
+% 7360 wall clock seconds gone, waiting for system output
+% 7370 wall clock seconds gone, waiting for system output
+% 7380 wall clock seconds gone, waiting for system output
+% 7390 wall clock seconds gone, waiting for system output
+% 7400 wall clock seconds gone, waiting for system output
+% 7410 wall clock seconds gone, waiting for system output
+% 7420 wall clock seconds gone, waiting for system output
+% 7430 wall clock seconds gone, waiting for system output
+% 7440 wall clock seconds gone, waiting for system output
+% 7450 wall clock seconds gone, waiting for system output
+% 7460 wall clock seconds gone, waiting for system output
+% 7470 wall clock seconds gone, waiting for system output
+% 7480 wall clock seconds gone, waiting for system output
+% 7490 wall clock seconds gone, waiting for system output
+% 7500 wall clock seconds gone, waiting for system output
+% 7510 wall clock seconds gone, waiting for system output
+% 7520 wall clock seconds gone, waiting for system output
+% 7530 wall clock seconds gone, waiting for system output
+% 7540 wall clock seconds gone, waiting for system output
+% 7550 wall clock seconds gone, waiting for system output
+% 7560 wall clock seconds gone, waiting for system output
+% 7570 wall clock seconds gone, waiting for system output
+% 7580 wall clock seconds gone, waiting for system output
+% 7590 wall clock seconds gone, waiting for system output
+% 7600 wall clock seconds gone, waiting for system output
+% 7610 wall clock seconds gone, waiting for system output
+% 7620 wall clock seconds gone, waiting for system output
+% 7630 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Prover9---1109a says Timeout - CPU = 300.02 WC = 300.37 
+OUTPUT: SOT_Cn_cef - Prover9---1109a says None - CPU = 0 WC = 0 
+SaKo---4.5-0.6.1   system information being retrieved
+SaKo---4.5-0.6.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_konclude %s
+SaKo---4.5-0.6.1's SOT_Cn_cef does not need preparation
+SaKo---4.5-0.6.1   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - SaKo---4.5-0.6.1 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - SaKo---4.5-0.6.1 says None - CPU = 0 WC = 0 
+Satallax---3.0   system information being retrieved
+Satallax---3.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_satallax %d %s
+Satallax---3.0's SOT_Cn_cef does not need preparation
+Satallax---3.0   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - Satallax---3.0 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - Satallax---3.0 says None - CPU = 0 WC = 0 
+SNARK---20120808r022   system information being retrieved
+SNARK---20120808r022's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run-snark %s %d
+SNARK---20120808r022's SOT_Cn_cef does not need preparation
+SNARK---20120808r022   being executed on SOT_Cn_cef using /home/tptp/Systems/SNARK---20120808r022/run-snark '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef' 300
+% 7640 wall clock seconds gone, waiting for system output
+% 7650 wall clock seconds gone, waiting for system output
+% 7660 wall clock seconds gone, waiting for system output
+% 7670 wall clock seconds gone, waiting for system output
+% 7680 wall clock seconds gone, waiting for system output
+% 7690 wall clock seconds gone, waiting for system output
+% 7700 wall clock seconds gone, waiting for system output
+% 7710 wall clock seconds gone, waiting for system output
+% 7720 wall clock seconds gone, waiting for system output
+% 7730 wall clock seconds gone, waiting for system output
+% 7740 wall clock seconds gone, waiting for system output
+% 7750 wall clock seconds gone, waiting for system output
+% 7760 wall clock seconds gone, waiting for system output
+% 7770 wall clock seconds gone, waiting for system output
+% 7780 wall clock seconds gone, waiting for system output
+% 7790 wall clock seconds gone, waiting for system output
+% 7800 wall clock seconds gone, waiting for system output
+% 7810 wall clock seconds gone, waiting for system output
+% 7820 wall clock seconds gone, waiting for system output
+% 7830 wall clock seconds gone, waiting for system output
+% 7840 wall clock seconds gone, waiting for system output
+% 7850 wall clock seconds gone, waiting for system output
+% 7860 wall clock seconds gone, waiting for system output
+% 7870 wall clock seconds gone, waiting for system output
+% 7880 wall clock seconds gone, waiting for system output
+% 7890 wall clock seconds gone, waiting for system output
+% 7900 wall clock seconds gone, waiting for system output
+% 7910 wall clock seconds gone, waiting for system output
+% 7920 wall clock seconds gone, waiting for system output
+% 7930 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - SNARK---20120808r022 says Timeout - CPU = 300.05 WC = 300.02  Derived = 608624 Kept = 88362
+OUTPUT: SOT_Cn_cef - SNARK---20120808r022 says None - CPU = 0 WC = 0 
+SOS---2.0   system information being retrieved
+SOS---2.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x sos-script %s
+SOS---2.0's SOT_Cn_cef does not need preparation
+SOS---2.0   being executed on SOT_Cn_cef using /home/tptp/Systems/SOS---2.0/sos-script '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 7940 wall clock seconds gone, waiting for system output
+% 7950 wall clock seconds gone, waiting for system output
+% 7960 wall clock seconds gone, waiting for system output
+% 7970 wall clock seconds gone, waiting for system output
+% 7980 wall clock seconds gone, waiting for system output
+% 7990 wall clock seconds gone, waiting for system output
+% 8000 wall clock seconds gone, waiting for system output
+% 8010 wall clock seconds gone, waiting for system output
+% 8020 wall clock seconds gone, waiting for system output
+% 8030 wall clock seconds gone, waiting for system output
+% 8040 wall clock seconds gone, waiting for system output
+% 8050 wall clock seconds gone, waiting for system output
+% 8060 wall clock seconds gone, waiting for system output
+% 8070 wall clock seconds gone, waiting for system output
+% 8080 wall clock seconds gone, waiting for system output
+% 8090 wall clock seconds gone, waiting for system output
+% 8100 wall clock seconds gone, waiting for system output
+% 8110 wall clock seconds gone, waiting for system output
+% 8120 wall clock seconds gone, waiting for system output
+% 8130 wall clock seconds gone, waiting for system output
+% 8140 wall clock seconds gone, waiting for system output
+% 8150 wall clock seconds gone, waiting for system output
+% 8160 wall clock seconds gone, waiting for system output
+% 8170 wall clock seconds gone, waiting for system output
+% 8180 wall clock seconds gone, waiting for system output
+% 8190 wall clock seconds gone, waiting for system output
+% 8200 wall clock seconds gone, waiting for system output
+% 8210 wall clock seconds gone, waiting for system output
+% 8220 wall clock seconds gone, waiting for system output
+% 8230 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - SOS---2.0 says Timeout - CPU = 300.03 WC = 300.05 
+OUTPUT: SOT_Cn_cef - SOS---2.0 says None - CPU = 0 WC = 0 
+SPASS+T---2.2.22   system information being retrieved
+SPASS+T---2.2.22's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x spasst-tptp-script %s %d
+SPASS+T---2.2.22's SOT_Cn_cef does not need preparation
+SPASS+T---2.2.22   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - SPASS+T---2.2.22 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - SPASS+T---2.2.22 says None - CPU = 0 WC = 0 
+SPASS---3.7   system information being retrieved
+SPASS---3.7's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x run_spass %d %s
+SPASS---3.7's SOT_Cn_cef being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP59490 
+    -t none 
+    -f tptp
+    -x 
+    /tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef
+SPASS---3.7   being executed on SOT_Cn_cef using /home/tptp/Systems/SPASS---3.7/run_spass 300 '/tmp/SystemOnTPTP59490/SOT_Cn_cef.tptp'
+% 8240 wall clock seconds gone, waiting for system output
+% 8250 wall clock seconds gone, waiting for system output
+% 8260 wall clock seconds gone, waiting for system output
+% 8270 wall clock seconds gone, waiting for system output
+% 8280 wall clock seconds gone, waiting for system output
+% 8290 wall clock seconds gone, waiting for system output
+% 8300 wall clock seconds gone, waiting for system output
+% 8310 wall clock seconds gone, waiting for system output
+% 8320 wall clock seconds gone, waiting for system output
+% 8330 wall clock seconds gone, waiting for system output
+% 8340 wall clock seconds gone, waiting for system output
+% 8350 wall clock seconds gone, waiting for system output
+% 8360 wall clock seconds gone, waiting for system output
+% 8370 wall clock seconds gone, waiting for system output
+% 8380 wall clock seconds gone, waiting for system output
+% 8390 wall clock seconds gone, waiting for system output
+% 8400 wall clock seconds gone, waiting for system output
+% 8410 wall clock seconds gone, waiting for system output
+% 8420 wall clock seconds gone, waiting for system output
+% 8430 wall clock seconds gone, waiting for system output
+% 8440 wall clock seconds gone, waiting for system output
+% 8450 wall clock seconds gone, waiting for system output
+% 8460 wall clock seconds gone, waiting for system output
+% 8470 wall clock seconds gone, waiting for system output
+% 8480 wall clock seconds gone, waiting for system output
+% 8490 wall clock seconds gone, waiting for system output
+% 8500 wall clock seconds gone, waiting for system output
+% 8510 wall clock seconds gone, waiting for system output
+% 8520 wall clock seconds gone, waiting for system output
+% 8530 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - SPASS---3.7 says Timeout - CPU = 300.09 WC = 300.07 
+OUTPUT: SOT_Cn_cef - SPASS---3.7 says None - CPU = 0 WC = 0 
+SPASS-XDB---0.8   system information being retrieved
+SPASS-XDB---0.8's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run-spass-xdb %s -EPrint=2
+SPASS-XDB---0.8's SOT_Cn_cef does not need preparation
+SPASS-XDB---0.8   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - SPASS-XDB---0.8 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - SPASS-XDB---0.8 says None - CPU = 0 WC = 0 
+SPASS-XDB---0.8FOF   system information being retrieved
+SPASS-XDB---0.8FOF's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run-spass-xdb %s -EPrint=2
+SPASS-XDB---0.8FOF's SOT_Cn_cef does not need preparation
+SPASS-XDB---0.8FOF   being executed on SOT_Cn_cef using /home/tptp/Systems/SPASS-XDB---0.8FOF/run-spass-xdb '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef' -EPrint=2
+RESULT: SOT_Cn_cef - SPASS-XDB---0.8FOF says Unknown - CPU = 0.00 WC = 0.02 
+OUTPUT: SOT_Cn_cef - SPASS-XDB---0.8FOF says None - CPU = 0 WC = 0 
+SRASS---0.1   system information being retrieved
+SRASS---0.1's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x SRASS -q2 -a 0 10 10 10 -i3 -n60 %s
+SRASS---0.1's SOT_Cn_cef being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP59830 
+    -t none 
+    -f tptp
+    -x 
+    /tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef
+SRASS---0.1   being executed on SOT_Cn_cef using /home/tptp/Systems/SRASS---0.1/SRASS -q2 -a 0 10 10 10 -i3 -n60 '/tmp/SystemOnTPTP59830/SOT_Cn_cef.tptp'
+RESULT: SOT_Cn_cef - SRASS---0.1 says Unknown - CPU = 0.00 WC = 0.00 
+OUTPUT: SOT_Cn_cef - SRASS---0.1 says None - CPU = 0 WC = 0 
+ToFoF---0.1   system information being retrieved
+ToFoF---0.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x tofof %d %s
+ToFoF---0.1's SOT_Cn_cef does not need preparation
+ToFoF---0.1   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - ToFoF---0.1 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - ToFoF---0.1 says None - CPU = 0 WC = 0 
+% 8540 wall clock seconds gone, waiting for system output
+ToFoF-SAT---0.1   system information being retrieved
+ToFoF-SAT---0.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x tofof %d %s --model
+ToFoF-SAT---0.1's SOT_Cn_cef does not need preparation
+ToFoF-SAT---0.1   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - ToFoF-SAT---0.1 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - ToFoF-SAT---0.1 says None - CPU = 0 WC = 0 
+TPS---3.120601S1b   system information being retrieved
+TPS---3.120601S1b's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run-tps-S1b %s %d
+TPS---3.120601S1b's SOT_Cn_cef does not need preparation
+TPS---3.120601S1b   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - TPS---3.120601S1b says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - TPS---3.120601S1b says None - CPU = 0 WC = 0 
+tWEE---1.0   system information being retrieved
+tWEE---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x twee-static --no-tracing %s
+tWEE---1.0's SOT_Cn_cef does not need preparation
+tWEE---1.0   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - tWEE---1.0 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - tWEE---1.0 says None - CPU = 0 WC = 0 
+Vampire---4.1   system information being retrieved
+Vampire---4.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x vampire --mode casc -m 90000 -t %d %s
+Vampire---4.1's SOT_Cn_cef does not need preparation
+Vampire---4.1   being executed on SOT_Cn_cef using /home/tptp/Systems/Vampire---4.1/vampire --mode casc -m 90000 -t 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+% 8550 wall clock seconds gone, waiting for system output
+% 8560 wall clock seconds gone, waiting for system output
+% 8570 wall clock seconds gone, waiting for system output
+% 8580 wall clock seconds gone, waiting for system output
+% 8590 wall clock seconds gone, waiting for system output
+% 8600 wall clock seconds gone, waiting for system output
+% 8610 wall clock seconds gone, waiting for system output
+% 8620 wall clock seconds gone, waiting for system output
+% 8630 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Vampire---4.1 says Theorem - CPU = 90.14 WC = 87.83 
+OUTPUT: SOT_Cn_cef - Vampire---4.1 says Refutation - CPU = 91.57 WC = 89.60 
+Vampire---SAT-4.1   system information being retrieved
+Vampire---SAT-4.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x vampire --mode casc_sat -m 90000 -t %d %s
+Vampire---SAT-4.1's SOT_Cn_cef does not need preparation
+Vampire---SAT-4.1   being executed on SOT_Cn_cef using /home/tptp/Systems/Vampire---SAT-4.1/vampire --mode casc_sat -m 90000 -t 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+RESULT: SOT_Cn_cef - Vampire---SAT-4.1 says Theorem - CPU = 1.02 WC = 1.08 
+OUTPUT: SOT_Cn_cef - Vampire---SAT-4.1 says Refutation - CPU = 1.02 WC = 1.08 
+Waldmeister---710   system information being retrieved
+Waldmeister---710's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x woody %s
+Waldmeister---710's SOT_Cn_cef does not need preparation
+Waldmeister---710   is unable to process that form of problem/solution
+RESULT: SOT_Cn_cef - Waldmeister---710 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_Cn_cef - Waldmeister---710 says None - CPU = 0 WC = 0 
+Z3---4.4.1   system information being retrieved
+Z3---4.4.1's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x run_z3_tptp -proof -model -t:%d -file:%s
+Z3---4.4.1's SOT_Cn_cef being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP60166 
+    -t none 
+    -f tptp
+    -x 
+    /tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef
+Z3---4.4.1   being executed on SOT_Cn_cef using /home/tptp/Systems/Z3---4.4.1/run_z3_tptp -proof -model -t:300 -file:'/tmp/SystemOnTPTP60166/SOT_Cn_cef.tptp'
+% 8640 wall clock seconds gone, waiting for system output
+% 8650 wall clock seconds gone, waiting for system output
+% 8660 wall clock seconds gone, waiting for system output
+% 8670 wall clock seconds gone, waiting for system output
+% 8680 wall clock seconds gone, waiting for system output
+% 8690 wall clock seconds gone, waiting for system output
+% 8700 wall clock seconds gone, waiting for system output
+% 8710 wall clock seconds gone, waiting for system output
+% 8720 wall clock seconds gone, waiting for system output
+% 8730 wall clock seconds gone, waiting for system output
+% 8740 wall clock seconds gone, waiting for system output
+% 8750 wall clock seconds gone, waiting for system output
+% 8760 wall clock seconds gone, waiting for system output
+% 8770 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Z3---4.4.1 says Theorem - CPU = 47.05 WC = 47.08 
+OUTPUT: SOT_Cn_cef - Z3---4.4.1 says Proof - CPU = 136.84 WC = 136.93 
+Zenon---0.7.1   system information being retrieved
+Zenon---0.7.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_zenon %s %d
+Zenon---0.7.1's SOT_Cn_cef does not need preparation
+Zenon---0.7.1   being executed on SOT_Cn_cef using /home/tptp/Systems/Zenon---0.7.1/run_zenon '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef' 300
+% 8780 wall clock seconds gone, waiting for system output
+% 8790 wall clock seconds gone, waiting for system output
+% 8800 wall clock seconds gone, waiting for system output
+% 8810 wall clock seconds gone, waiting for system output
+% 8820 wall clock seconds gone, waiting for system output
+% 8830 wall clock seconds gone, waiting for system output
+% 8840 wall clock seconds gone, waiting for system output
+% 8850 wall clock seconds gone, waiting for system output
+% 8860 wall clock seconds gone, waiting for system output
+% 8870 wall clock seconds gone, waiting for system output
+% 8880 wall clock seconds gone, waiting for system output
+% 8890 wall clock seconds gone, waiting for system output
+% 8900 wall clock seconds gone, waiting for system output
+% 8910 wall clock seconds gone, waiting for system output
+% 8920 wall clock seconds gone, waiting for system output
+% 8930 wall clock seconds gone, waiting for system output
+% 8940 wall clock seconds gone, waiting for system output
+% 8950 wall clock seconds gone, waiting for system output
+% 8960 wall clock seconds gone, waiting for system output
+% 8970 wall clock seconds gone, waiting for system output
+% 8980 wall clock seconds gone, waiting for system output
+% 8990 wall clock seconds gone, waiting for system output
+% 9000 wall clock seconds gone, waiting for system output
+% 9010 wall clock seconds gone, waiting for system output
+% 9020 wall clock seconds gone, waiting for system output
+% 9030 wall clock seconds gone, waiting for system output
+% 9040 wall clock seconds gone, waiting for system output
+% 9050 wall clock seconds gone, waiting for system output
+% 9060 wall clock seconds gone, waiting for system output
+% 9070 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Zenon---0.7.1 says Timeout - CPU = 300.10 WC = 300.12 
+OUTPUT: SOT_Cn_cef - Zenon---0.7.1 says None - CPU = 0 WC = 0 
+ZenonModulo---0.4.1   system information being retrieved
+ZenonModulo---0.4.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_zenon_modulo %d %s
+ZenonModulo---0.4.1's SOT_Cn_cef does not need preparation
+ZenonModulo---0.4.1   being executed on SOT_Cn_cef using /home/tptp/Systems/ZenonModulo---0.4.1/run_zenon_modulo 300 '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef'
+RESULT: SOT_Cn_cef - ZenonModulo---0.4.1 says GaveUp - CPU = 3.22 WC = 3.31  NodesSearch = 115600 MaxBranchF = 1289 ProofNodes = 7119 Formulas = 47440
+OUTPUT: SOT_Cn_cef - ZenonModulo---0.4.1 says None - CPU = 0 WC = 0 
+Zipperpin---FOF-0.4   system information being retrieved
+Zipperpin---FOF-0.4's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_zipperposition %s -timeout %d
+Zipperpin---FOF-0.4's SOT_Cn_cef does not need preparation
+Zipperpin---FOF-0.4   being executed on SOT_Cn_cef using /home/tptp/Systems/Zipperpin---FOF-0.4/run_zipperposition '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef' -timeout 300
+% 9080 wall clock seconds gone, waiting for system output
+% 9090 wall clock seconds gone, waiting for system output
+% 9100 wall clock seconds gone, waiting for system output
+% 9110 wall clock seconds gone, waiting for system output
+% 9120 wall clock seconds gone, waiting for system output
+% 9130 wall clock seconds gone, waiting for system output
+% 9140 wall clock seconds gone, waiting for system output
+% 9150 wall clock seconds gone, waiting for system output
+% 9160 wall clock seconds gone, waiting for system output
+% 9170 wall clock seconds gone, waiting for system output
+% 9180 wall clock seconds gone, waiting for system output
+% 9190 wall clock seconds gone, waiting for system output
+% 9200 wall clock seconds gone, waiting for system output
+% 9210 wall clock seconds gone, waiting for system output
+% 9220 wall clock seconds gone, waiting for system output
+% 9230 wall clock seconds gone, waiting for system output
+% 9240 wall clock seconds gone, waiting for system output
+% 9250 wall clock seconds gone, waiting for system output
+% 9260 wall clock seconds gone, waiting for system output
+% 9270 wall clock seconds gone, waiting for system output
+% 9280 wall clock seconds gone, waiting for system output
+% 9290 wall clock seconds gone, waiting for system output
+% 9300 wall clock seconds gone, waiting for system output
+% 9310 wall clock seconds gone, waiting for system output
+% 9320 wall clock seconds gone, waiting for system output
+% 9330 wall clock seconds gone, waiting for system output
+% 9340 wall clock seconds gone, waiting for system output
+% 9350 wall clock seconds gone, waiting for system output
+% 9360 wall clock seconds gone, waiting for system output
+% 9370 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Zipperpin---FOF-0.4 says Timeout - CPU = 300 WC = 299.79 
+OUTPUT: SOT_Cn_cef - Zipperpin---FOF-0.4 says None - CPU = 0 WC = 0 
+Zipperpin---TFF-0.4   system information being retrieved
+Zipperpin---TFF-0.4's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_zipperposition -arith %s -timeout %d
+Zipperpin---TFF-0.4's SOT_Cn_cef does not need preparation
+Zipperpin---TFF-0.4   being executed on SOT_Cn_cef using /home/tptp/Systems/Zipperpin---TFF-0.4/run_zipperposition -arith '/tmp/SystemOnTPTPFormReply36886/SOT_Cn_cef' -timeout 300
+% 9380 wall clock seconds gone, waiting for system output
+% 9390 wall clock seconds gone, waiting for system output
+% 9400 wall clock seconds gone, waiting for system output
+% 9410 wall clock seconds gone, waiting for system output
+% 9420 wall clock seconds gone, waiting for system output
+% 9430 wall clock seconds gone, waiting for system output
+% 9440 wall clock seconds gone, waiting for system output
+% 9450 wall clock seconds gone, waiting for system output
+% 9460 wall clock seconds gone, waiting for system output
+% 9470 wall clock seconds gone, waiting for system output
+% 9480 wall clock seconds gone, waiting for system output
+% 9490 wall clock seconds gone, waiting for system output
+% 9500 wall clock seconds gone, waiting for system output
+% 9510 wall clock seconds gone, waiting for system output
+% 9520 wall clock seconds gone, waiting for system output
+% 9530 wall clock seconds gone, waiting for system output
+% 9540 wall clock seconds gone, waiting for system output
+% 9550 wall clock seconds gone, waiting for system output
+% 9560 wall clock seconds gone, waiting for system output
+% 9570 wall clock seconds gone, waiting for system output
+% 9580 wall clock seconds gone, waiting for system output
+% 9590 wall clock seconds gone, waiting for system output
+% 9600 wall clock seconds gone, waiting for system output
+% 9610 wall clock seconds gone, waiting for system output
+% 9620 wall clock seconds gone, waiting for system output
+% 9630 wall clock seconds gone, waiting for system output
+% 9640 wall clock seconds gone, waiting for system output
+% 9650 wall clock seconds gone, waiting for system output
+% 9660 wall clock seconds gone, waiting for system output
+% 9670 wall clock seconds gone, waiting for system output
+RESULT: SOT_Cn_cef - Zipperpin---TFF-0.4 says Timeout - CPU = 300 WC = 299.80 
+OUTPUT: SOT_Cn_cef - Zipperpin---TFF-0.4 says None - CPU = 0 WC = 0 
