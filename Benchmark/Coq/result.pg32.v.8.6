@@ -1,0 +1,32 @@
+The Coq Proof Assistant, version 8.6 (January 2017)
+compiled on Jan 23 2017 15:39:30 with OCaml 4.04.0
+Incid_bool
+     : Point -> Line -> bool
+Finished transaction in 0.201 secs (0.148u,0.052s) (successful)
+incid_dec
+     : forall (P : pg32.Point) (l : pg32.Line), {Incid P l} + {~ Incid P l}
+proving a1_exists
+Finished transaction in 1.479 secs (0.988u,0.004s) (successful)
+Finished transaction in 0.051 secs (0.052u,0.s) (successful)
+a1_exists
+     : forall A B : Point, {l : Line | Incid A l /\ Incid B l}
+proving a1_unique
+Finished transaction in 24.168 secs (24.168u,0.024s) (successful)
+Finished transaction in 0.706 secs (0.707u,0.s) (successful)
+a1_unique
+     : forall (A B : Point) (l1 l2 : Line),
+       A <> B ->
+       Incid A l1 -> Incid B l1 -> Incid A l2 -> Incid B l2 -> l1 = l2
+-> proving uniqueness
+Finished transaction in 3.369 secs (3.372u,0.s) (successful)
+Finished transaction in 2.724 secs (2.728u,0.s) (successful)
+uniqueness
+     : forall (A B : Point) (l1 l2 : Line),
+       Incid A l1 ->
+       Incid B l1 -> Incid A l2 -> Incid B l2 -> A = B \/ l1 = l2
+Finished transaction in 0.058 secs (0.056u,0.004s) (successful)
+-> proving a2
+Finished transaction in 11805.493 secs (11814.364u,3.312s) (successful)
+Finished failing transaction in 54248.673 secs (54293.251u,12.18s) (failure)
+File "./pg32.v", line 601, characters 0-9:
+Stack overflow.

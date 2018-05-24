@@ -1,0 +1,226 @@
+fof(incidpg23,axiom,
+    ( 
+	  incid(a, abcd) &
+	  incid(b, abcd) &
+	  incid(c, abcd) &
+	  incid(d, abcd) &
+	~ incid(e, abcd) &
+	~ incid(f, abcd) &
+	~ incid(g, abcd) &
+	~ incid(h, abcd) &
+	~ incid(i, abcd) &
+	~ incid(j, abcd) &
+	~ incid(k, abcd) &
+	~ incid(l, abcd) &
+	~ incid(m, abcd) &
+	  
+	  incid(a, aefg) &
+	~ incid(b, aefg) &
+	~ incid(c, aefg) &
+	~ incid(d, aefg) &
+	  incid(e, aefg) &
+	  incid(f, aefg) &
+	  incid(g, aefg) &
+	~ incid(h, aefg) &
+	~ incid(i, aefg) &
+	~ incid(j, aefg) &
+	~ incid(k, aefg) &
+	~ incid(l, aefg) &
+	~ incid(m, aefg) &
+	  
+	  incid(a, aijm) &
+	~ incid(b, aijm) &
+	~ incid(c, aijm) &
+	~ incid(d, aijm) &
+	~ incid(e, aijm) &
+	~ incid(f, aijm) &
+	~ incid(g, aijm) &
+	~ incid(h, aijm) &
+	  incid(i, aijm) &
+	  incid(j, aijm) &
+	~ incid(k, aijm) &
+	~ incid(l, aijm) &
+	  incid(m, aijm) &
+	  
+	  incid(a, ahkl) &
+	~ incid(b, ahkl) &
+	~ incid(c, ahkl) &
+	~ incid(d, ahkl) &
+	~ incid(e, ahkl) &
+	~ incid(f, ahkl) &
+	~ incid(g, ahkl) &
+	  incid(h, ahkl) &
+	~ incid(i, ahkl) &
+	~ incid(j, ahkl) &
+	  incid(k, ahkl) &
+	  incid(l, ahkl) &
+	~ incid(m, ahkl) &
+
+	~ incid(a, behi) &
+	  incid(b, behi) &
+	~ incid(c, behi) &
+	~ incid(d, behi) &
+	  incid(e, behi) &
+	~ incid(f, behi) &
+	~ incid(g, behi) &
+	  incid(h, behi) &
+	  incid(i, behi) &
+	~ incid(j, behi) &
+	~ incid(k, behi) &
+	~ incid(l, behi) &
+	~ incid(m, behi) &
+	  
+	~ incid(a, bfkm) &
+	  incid(b, bfkm) &
+	~ incid(c, bfkm) &
+	~ incid(d, bfkm) &
+	~ incid(e, bfkm) &
+	  incid(f, bfkm) &
+	~ incid(g, bfkm) &
+	~ incid(h, bfkm) &
+	~ incid(i, bfkm) &
+	~ incid(j, bfkm) &
+	  incid(k, bfkm) &
+	~ incid(l, bfkm) &
+	  incid(m, bfkm) &
+	  
+	~ incid(a, bgjl) &
+	  incid(b, bgjl) &
+	~ incid(c, bgjl) &
+	~ incid(d, bgjl) &
+	~ incid(e, bgjl) &
+	~ incid(f, bgjl) &
+	  incid(g, bgjl) &
+	~ incid(h, bgjl) &
+	~ incid(i, bgjl) &
+	  incid(j, bgjl) &
+	~ incid(k, bgjl) &
+	  incid(l, bgjl) &
+	~ incid(m, bgjl) &
+	  
+	~ incid(a, cgik) &
+	~ incid(b, cgik) &
+	  incid(c, cgik) &
+	~ incid(d, cgik) &
+	~ incid(e, cgik) &
+	~ incid(f, cgik) &
+	  incid(g, cgik) &
+	~ incid(h, cgik) &
+	  incid(i, cgik) &
+	~ incid(j, cgik) &
+	  incid(k, cgik) &
+	~ incid(l, cgik) &
+	~ incid(m, cgik) &
+	  
+	~ incid(a, cfhj) &
+	~ incid(b, cfhj) &
+	  incid(c, cfhj) &
+	~ incid(d, cfhj) &
+	~ incid(e, cfhj) &
+	  incid(f, cfhj) &
+	~ incid(g, cfhj) &
+	  incid(h, cfhj) &
+	~ incid(i, cfhj) &
+	  incid(j, cfhj) &
+	~ incid(k, cfhj) &
+	~ incid(l, cfhj) &
+	~ incid(m, cfhj) &
+	  
+	~ incid(a, celm) &
+	~ incid(b, celm) &
+	  incid(c, celm) &
+	~ incid(d, celm) &
+	  incid(e, celm) &
+	~ incid(f, celm) &
+	~ incid(g, celm) &
+	~ incid(h, celm) &
+	~ incid(i, celm) &
+	~ incid(j, celm) &
+	~ incid(k, celm) &
+	  incid(l, celm) &
+	  incid(m, celm) &
+	  
+	~ incid(a, dghm) &
+	~ incid(b, dghm) &
+	~ incid(c, dghm) &
+	  incid(d, dghm) &
+	~ incid(e, dghm) &
+	~ incid(f, dghm) &
+	  incid(g, dghm) &
+	  incid(h, dghm) &
+	~ incid(i, dghm) &
+	~ incid(j, dghm) &
+	~ incid(k, dghm) &
+	~ incid(l, dghm) &
+	  incid(m, dghm) &
+	  
+	~ incid(a, dfil) &
+	~ incid(b, dfil) &
+	~ incid(c, dfil) &
+	  incid(d, dfil) &
+	~ incid(e, dfil) &
+	  incid(f, dfil) &
+	~ incid(g, dfil) &
+	~ incid(h, dfil) &
+	  incid(i, dfil) &
+	~ incid(j, dfil) &
+	~ incid(k, dfil) &
+	  incid(l, dfil) &
+	~ incid(m, dfil) &
+	  
+	~ incid(a, dejk) &
+	~ incid(b, dejk) &
+	~ incid(c, dejk) &
+	  incid(d, dejk) &
+	  incid(e, dejk) &
+	~ incid(f, dejk) &
+	~ incid(g, dejk) &
+	~ incid(h, dejk) &
+	~ incid(i, dejk) &
+	  incid(j, dejk) &
+	  incid(k, dejk) &
+	~ incid(l, dejk) &
+	~ incid(m, dejk)
+      )).
+
+fof(ispoint_def,axiom,
+	( ![X]: (ispoint(X) <=> (X=a | X=b | X=c | X=d | X=e | X=f | X=g | X=h | X=i | X=j | X=k | X=l | X=m)))).
+
+fof(isline_def, axiom,
+	( ![X]: (isline(X) <=> (X=abf | X=abcd | X=aefg | X=aijm | X=ahkl | X=behi | X=bfkm | X=bgjl | X=cgik | X=cfhj | X=celm | X=dghm | X=dfil | X=dejk)))).
+
+fof(incid_type, axiom, ![X,Y]: ((incid(X,Y) | ~incid(X,Y)) => (ispoint(X) & isline(Y))) ).
+ 
+%fof(line_existence,conjecture,
+%    ( ![P,Q]: (?[X]: (incid(P,X) & incid(Q,X))))).
+
+%fof(point_existence,conjecture,
+%	( ![L,M]: (?[X]: (incid(X,L) & incid(X,M))))).
+  
+ 
+%fof(line_uniqueness,conjecture,
+%  ( ![A,B,L,M]: ( 
+%                  (
+%                   incid(A,L) & incid(B,L) & incid(A,M) & incid(B,M)) =>
+%                   ( A=B | L=M)
+%                )
+%  )
+%  ).
+
+%fof(three_points,conjecture,
+%	( ![L]: (?[X,Y,Z]: (~X=Y & ~X=Z & ~Y=Z & incid(X,L) & incid(Y,L) & incid(Z,L))))).
+
+%fof(lower_dimension,conjecture,
+%	( ?[X,Y]: (isline(X) & isline(Y) & ~X=Y))).
+  
+fof(on_line_def,axiom,
+	(![A,B,C,L]: (on_line(A,B,C,L) <=> (incid(A,L) & incid(B,L) & incid(C,L))))).
+ 
+fof(coll_def,axiom,
+	(![A,B,C]: ( collinear(A,B,C) <=> (?[L]: (incid(A,L) & incid(B,L) & incid(C,L)))))).
+
+fof(desargues,conjecture,
+	(![O,P,Q,R,PP,QQ,RR,Alpha,Beta,Gamma,LP,LQ,LR,LPQ,LPR,LQR,LPPQQ,LPPRR,LQQRR]: 
+	(( on_line(P,Q,Gamma,LPQ) & on_line(PP,QQ,Gamma,LPPQQ) & on_line(P,R,Beta,LPR) & on_line (PP,RR,Beta,LPPRR) & on_line (Q,R,Alpha,LQR) & on_line (QQ,RR,Alpha,LQQRR) &
+	on_line(O,P,PP,LP) & on_line(O,Q,QQ,LQ) & on_line(O,R,RR,LR) & (~ collinear(O,P,Q)) & (~ collinear(O,P,R)) & (~ collinear(O,Q,R)) & (~ collinear(P,Q,R)) & (~ collinear(PP,QQ,RR)) 
+	& ((~ P=PP) | (~ Q=QQ) | (~ R=RR))) => (collinear(Alpha,Beta,Gamma))))).
