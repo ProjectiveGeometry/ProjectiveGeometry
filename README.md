@@ -25,7 +25,7 @@ The compilation can take several hours with our large benchmark Coq files. For f
 Branches
 ========
 
-We are currently dividing the deposit into 3 branches:
+We are currently dividing the repository into 3 branches:
 
 - amai2018 for work about proof equivalence presented in the journal Annals of Mathematics and Artificial Intelligence
 - aisc2018 for work about finite models submitted to International Conference on Artificial Intelligence and Symbolic Computation
@@ -35,6 +35,7 @@ Files
 =====
 
 The archive has 3 subdirectories:
+
 Dev/ contains the code of:
 - axiom systems of incidence projective geometry
 - axiom systems of rank and matroid theory
