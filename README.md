@@ -13,8 +13,8 @@ The code is released under the terms of the LGPL version 3.0.
 How to install
 ==============
 
-To use this library, first you need to install Coq. This project also requires the Containers library to compile : https://github.com/coq-contribs/containers
-We tested the development using Coq version 8.4pl6, 8.5pl3 and 8.6. The <=8.3 versions are not supported. 
+To use this library, first you need to install Coq. This project also requires the Containers library to compile : https://github.com/coq-contribs/containers.
+We tested the development using Coq version 8.4.dev, 8.5.dev and 8.6.dev. The <=8.3 versions are not supported. The library has not been tested on newer versions since the opam coq-containers package is limited to version 8.6.dev.
 Then download and unpack the files, it will create a ProjectiveGeometry directory.
 In this directory, type ./configure.sh and make to compile the files, it will create some .vo files.
 
