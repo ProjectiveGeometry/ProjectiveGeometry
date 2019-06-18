@@ -1,0 +1,469 @@
+% SZS start RequiredInformation
+% Congratulations - you have become a registered power user of SystemOnTPTP, at IP address 130.79.90.80.
+% Please consider donating to the TPTP project - see www.tptp.org for details.
+% When you donate this message will disappear.
+% If you do not donate a random delay might be added to your processing time.
+% SZS end RequiredInformation
+Bliksem---1.12   system information being retrieved
+Bliksem---1.12's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_bliksem %s
+Bliksem---1.12's SOT_GQdAP5 does not need preparation
+Bliksem---1.12   being executed on SOT_GQdAP5 using /home/tptp/Systems/Bliksem---1.12/run_bliksem '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+RESULT: SOT_GQdAP5 - Bliksem---1.12 says Unknown - CPU = 0.00 WC = 0.41 
+OUTPUT: SOT_GQdAP5 - Bliksem---1.12 says None - CPU = 0 WC = 0 
+CSE---1.0   system information being retrieved
+CSE---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_CSE %d %s
+CSE---1.0's SOT_GQdAP5 does not need preparation
+CSE---1.0   being executed on SOT_GQdAP5 using /home/tptp/Systems/CSE---1.0/run_CSE 999 '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+RESULT: SOT_GQdAP5 - CSE---1.0 says Theorem - CPU = 1.62 WC = 1.67 
+OUTPUT: SOT_GQdAP5 - CSE---1.0 says CNFRefutation - CPU = 1.62 WC = 1.68 
+CSE---1.1   system information being retrieved
+CSE---1.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_CSE %d %s
+CSE---1.1's SOT_GQdAP5 does not need preparation
+CSE---1.1   being executed on SOT_GQdAP5 using /home/tptp/Systems/CSE---1.1/run_CSE 999 '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+RESULT: SOT_GQdAP5 - CSE---1.1 says Theorem - CPU = 1.43 WC = 1.63 
+OUTPUT: SOT_GQdAP5 - CSE---1.1 says CNFRefutation - CPU = 1.43 WC = 1.64 
+CSE_E---1.0   system information being retrieved
+CSE_E---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_CSE %d %s
+CSE_E---1.0's SOT_GQdAP5 does not need preparation
+CSE_E---1.0   being executed on SOT_GQdAP5 using /home/tptp/Systems/CSE_E---1.0/run_CSE 999 '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+RESULT: SOT_GQdAP5 - CSE_E---1.0 says Theorem - CPU = 1.60 WC = 1.71 
+OUTPUT: SOT_GQdAP5 - CSE_E---1.0 says CNFRefutation - CPU = 1.60 WC = 1.71 
+Darwin---1.4.5   system information being retrieved
+Darwin---1.4.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x darwin -pl 0 -pmc true -to %d %s
+Darwin---1.4.5's SOT_GQdAP5 does not need preparation
+Darwin---1.4.5   being executed on SOT_GQdAP5 using /home/tptp/Systems/Darwin---1.4.5/darwin -pl 0 -pmc true -to 999 '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+RESULT: SOT_GQdAP5 - Darwin---1.4.5 says Theorem - CPU = 0.12 WC = 0.20 
+OUTPUT: SOT_GQdAP5 - Darwin---1.4.5 says Assurance - CPU = 0.12 WC = 0.20 
+DarwinFM---1.4.5   system information being retrieved
+DarwinFM---1.4.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x darwin -fd true -ppp true -pl 0 -to %d -pmtptp true %s
+DarwinFM---1.4.5's SOT_GQdAP5 does not need preparation
+DarwinFM---1.4.5   being executed on SOT_GQdAP5 using /home/tptp/Systems/DarwinFM---1.4.5/darwin -fd true -ppp true -pl 0 -to 999 -pmtptp true '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+RESULT: SOT_GQdAP5 - DarwinFM---1.4.5 says Theorem - CPU = 0.02 WC = 0.07 
+OUTPUT: SOT_GQdAP5 - DarwinFM---1.4.5 says Assurance - CPU = 0.02 WC = 0.07 
+E---2.3   system information being retrieved
+E---2.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x eprover --delete-bad-limit=2000000000 --definitional-cnf=24 -s --print-statistics -R --print-version --auto-schedule --proof-object --cpu-limit=%d %s
+E---2.3's SOT_GQdAP5 does not need preparation
+E---2.3   being executed on SOT_GQdAP5 using /home/tptp/Systems/E---2.3/eprover --delete-bad-limit=2000000000 --definitional-cnf=24 -s --print-statistics -R --print-version --auto-schedule --proof-object --cpu-limit=999 '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+RESULT: SOT_GQdAP5 - E---2.3 says Theorem - CPU = 0.00 WC = 0.04 
+OUTPUT: SOT_GQdAP5 - E---2.3 says CNFRefutation - CPU = 0.00 WC = 0.04 
+E---FNT-2.3   system information being retrieved
+E---FNT-2.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x eprover --delete-bad-limit=2000000000 --definitional-cnf=24 -s --print-statistics -R --print-version --proof-object --satauto-schedule --cpu-limit=%d %s
+E---FNT-2.3's SOT_GQdAP5 does not need preparation
+E---FNT-2.3   being executed on SOT_GQdAP5 using /home/tptp/Systems/E---FNT-2.3/eprover --delete-bad-limit=2000000000 --definitional-cnf=24 -s --print-statistics -R --print-version --proof-object --satauto-schedule --cpu-limit=999 '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+RESULT: SOT_GQdAP5 - E---FNT-2.3 says Theorem - CPU = 0.00 WC = 0.03 
+OUTPUT: SOT_GQdAP5 - E---FNT-2.3 says CNFRefutation - CPU = 0.00 WC = 0.03 
+E-Darwin---1.5   system information being retrieved
+E-Darwin---1.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x e-darwin -pev "TPTP" -pmd true -if tptp -pl 2 -pc false -ps false %s
+E-Darwin---1.5's SOT_GQdAP5 does not need preparation
+E-Darwin---1.5   being executed on SOT_GQdAP5 using /home/tptp/Systems/E-Darwin---1.5/e-darwin -pev "TPTP" -pmd true -if tptp -pl 2 -pc false -ps false '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+RESULT: SOT_GQdAP5 - E-Darwin---1.5 says Theorem - CPU = 0.24 WC = 0.34 
+OUTPUT: SOT_GQdAP5 - E-Darwin---1.5 says Assurance - CPU = 0.24 WC = 0.34 
+Equinox---6.0.1a   system information being retrieved
+Equinox---6.0.1a's non-default parameters being retrieved
+    -t none
+    -f tptp:short
+    -x equinox --modelfile /tmp/model --no-progress --time %d --tstp %s
+Equinox---6.0.1a's SOT_GQdAP5 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP45634 
+    -t none 
+    -f tptp:short
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5
+Equinox---6.0.1a   being executed on SOT_GQdAP5 using /home/tptp/Systems/Equinox---6.0.1a/equinox --modelfile /tmp/model --no-progress --time 999 --tstp '/tmp/SystemOnTPTP45634/SOT_GQdAP5.tptp:short'
+% 10 wall clock seconds gone, waiting for system output
+% 20 wall clock seconds gone, waiting for system output
+% 30 wall clock seconds gone, waiting for system output
+% 40 wall clock seconds gone, waiting for system output
+RESULT: SOT_GQdAP5 - Equinox---6.0.1a says Theorem - CPU = 33.98 WC = 34.07 
+OUTPUT: SOT_GQdAP5 - Equinox---6.0.1a says Assurance - CPU = 33.98 WC = 34.07 
+Fampire---1.3   system information being retrieved
+Fampire---1.3's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x FlotterOnTPTP.pl -f oldtptp -s vampire -t %d %s
+Fampire---1.3's SOT_GQdAP5 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP45773 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5
+Fampire---1.3   being executed on SOT_GQdAP5 using /home/tptp/Systems/Fampire---1.3/FlotterOnTPTP.pl -f oldtptp -s vampire -t 999 '/tmp/SystemOnTPTP45773/SOT_GQdAP5.tptp'
+RESULT: SOT_GQdAP5 - Fampire---1.3 says Theorem - CPU = 0.19 WC = 0.37 
+OUTPUT: SOT_GQdAP5 - Fampire---1.3 says Assurance - CPU = 0.19 WC = 0.37 
+Geo-III---2018C   system information being retrieved
+Geo-III---2018C's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x geo -tptp_input -nonempty -include /home/tptp/TPTP -inputfile %s
+Geo-III---2018C's SOT_GQdAP5 does not need preparation
+Geo-III---2018C   being executed on SOT_GQdAP5 using /home/tptp/Systems/Geo-III---2018C/geo -tptp_input -nonempty -include /home/tptp/TPTP -inputfile '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+% 50 wall clock seconds gone, waiting for system output
+% 60 wall clock seconds gone, waiting for system output
+% 70 wall clock seconds gone, waiting for system output
+% 80 wall clock seconds gone, waiting for system output
+% 90 wall clock seconds gone, waiting for system output
+% 100 wall clock seconds gone, waiting for system output
+% 110 wall clock seconds gone, waiting for system output
+% 120 wall clock seconds gone, waiting for system output
+% 130 wall clock seconds gone, waiting for system output
+% 140 wall clock seconds gone, waiting for system output
+% 150 wall clock seconds gone, waiting for system output
+% 160 wall clock seconds gone, waiting for system output
+% 170 wall clock seconds gone, waiting for system output
+% 180 wall clock seconds gone, waiting for system output
+% 190 wall clock seconds gone, waiting for system output
+% 200 wall clock seconds gone, waiting for system output
+% 210 wall clock seconds gone, waiting for system output
+% 220 wall clock seconds gone, waiting for system output
+% 230 wall clock seconds gone, waiting for system output
+% 240 wall clock seconds gone, waiting for system output
+% 250 wall clock seconds gone, waiting for system output
+% 260 wall clock seconds gone, waiting for system output
+% 270 wall clock seconds gone, waiting for system output
+% 280 wall clock seconds gone, waiting for system output
+% 290 wall clock seconds gone, waiting for system output
+% 300 wall clock seconds gone, waiting for system output
+% 310 wall clock seconds gone, waiting for system output
+% 320 wall clock seconds gone, waiting for system output
+% 330 wall clock seconds gone, waiting for system output
+% 340 wall clock seconds gone, waiting for system output
+% 350 wall clock seconds gone, waiting for system output
+% 360 wall clock seconds gone, waiting for system output
+% 370 wall clock seconds gone, waiting for system output
+% 380 wall clock seconds gone, waiting for system output
+% 390 wall clock seconds gone, waiting for system output
+% 400 wall clock seconds gone, waiting for system output
+% 410 wall clock seconds gone, waiting for system output
+% 420 wall clock seconds gone, waiting for system output
+% 430 wall clock seconds gone, waiting for system output
+% 440 wall clock seconds gone, waiting for system output
+% 450 wall clock seconds gone, waiting for system output
+% 460 wall clock seconds gone, waiting for system output
+% 470 wall clock seconds gone, waiting for system output
+% 480 wall clock seconds gone, waiting for system output
+% 490 wall clock seconds gone, waiting for system output
+% 500 wall clock seconds gone, waiting for system output
+% 510 wall clock seconds gone, waiting for system output
+% 520 wall clock seconds gone, waiting for system output
+% 530 wall clock seconds gone, waiting for system output
+% 540 wall clock seconds gone, waiting for system output
+% 550 wall clock seconds gone, waiting for system output
+% 560 wall clock seconds gone, waiting for system output
+% 570 wall clock seconds gone, waiting for system output
+% 580 wall clock seconds gone, waiting for system output
+% 590 wall clock seconds gone, waiting for system output
+% 600 wall clock seconds gone, waiting for system output
+% 610 wall clock seconds gone, waiting for system output
+% 620 wall clock seconds gone, waiting for system output
+% 630 wall clock seconds gone, waiting for system output
+% 640 wall clock seconds gone, waiting for system output
+% 650 wall clock seconds gone, waiting for system output
+% 660 wall clock seconds gone, waiting for system output
+% 670 wall clock seconds gone, waiting for system output
+% 680 wall clock seconds gone, waiting for system output
+% 690 wall clock seconds gone, waiting for system output
+% 700 wall clock seconds gone, waiting for system output
+% 710 wall clock seconds gone, waiting for system output
+% 720 wall clock seconds gone, waiting for system output
+% 730 wall clock seconds gone, waiting for system output
+% 740 wall clock seconds gone, waiting for system output
+% 750 wall clock seconds gone, waiting for system output
+% 760 wall clock seconds gone, waiting for system output
+% 770 wall clock seconds gone, waiting for system output
+% 780 wall clock seconds gone, waiting for system output
+% 790 wall clock seconds gone, waiting for system output
+% 800 wall clock seconds gone, waiting for system output
+% 810 wall clock seconds gone, waiting for system output
+% 820 wall clock seconds gone, waiting for system output
+% 830 wall clock seconds gone, waiting for system output
+% 840 wall clock seconds gone, waiting for system output
+% 850 wall clock seconds gone, waiting for system output
+% 860 wall clock seconds gone, waiting for system output
+% 870 wall clock seconds gone, waiting for system output
+% 880 wall clock seconds gone, waiting for system output
+% 890 wall clock seconds gone, waiting for system output
+% 900 wall clock seconds gone, waiting for system output
+% 910 wall clock seconds gone, waiting for system output
+% 920 wall clock seconds gone, waiting for system output
+% 930 wall clock seconds gone, waiting for system output
+% 940 wall clock seconds gone, waiting for system output
+% 950 wall clock seconds gone, waiting for system output
+% 960 wall clock seconds gone, waiting for system output
+% 970 wall clock seconds gone, waiting for system output
+% 980 wall clock seconds gone, waiting for system output
+% 990 wall clock seconds gone, waiting for system output
+% 1000 wall clock seconds gone, waiting for system output
+% 1010 wall clock seconds gone, waiting for system output
+% 1020 wall clock seconds gone, waiting for system output
+% 1030 wall clock seconds gone, waiting for system output
+% 1040 wall clock seconds gone, waiting for system output
+RESULT: SOT_GQdAP5 - Geo-III---2018C says Timeout - CPU = 999.06 WC = 999.51 
+OUTPUT: SOT_GQdAP5 - Geo-III---2018C says None - CPU = 0 WC = 0 
+iProver---2.8   system information being retrieved
+iProver---2.8's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x iproveropt_run.sh %d %s
+iProver---2.8's SOT_GQdAP5 does not need preparation
+iProver---2.8   being executed on SOT_GQdAP5 using /home/tptp/Systems/iProver---2.8/iproveropt_run.sh 999 '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+RESULT: SOT_GQdAP5 - iProver---2.8 says Unknown - CPU = 0.00 WC = 0.12  ILoops = 0 RLoops = 0 PropCalls = 0
+OUTPUT: SOT_GQdAP5 - iProver---2.8 says None - CPU = 0 WC = 0 
+iProver---SAT-2.8   system information being retrieved
+iProver---SAT-2.8's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x iproveropt_run_sat.sh %d %s
+iProver---SAT-2.8's SOT_GQdAP5 does not need preparation
+iProver---SAT-2.8   being executed on SOT_GQdAP5 using /home/tptp/Systems/iProver---SAT-2.8/iproveropt_run_sat.sh 999 '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+RESULT: SOT_GQdAP5 - iProver---SAT-2.8 says Theorem - CPU = 0.00 WC = 0.46  ILoops = 2102 RLoops = 100 PropCalls = 28
+OUTPUT: SOT_GQdAP5 - iProver---SAT-2.8 says CNFRefutation - CPU = 0.00 WC = 0.46 
+iProver-Eq---0.85   system information being retrieved
+iProver-Eq---0.85's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x iprover-cvc4-eq-nc --time_out_virtual %d %s
+iProver-Eq---0.85's SOT_GQdAP5 does not need preparation
+iProver-Eq---0.85   being executed on SOT_GQdAP5 using /home/tptp/Systems/iProver-Eq---0.85/iprover-cvc4-eq-nc --time_out_virtual 999 '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+RESULT: SOT_GQdAP5 - iProver-Eq---0.85 says Unknown - CPU = 0.00 WC = 0.01 
+OUTPUT: SOT_GQdAP5 - iProver-Eq---0.85 says None - CPU = 0 WC = 0 
+iProverMo---2.5-0.1   system information being retrieved
+iProverMo---2.5-0.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x bin/run_iProverMo %s %d
+iProverMo---2.5-0.1's SOT_GQdAP5 does not need preparation
+iProverMo---2.5-0.1   being executed on SOT_GQdAP5 using /home/tptp/Systems/iProverMo---2.5-0.1/bin/run_iProverMo '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5' 999
+RESULT: SOT_GQdAP5 - iProverMo---2.5-0.1 says Theorem - CPU = 0.00 WC = 0.21 
+OUTPUT: SOT_GQdAP5 - iProverMo---2.5-0.1 says CNFRefutation - CPU = 0.00 WC = 0.37 
+Isabelle---2016   system information being retrieved
+Isabelle---2016's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x Source/bin/isabelle tptp_isabelle %d %s
+Isabelle---2016's SOT_GQdAP5 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP50767 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5
+Isabelle---2016   being executed on SOT_GQdAP5 using /home/tptp/Systems/Isabelle---2016/Source/bin/isabelle tptp_isabelle 999 '/tmp/SystemOnTPTP50767/SOT_GQdAP5.tptp'
+% 1050 wall clock seconds gone, waiting for system output
+% 1060 wall clock seconds gone, waiting for system output
+% 1070 wall clock seconds gone, waiting for system output
+% 1080 wall clock seconds gone, waiting for system output
+% 1090 wall clock seconds gone, waiting for system output
+% 1100 wall clock seconds gone, waiting for system output
+% 1110 wall clock seconds gone, waiting for system output
+% 1120 wall clock seconds gone, waiting for system output
+% 1130 wall clock seconds gone, waiting for system output
+% 1140 wall clock seconds gone, waiting for system output
+% 1150 wall clock seconds gone, waiting for system output
+% 1160 wall clock seconds gone, waiting for system output
+% 1170 wall clock seconds gone, waiting for system output
+% 1180 wall clock seconds gone, waiting for system output
+% 1190 wall clock seconds gone, waiting for system output
+% 1200 wall clock seconds gone, waiting for system output
+% 1210 wall clock seconds gone, waiting for system output
+% 1220 wall clock seconds gone, waiting for system output
+% 1230 wall clock seconds gone, waiting for system output
+% 1240 wall clock seconds gone, waiting for system output
+% 1250 wall clock seconds gone, waiting for system output
+% 1260 wall clock seconds gone, waiting for system output
+% 1270 wall clock seconds gone, waiting for system output
+% 1280 wall clock seconds gone, waiting for system output
+% 1290 wall clock seconds gone, waiting for system output
+% 1300 wall clock seconds gone, waiting for system output
+% 1310 wall clock seconds gone, waiting for system output
+% 1320 wall clock seconds gone, waiting for system output
+RESULT: SOT_GQdAP5 - Isabelle---2016 says Theorem - CPU = 339.29 WC = 278.96  SolvedBy = z
+OUTPUT: SOT_GQdAP5 - Isabelle---2016 says Assurance - CPU = 339.29 WC = 278.96 
+Isabelle-HOT---2016   system information being retrieved
+Isabelle-HOT---2016's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x Source/bin/isabelle tptp_isabelle_hot %d %s
+Isabelle-HOT---2016's SOT_GQdAP5 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP52629 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5
+Isabelle-HOT---2016   being executed on SOT_GQdAP5 using /home/tptp/Systems/Isabelle-HOT---2016/Source/bin/isabelle tptp_isabelle_hot 999 '/tmp/SystemOnTPTP52629/SOT_GQdAP5.tptp'
+% 1330 wall clock seconds gone, waiting for system output
+% 1340 wall clock seconds gone, waiting for system output
+% 1350 wall clock seconds gone, waiting for system output
+% 1360 wall clock seconds gone, waiting for system output
+% 1370 wall clock seconds gone, waiting for system output
+% 1380 wall clock seconds gone, waiting for system output
+% 1390 wall clock seconds gone, waiting for system output
+% 1400 wall clock seconds gone, waiting for system output
+% 1410 wall clock seconds gone, waiting for system output
+% 1420 wall clock seconds gone, waiting for system output
+% 1430 wall clock seconds gone, waiting for system output
+% 1440 wall clock seconds gone, waiting for system output
+% 1450 wall clock seconds gone, waiting for system output
+% 1460 wall clock seconds gone, waiting for system output
+% 1470 wall clock seconds gone, waiting for system output
+% 1480 wall clock seconds gone, waiting for system output
+% 1490 wall clock seconds gone, waiting for system output
+% 1500 wall clock seconds gone, waiting for system output
+% 1510 wall clock seconds gone, waiting for system output
+% 1520 wall clock seconds gone, waiting for system output
+% 1530 wall clock seconds gone, waiting for system output
+% 1540 wall clock seconds gone, waiting for system output
+% 1550 wall clock seconds gone, waiting for system output
+% 1560 wall clock seconds gone, waiting for system output
+% 1570 wall clock seconds gone, waiting for system output
+% 1580 wall clock seconds gone, waiting for system output
+% 1590 wall clock seconds gone, waiting for system output
+% 1600 wall clock seconds gone, waiting for system output
+RESULT: SOT_GQdAP5 - Isabelle-HOT---2016 says Theorem - CPU = 332.56 WC = 275.82  SolvedBy = z
+OUTPUT: SOT_GQdAP5 - Isabelle-HOT---2016 says Assurance - CPU = 332.56 WC = 275.82 
+Paradox---4.0   system information being retrieved
+Paradox---4.0's non-default parameters being retrieved
+    -t none
+    -f tptp:short
+    -x paradox --no-progress --time %d --tstp --model %s
+Paradox---4.0's SOT_GQdAP5 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP54136 
+    -t none 
+    -f tptp:short
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5
+Paradox---4.0   being executed on SOT_GQdAP5 using /home/tptp/Systems/Paradox---4.0/paradox --no-progress --time 999 --tstp --model '/tmp/SystemOnTPTP54136/SOT_GQdAP5.tptp:short'
+% 1610 wall clock seconds gone, waiting for system output
+% 1620 wall clock seconds gone, waiting for system output
+% 1630 wall clock seconds gone, waiting for system output
+RESULT: SOT_GQdAP5 - Paradox---4.0 says Theorem - CPU = 28.03 WC = 28.03 
+OUTPUT: SOT_GQdAP5 - Paradox---4.0 says Assurance - CPU = 28.03 WC = 28.03 
+Princess---170717   system information being retrieved
+Princess---170717's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x princess-casc +printProof -timeout=%d %s
+Princess---170717's SOT_GQdAP5 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP54209 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5
+Princess---170717   being executed on SOT_GQdAP5 using /home/tptp/Systems/Princess---170717/princess-casc +printProof -timeout=999 '/tmp/SystemOnTPTP54209/SOT_GQdAP5.tptp'
+% 1640 wall clock seconds gone, waiting for system output
+RESULT: SOT_GQdAP5 - Princess---170717 says Theorem - CPU = 20.58 WC = 3.44 
+OUTPUT: SOT_GQdAP5 - Princess---170717 says Proof - CPU = 48.33 WC = 7.00 
+Scavenger---EP-0.2   system information being retrieved
+Scavenger---EP-0.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_scavenger %s
+Scavenger---EP-0.2's SOT_GQdAP5 does not need preparation
+Scavenger---EP-0.2   being executed on SOT_GQdAP5 using /home/tptp/Systems/Scavenger---EP-0.2/run_scavenger '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+% 1650 wall clock seconds gone, waiting for system output
+% 1660 wall clock seconds gone, waiting for system output
+% 1670 wall clock seconds gone, waiting for system output
+% 1680 wall clock seconds gone, waiting for system output
+RESULT: SOT_GQdAP5 - Scavenger---EP-0.2 says Theorem - CPU = 102.09 WC = 39.23 
+OUTPUT: SOT_GQdAP5 - Scavenger---EP-0.2 says CNFRefutation - CPU = 102.09 WC = 39.23 
+SNARK---20120808r022   system information being retrieved
+SNARK---20120808r022's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run-snark %s %d
+SNARK---20120808r022's SOT_GQdAP5 does not need preparation
+SNARK---20120808r022   being executed on SOT_GQdAP5 using /home/tptp/Systems/SNARK---20120808r022/run-snark '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5' 999
+RESULT: SOT_GQdAP5 - SNARK---20120808r022 says Theorem - CPU = 0.00 WC = 0.44  Derived = 994 Kept = 991
+OUTPUT: SOT_GQdAP5 - SNARK---20120808r022 says Refutation - CPU = 0.00 WC = 0.44 
+SPASS-XDB---0.8   system information being retrieved
+SPASS-XDB---0.8's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run-spass-xdb %s -EPrint=2
+SPASS-XDB---0.8's SOT_GQdAP5 does not need preparation
+SPASS-XDB---0.8   is unable to process that form of problem/solution
+RESULT: SOT_GQdAP5 - SPASS-XDB---0.8 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_GQdAP5 - SPASS-XDB---0.8 says None - CPU = 0 WC = 0 
+SPASS-XDB---0.8FOF   system information being retrieved
+SPASS-XDB---0.8FOF's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run-spass-xdb %s -EPrint=2
+SPASS-XDB---0.8FOF's SOT_GQdAP5 does not need preparation
+SPASS-XDB---0.8FOF   being executed on SOT_GQdAP5 using /home/tptp/Systems/SPASS-XDB---0.8FOF/run-spass-xdb '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5' -EPrint=2
+RESULT: SOT_GQdAP5 - SPASS-XDB---0.8FOF says Unknown - CPU = 0.00 WC = 0.02 
+OUTPUT: SOT_GQdAP5 - SPASS-XDB---0.8FOF says None - CPU = 0 WC = 0 
+Vampire---SAT-4.3   system information being retrieved
+Vampire---SAT-4.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x vampire --mode casc_sat -t %d %s
+Vampire---SAT-4.3's SOT_GQdAP5 does not need preparation
+Vampire---SAT-4.3   being executed on SOT_GQdAP5 using /home/tptp/Systems/Vampire---SAT-4.3/vampire --mode casc_sat -t 999 '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+RESULT: SOT_GQdAP5 - Vampire---SAT-4.3 says Unknown - CPU = 0.06 WC = 0.07 
+OUTPUT: SOT_GQdAP5 - Vampire---SAT-4.3 says None - CPU = 0 WC = 0 
+Z3---4.4.1   system information being retrieved
+Z3---4.4.1's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x run_z3_tptp -proof -model -t:%d -file:%s
+Z3---4.4.1's SOT_GQdAP5 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP54754 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5
+Z3---4.4.1   being executed on SOT_GQdAP5 using /home/tptp/Systems/Z3---4.4.1/run_z3_tptp -proof -model -t:999 -file:'/tmp/SystemOnTPTP54754/SOT_GQdAP5.tptp'
+% 1690 wall clock seconds gone, waiting for system output
+RESULT: SOT_GQdAP5 - Z3---4.4.1 says Theorem - CPU = 0.00 WC = 0.21 
+OUTPUT: SOT_GQdAP5 - Z3---4.4.1 says Proof - CPU = 7.67 WC = 7.71 
+Zenon---0.7.1   system information being retrieved
+Zenon---0.7.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_zenon %s %d
+Zenon---0.7.1's SOT_GQdAP5 does not need preparation
+Zenon---0.7.1   being executed on SOT_GQdAP5 using /home/tptp/Systems/Zenon---0.7.1/run_zenon '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5' 999
+RESULT: SOT_GQdAP5 - Zenon---0.7.1 says Theorem - CPU = 0.69 WC = 0.76 
+OUTPUT: SOT_GQdAP5 - Zenon---0.7.1 says Assurance - CPU = 0.69 WC = 0.76 
+ZenonModulo---0.4.2   system information being retrieved
+ZenonModulo---0.4.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_zenon_modulo %d %s
+ZenonModulo---0.4.2's SOT_GQdAP5 does not need preparation
+ZenonModulo---0.4.2   being executed on SOT_GQdAP5 using /home/tptp/Systems/ZenonModulo---0.4.2/run_zenon_modulo 999 '/tmp/SystemOnTPTPFormReply44865/SOT_GQdAP5'
+RESULT: SOT_GQdAP5 - ZenonModulo---0.4.2 says Theorem - CPU = 0.99 WC = 1.08  NodesSearch = 2170 MaxBranchF = 1166 ProofNodes = 205 Formulas = 14563
+OUTPUT: SOT_GQdAP5 - ZenonModulo---0.4.2 says Assurance - CPU = 0.99 WC = 1.08 

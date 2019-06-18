@@ -63,46 +63,13 @@ fof(isline_def, axiom,
 	( ![X]: (isline(X) <=> (X=abf | X=bcd | X=cae | X=adg | X=beg | X=cfg | X=def)))).
 
 fof(incid_type, axiom, ![X,Y]: ((incid(X,Y) | ~incid(X,Y)) => (ispoint(X) & isline(Y)))).
- 
-%fof(line_existence,conjecture,
-%    ( ![P,Q]: (?[X]: (incid(P,X) & incid(Q,X))))).
-    
-%fof(point_existence,conjecture,
-%	( ![L,M]: (?[X]: (incid(X,L) & incid(X,M))))).
-  
-%fof(line_uniqueness,conjecture,
-%  ( ![A,B,L,M]: ( 
-%                  (
-%                   incid(A,L) & incid(B,L) & incid(A,M) & incid(B,M)) =>
-%                   ( A=B | L=M)
-%                )
-%  )
-%  ).
 
-%fof(three_points,conjecture,
-%	( ![L]: (?[X,Y,Z]: (~X=Y & ~X=Z & ~Y=Z & incid(X,L) & incid(Y,L) & incid(Z,L))))).
-
-%fof(lower_dimension,conjecture,
-%	( ?[X,Y]: (isline(X) & isline(Y) & ~X=Y))).
-  
 fof(on_line_def,axiom,
 	(![A,B,C,L]: (on_line(A,B,C,L) <=> (incid(A,L) & incid(B,L) & incid(C,L))))).
  
 fof(coll_def,axiom,
 	(![A,B,C]: ( collinear(A,B,C) <=> (?[L]: (incid(A,L) & incid(B,L) & incid(C,L)))))).
 	
-fof(desargues_from_A,axiom,
-	(![P,Q,R,PP,QQ,RR,Alpha,Beta,Gamma,LPQ,LPR,LQR,LPPQQ,LPPRR,LQQRR]: 
-	(( on_line(P,Q,Gamma,LPQ) & on_line(PP,QQ,Gamma,LPPQQ) & on_line(P,R,Beta,LPR) & on_line (PP,RR,Beta,LPPRR) & on_line (Q,R,Alpha,LQR) & on_line (QQ,RR,Alpha,LQQRR) &
-	on_line(a,P,PP,adg) & on_line(a,Q,QQ,cae) & on_line(a,R,RR,abf) & (~ collinear(a,P,Q)) & (~ collinear(a,P,R)) & (~ collinear(a,Q,R)) & (~ collinear(P,Q,R)) & (~ collinear(PP,QQ,RR)) 
-	& ((~ P=PP) | (~ Q=QQ) | (~ R=RR))) => (collinear(Alpha,Beta,Gamma))))).
-	
-fof(desargues,conjecture,
-	(![P,Q,R,PP,QQ,RR,Alpha,Beta,Gamma,LP,LQ,LR,LPQ,LPR,LQR,LPPQQ,LPPRR,LQQRR]: 
-	(( on_line(P,Q,Gamma,LPQ) & on_line(PP,QQ,Gamma,LPPQQ) & on_line(P,R,Beta,LPR) & on_line (PP,RR,Beta,LPPRR) & on_line (Q,R,Alpha,LQR) & on_line (QQ,RR,Alpha,LQQRR) &
-	on_line(a,P,PP,LP) & on_line(a,Q,QQ,LQ) & on_line(a,R,RR,LR) & (~ collinear(a,P,Q)) & (~ collinear(a,P,R)) & (~ collinear(a,Q,R)) & (~ collinear(P,Q,R)) & (~ collinear(PP,QQ,RR)) 
-	& ((~ P=PP) | (~ Q=QQ) | (~ R=RR))) => (collinear(Alpha,Beta,Gamma))))).
-
 fof(desargues,conjecture,
 	(![O,P,Q,R,PP,QQ,RR,Alpha,Beta,Gamma,LP,LQ,LR,LPQ,LPR,LQR,LPPQQ,LPPRR,LQQRR]: 
 	(( on_line(P,Q,Gamma,LPQ) & on_line(PP,QQ,Gamma,LPPQQ) & on_line(P,R,Beta,LPR) & on_line (PP,RR,Beta,LPPRR) & on_line (Q,R,Alpha,LQR) & on_line (QQ,RR,Alpha,LQQRR) &

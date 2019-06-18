@@ -1,0 +1,440 @@
+% SZS start RequiredInformation
+% Congratulations - you have become a registered power user of SystemOnTPTP, at IP address 130.79.90.80.
+% Please consider donating to the TPTP project - see www.tptp.org for details.
+% When you donate this message will disappear.
+% If you do not donate a random delay might be added to your processing time.
+% SZS end RequiredInformation
+Bliksem---1.12   system information being retrieved
+Bliksem---1.12's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_bliksem %s
+Bliksem---1.12's SOT_MotLBj does not need preparation
+Bliksem---1.12   being executed on SOT_MotLBj using /home/tptp/Systems/Bliksem---1.12/run_bliksem '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+RESULT: SOT_MotLBj - Bliksem---1.12 says Unknown - CPU = 0.40 WC = 0.47 
+OUTPUT: SOT_MotLBj - Bliksem---1.12 says None - CPU = 0 WC = 0 
+CSE---1.0   system information being retrieved
+CSE---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_CSE %d %s
+CSE---1.0's SOT_MotLBj does not need preparation
+CSE---1.0   being executed on SOT_MotLBj using /home/tptp/Systems/CSE---1.0/run_CSE 999 '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+RESULT: SOT_MotLBj - CSE---1.0 says Theorem - CPU = 1.75 WC = 1.91 
+OUTPUT: SOT_MotLBj - CSE---1.0 says CNFRefutation - CPU = 1.90 WC = 1.92 
+CSE---1.1   system information being retrieved
+CSE---1.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_CSE %d %s
+CSE---1.1's SOT_MotLBj does not need preparation
+CSE---1.1   being executed on SOT_MotLBj using /home/tptp/Systems/CSE---1.1/run_CSE 999 '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+RESULT: SOT_MotLBj - CSE---1.1 says Theorem - CPU = 1.85 WC = 1.80 
+OUTPUT: SOT_MotLBj - CSE---1.1 says CNFRefutation - CPU = 1.85 WC = 1.81 
+CSE_E---1.0   system information being retrieved
+CSE_E---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_CSE %d %s
+CSE_E---1.0's SOT_MotLBj does not need preparation
+CSE_E---1.0   being executed on SOT_MotLBj using /home/tptp/Systems/CSE_E---1.0/run_CSE 999 '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+RESULT: SOT_MotLBj - CSE_E---1.0 says Theorem - CPU = 1.89 WC = 1.79 
+OUTPUT: SOT_MotLBj - CSE_E---1.0 says CNFRefutation - CPU = 1.89 WC = 1.79 
+Darwin---1.4.5   system information being retrieved
+Darwin---1.4.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x darwin -pl 0 -pmc true -to %d %s
+Darwin---1.4.5's SOT_MotLBj does not need preparation
+Darwin---1.4.5   being executed on SOT_MotLBj using /home/tptp/Systems/Darwin---1.4.5/darwin -pl 0 -pmc true -to 999 '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+RESULT: SOT_MotLBj - Darwin---1.4.5 says Theorem - CPU = 0.07 WC = 0.13 
+OUTPUT: SOT_MotLBj - Darwin---1.4.5 says Assurance - CPU = 0.07 WC = 0.13 
+DarwinFM---1.4.5   system information being retrieved
+DarwinFM---1.4.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x darwin -fd true -ppp true -pl 0 -to %d -pmtptp true %s
+DarwinFM---1.4.5's SOT_MotLBj does not need preparation
+DarwinFM---1.4.5   being executed on SOT_MotLBj using /home/tptp/Systems/DarwinFM---1.4.5/darwin -fd true -ppp true -pl 0 -to 999 -pmtptp true '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+RESULT: SOT_MotLBj - DarwinFM---1.4.5 says Theorem - CPU = 0.00 WC = 0.08 
+OUTPUT: SOT_MotLBj - DarwinFM---1.4.5 says Assurance - CPU = 0.00 WC = 0.08 
+E---2.3   system information being retrieved
+E---2.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x eprover --delete-bad-limit=2000000000 --definitional-cnf=24 -s --print-statistics -R --print-version --auto-schedule --proof-object --cpu-limit=%d %s
+E---2.3's SOT_MotLBj does not need preparation
+% 10 wall clock seconds gone, waiting for system output
+E---2.3   being executed on SOT_MotLBj using /home/tptp/Systems/E---2.3/eprover --delete-bad-limit=2000000000 --definitional-cnf=24 -s --print-statistics -R --print-version --auto-schedule --proof-object --cpu-limit=999 '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+RESULT: SOT_MotLBj - E---2.3 says Theorem - CPU = 0.00 WC = 0.04 
+OUTPUT: SOT_MotLBj - E---2.3 says CNFRefutation - CPU = 0.00 WC = 0.04 
+E---FNT-2.3   system information being retrieved
+E---FNT-2.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x eprover --delete-bad-limit=2000000000 --definitional-cnf=24 -s --print-statistics -R --print-version --proof-object --satauto-schedule --cpu-limit=%d %s
+E---FNT-2.3's SOT_MotLBj does not need preparation
+E---FNT-2.3   being executed on SOT_MotLBj using /home/tptp/Systems/E---FNT-2.3/eprover --delete-bad-limit=2000000000 --definitional-cnf=24 -s --print-statistics -R --print-version --proof-object --satauto-schedule --cpu-limit=999 '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+RESULT: SOT_MotLBj - E---FNT-2.3 says Theorem - CPU = 0.00 WC = 0.04 
+OUTPUT: SOT_MotLBj - E---FNT-2.3 says CNFRefutation - CPU = 0.00 WC = 0.04 
+E-Darwin---1.5   system information being retrieved
+E-Darwin---1.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x e-darwin -pev "TPTP" -pmd true -if tptp -pl 2 -pc false -ps false %s
+E-Darwin---1.5's SOT_MotLBj does not need preparation
+E-Darwin---1.5   being executed on SOT_MotLBj using /home/tptp/Systems/E-Darwin---1.5/e-darwin -pev "TPTP" -pmd true -if tptp -pl 2 -pc false -ps false '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+RESULT: SOT_MotLBj - E-Darwin---1.5 says Theorem - CPU = 0.15 WC = 0.20 
+OUTPUT: SOT_MotLBj - E-Darwin---1.5 says Assurance - CPU = 0.15 WC = 0.20 
+Equinox---6.0.1a   system information being retrieved
+Equinox---6.0.1a's non-default parameters being retrieved
+    -t none
+    -f tptp:short
+    -x equinox --modelfile /tmp/model --no-progress --time %d --tstp %s
+Equinox---6.0.1a's SOT_MotLBj being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP119113 
+    -t none 
+    -f tptp:short
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply118471/SOT_MotLBj
+Equinox---6.0.1a   being executed on SOT_MotLBj using /home/tptp/Systems/Equinox---6.0.1a/equinox --modelfile /tmp/model --no-progress --time 999 --tstp '/tmp/SystemOnTPTP119113/SOT_MotLBj.tptp:short'
+RESULT: SOT_MotLBj - Equinox---6.0.1a says Theorem - CPU = 7.13 WC = 7.14 
+OUTPUT: SOT_MotLBj - Equinox---6.0.1a says Assurance - CPU = 7.13 WC = 7.14 
+Fampire---1.3   system information being retrieved
+Fampire---1.3's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x FlotterOnTPTP.pl -f oldtptp -s vampire -t %d %s
+Fampire---1.3's SOT_MotLBj being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP119172 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply118471/SOT_MotLBj
+Fampire---1.3   being executed on SOT_MotLBj using /home/tptp/Systems/Fampire---1.3/FlotterOnTPTP.pl -f oldtptp -s vampire -t 999 '/tmp/SystemOnTPTP119172/SOT_MotLBj.tptp'
+% 20 wall clock seconds gone, waiting for system output
+RESULT: SOT_MotLBj - Fampire---1.3 says Theorem - CPU = 0.19 WC = 0.30 
+OUTPUT: SOT_MotLBj - Fampire---1.3 says Assurance - CPU = 0.19 WC = 0.30 
+Geo-III---2018C   system information being retrieved
+Geo-III---2018C's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x geo -tptp_input -nonempty -include /home/tptp/TPTP -inputfile %s
+Geo-III---2018C's SOT_MotLBj does not need preparation
+Geo-III---2018C   being executed on SOT_MotLBj using /home/tptp/Systems/Geo-III---2018C/geo -tptp_input -nonempty -include /home/tptp/TPTP -inputfile '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+% 30 wall clock seconds gone, waiting for system output
+% 40 wall clock seconds gone, waiting for system output
+% 50 wall clock seconds gone, waiting for system output
+% 60 wall clock seconds gone, waiting for system output
+% 70 wall clock seconds gone, waiting for system output
+% 80 wall clock seconds gone, waiting for system output
+% 90 wall clock seconds gone, waiting for system output
+% 100 wall clock seconds gone, waiting for system output
+% 110 wall clock seconds gone, waiting for system output
+% 120 wall clock seconds gone, waiting for system output
+% 130 wall clock seconds gone, waiting for system output
+% 140 wall clock seconds gone, waiting for system output
+% 150 wall clock seconds gone, waiting for system output
+% 160 wall clock seconds gone, waiting for system output
+% 170 wall clock seconds gone, waiting for system output
+% 180 wall clock seconds gone, waiting for system output
+% 190 wall clock seconds gone, waiting for system output
+% 200 wall clock seconds gone, waiting for system output
+% 210 wall clock seconds gone, waiting for system output
+% 220 wall clock seconds gone, waiting for system output
+% 230 wall clock seconds gone, waiting for system output
+% 240 wall clock seconds gone, waiting for system output
+% 250 wall clock seconds gone, waiting for system output
+% 260 wall clock seconds gone, waiting for system output
+% 270 wall clock seconds gone, waiting for system output
+% 280 wall clock seconds gone, waiting for system output
+% 290 wall clock seconds gone, waiting for system output
+% 300 wall clock seconds gone, waiting for system output
+% 310 wall clock seconds gone, waiting for system output
+% 320 wall clock seconds gone, waiting for system output
+% 330 wall clock seconds gone, waiting for system output
+% 340 wall clock seconds gone, waiting for system output
+% 350 wall clock seconds gone, waiting for system output
+% 360 wall clock seconds gone, waiting for system output
+% 370 wall clock seconds gone, waiting for system output
+% 380 wall clock seconds gone, waiting for system output
+% 390 wall clock seconds gone, waiting for system output
+% 400 wall clock seconds gone, waiting for system output
+% 410 wall clock seconds gone, waiting for system output
+% 420 wall clock seconds gone, waiting for system output
+% 430 wall clock seconds gone, waiting for system output
+% 440 wall clock seconds gone, waiting for system output
+% 450 wall clock seconds gone, waiting for system output
+% 460 wall clock seconds gone, waiting for system output
+% 470 wall clock seconds gone, waiting for system output
+% 480 wall clock seconds gone, waiting for system output
+% 490 wall clock seconds gone, waiting for system output
+% 500 wall clock seconds gone, waiting for system output
+% 510 wall clock seconds gone, waiting for system output
+% 520 wall clock seconds gone, waiting for system output
+% 530 wall clock seconds gone, waiting for system output
+% 540 wall clock seconds gone, waiting for system output
+% 550 wall clock seconds gone, waiting for system output
+% 560 wall clock seconds gone, waiting for system output
+% 570 wall clock seconds gone, waiting for system output
+% 580 wall clock seconds gone, waiting for system output
+% 590 wall clock seconds gone, waiting for system output
+% 600 wall clock seconds gone, waiting for system output
+% 610 wall clock seconds gone, waiting for system output
+% 620 wall clock seconds gone, waiting for system output
+% 630 wall clock seconds gone, waiting for system output
+% 640 wall clock seconds gone, waiting for system output
+% 650 wall clock seconds gone, waiting for system output
+% 660 wall clock seconds gone, waiting for system output
+% 670 wall clock seconds gone, waiting for system output
+% 680 wall clock seconds gone, waiting for system output
+% 690 wall clock seconds gone, waiting for system output
+% 700 wall clock seconds gone, waiting for system output
+% 710 wall clock seconds gone, waiting for system output
+% 720 wall clock seconds gone, waiting for system output
+% 730 wall clock seconds gone, waiting for system output
+% 740 wall clock seconds gone, waiting for system output
+% 750 wall clock seconds gone, waiting for system output
+% 760 wall clock seconds gone, waiting for system output
+% 770 wall clock seconds gone, waiting for system output
+% 780 wall clock seconds gone, waiting for system output
+% 790 wall clock seconds gone, waiting for system output
+% 800 wall clock seconds gone, waiting for system output
+% 810 wall clock seconds gone, waiting for system output
+% 820 wall clock seconds gone, waiting for system output
+% 830 wall clock seconds gone, waiting for system output
+% 840 wall clock seconds gone, waiting for system output
+% 850 wall clock seconds gone, waiting for system output
+% 860 wall clock seconds gone, waiting for system output
+% 870 wall clock seconds gone, waiting for system output
+% 880 wall clock seconds gone, waiting for system output
+% 890 wall clock seconds gone, waiting for system output
+% 900 wall clock seconds gone, waiting for system output
+% 910 wall clock seconds gone, waiting for system output
+% 920 wall clock seconds gone, waiting for system output
+% 930 wall clock seconds gone, waiting for system output
+% 940 wall clock seconds gone, waiting for system output
+% 950 wall clock seconds gone, waiting for system output
+% 960 wall clock seconds gone, waiting for system output
+% 970 wall clock seconds gone, waiting for system output
+% 980 wall clock seconds gone, waiting for system output
+% 990 wall clock seconds gone, waiting for system output
+% 1000 wall clock seconds gone, waiting for system output
+% 1010 wall clock seconds gone, waiting for system output
+% 1020 wall clock seconds gone, waiting for system output
+RESULT: SOT_MotLBj - Geo-III---2018C says Timeout - CPU = 999.07 WC = 999.75 
+OUTPUT: SOT_MotLBj - Geo-III---2018C says None - CPU = 0 WC = 0 
+iProver---2.8   system information being retrieved
+iProver---2.8's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x iproveropt_run.sh %d %s
+iProver---2.8's SOT_MotLBj does not need preparation
+iProver---2.8   being executed on SOT_MotLBj using /home/tptp/Systems/iProver---2.8/iproveropt_run.sh 999 '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+RESULT: SOT_MotLBj - iProver---2.8 says Unknown - CPU = 0.00 WC = 0.11  ILoops = 0 RLoops = 0 PropCalls = 0
+OUTPUT: SOT_MotLBj - iProver---2.8 says None - CPU = 0 WC = 0 
+iProver---SAT-2.8   system information being retrieved
+iProver---SAT-2.8's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x iproveropt_run_sat.sh %d %s
+iProver---SAT-2.8's SOT_MotLBj does not need preparation
+iProver---SAT-2.8   being executed on SOT_MotLBj using /home/tptp/Systems/iProver---SAT-2.8/iproveropt_run_sat.sh 999 '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+RESULT: SOT_MotLBj - iProver---SAT-2.8 says Theorem - CPU = 0.00 WC = 0.57  ILoops = 690 RLoops = 100 PropCalls = 26
+OUTPUT: SOT_MotLBj - iProver---SAT-2.8 says CNFRefutation - CPU = 0.00 WC = 0.57 
+iProver-Eq---0.85   system information being retrieved
+iProver-Eq---0.85's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x iprover-cvc4-eq-nc --time_out_virtual %d %s
+iProver-Eq---0.85's SOT_MotLBj does not need preparation
+iProver-Eq---0.85   being executed on SOT_MotLBj using /home/tptp/Systems/iProver-Eq---0.85/iprover-cvc4-eq-nc --time_out_virtual 999 '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+RESULT: SOT_MotLBj - iProver-Eq---0.85 says Unknown - CPU = 0.00 WC = 0.00 
+OUTPUT: SOT_MotLBj - iProver-Eq---0.85 says None - CPU = 0 WC = 0 
+iProverMo---2.5-0.1   system information being retrieved
+iProverMo---2.5-0.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x bin/run_iProverMo %s %d
+iProverMo---2.5-0.1's SOT_MotLBj does not need preparation
+iProverMo---2.5-0.1   being executed on SOT_MotLBj using /home/tptp/Systems/iProverMo---2.5-0.1/bin/run_iProverMo '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj' 999
+RESULT: SOT_MotLBj - iProverMo---2.5-0.1 says Theorem - CPU = 0.01 WC = 0.21 
+OUTPUT: SOT_MotLBj - iProverMo---2.5-0.1 says CNFRefutation - CPU = 0.01 WC = 0.30 
+Isabelle---2016   system information being retrieved
+Isabelle---2016's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x Source/bin/isabelle tptp_isabelle %d %s
+Isabelle---2016's SOT_MotLBj being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP119661 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply118471/SOT_MotLBj
+Isabelle---2016   being executed on SOT_MotLBj using /home/tptp/Systems/Isabelle---2016/Source/bin/isabelle tptp_isabelle 999 '/tmp/SystemOnTPTP119661/SOT_MotLBj.tptp'
+% 1030 wall clock seconds gone, waiting for system output
+% 1040 wall clock seconds gone, waiting for system output
+% 1050 wall clock seconds gone, waiting for system output
+% 1060 wall clock seconds gone, waiting for system output
+% 1070 wall clock seconds gone, waiting for system output
+% 1080 wall clock seconds gone, waiting for system output
+% 1090 wall clock seconds gone, waiting for system output
+% 1100 wall clock seconds gone, waiting for system output
+% 1110 wall clock seconds gone, waiting for system output
+% 1120 wall clock seconds gone, waiting for system output
+% 1130 wall clock seconds gone, waiting for system output
+% 1140 wall clock seconds gone, waiting for system output
+% 1150 wall clock seconds gone, waiting for system output
+RESULT: SOT_MotLBj - Isabelle---2016 says Theorem - CPU = 187.81 WC = 125.04  SolvedBy = auto
+OUTPUT: SOT_MotLBj - Isabelle---2016 says Assurance - CPU = 187.81 WC = 125.04 
+Isabelle-HOT---2016   system information being retrieved
+Isabelle-HOT---2016's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x Source/bin/isabelle tptp_isabelle_hot %d %s
+Isabelle-HOT---2016's SOT_MotLBj being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP119989 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply118471/SOT_MotLBj
+Isabelle-HOT---2016   being executed on SOT_MotLBj using /home/tptp/Systems/Isabelle-HOT---2016/Source/bin/isabelle tptp_isabelle_hot 999 '/tmp/SystemOnTPTP119989/SOT_MotLBj.tptp'
+% 1160 wall clock seconds gone, waiting for system output
+% 1170 wall clock seconds gone, waiting for system output
+% 1180 wall clock seconds gone, waiting for system output
+% 1190 wall clock seconds gone, waiting for system output
+% 1200 wall clock seconds gone, waiting for system output
+% 1210 wall clock seconds gone, waiting for system output
+% 1220 wall clock seconds gone, waiting for system output
+% 1230 wall clock seconds gone, waiting for system output
+% 1240 wall clock seconds gone, waiting for system output
+% 1250 wall clock seconds gone, waiting for system output
+% 1260 wall clock seconds gone, waiting for system output
+% 1270 wall clock seconds gone, waiting for system output
+RESULT: SOT_MotLBj - Isabelle-HOT---2016 says Theorem - CPU = 189.47 WC = 126.31  SolvedBy = auto
+OUTPUT: SOT_MotLBj - Isabelle-HOT---2016 says Assurance - CPU = 189.47 WC = 126.31 
+Paradox---4.0   system information being retrieved
+Paradox---4.0's non-default parameters being retrieved
+    -t none
+    -f tptp:short
+    -x paradox --no-progress --time %d --tstp --model %s
+Paradox---4.0's SOT_MotLBj being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP120412 
+    -t none 
+    -f tptp:short
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply118471/SOT_MotLBj
+Paradox---4.0   being executed on SOT_MotLBj using /home/tptp/Systems/Paradox---4.0/paradox --no-progress --time 999 --tstp --model '/tmp/SystemOnTPTP120412/SOT_MotLBj.tptp:short'
+% 1280 wall clock seconds gone, waiting for system output
+RESULT: SOT_MotLBj - Paradox---4.0 says Theorem - CPU = 6.06 WC = 6.10 
+OUTPUT: SOT_MotLBj - Paradox---4.0 says Assurance - CPU = 6.06 WC = 6.10 
+Princess---170717   system information being retrieved
+Princess---170717's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x princess-casc +printProof -timeout=%d %s
+Princess---170717's SOT_MotLBj being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP120460 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply118471/SOT_MotLBj
+Princess---170717   being executed on SOT_MotLBj using /home/tptp/Systems/Princess---170717/princess-casc +printProof -timeout=999 '/tmp/SystemOnTPTP120460/SOT_MotLBj.tptp'
+RESULT: SOT_MotLBj - Princess---170717 says Theorem - CPU = 14.18 WC = 2.68 
+OUTPUT: SOT_MotLBj - Princess---170717 says Proof - CPU = 33.35 WC = 4.71 
+Scavenger---EP-0.2   system information being retrieved
+Scavenger---EP-0.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_scavenger %s
+Scavenger---EP-0.2's SOT_MotLBj does not need preparation
+% 1290 wall clock seconds gone, waiting for system output
+Scavenger---EP-0.2   being executed on SOT_MotLBj using /home/tptp/Systems/Scavenger---EP-0.2/run_scavenger '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+% 1300 wall clock seconds gone, waiting for system output
+RESULT: SOT_MotLBj - Scavenger---EP-0.2 says Theorem - CPU = 58.13 WC = 19.52 
+OUTPUT: SOT_MotLBj - Scavenger---EP-0.2 says CNFRefutation - CPU = 58.13 WC = 19.53 
+% 1310 wall clock seconds gone, waiting for system output
+SNARK---20120808r022   system information being retrieved
+SNARK---20120808r022's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run-snark %s %d
+SNARK---20120808r022's SOT_MotLBj does not need preparation
+SNARK---20120808r022   being executed on SOT_MotLBj using /home/tptp/Systems/SNARK---20120808r022/run-snark '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj' 999
+RESULT: SOT_MotLBj - SNARK---20120808r022 says Theorem - CPU = 0.00 WC = 0.22  Derived = 474 Kept = 471
+OUTPUT: SOT_MotLBj - SNARK---20120808r022 says Refutation - CPU = 0.00 WC = 0.22 
+SPASS-XDB---0.8   system information being retrieved
+SPASS-XDB---0.8's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run-spass-xdb %s -EPrint=2
+SPASS-XDB---0.8's SOT_MotLBj does not need preparation
+SPASS-XDB---0.8   is unable to process that form of problem/solution
+RESULT: SOT_MotLBj - SPASS-XDB---0.8 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_MotLBj - SPASS-XDB---0.8 says None - CPU = 0 WC = 0 
+SPASS-XDB---0.8FOF   system information being retrieved
+SPASS-XDB---0.8FOF's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run-spass-xdb %s -EPrint=2
+SPASS-XDB---0.8FOF's SOT_MotLBj does not need preparation
+SPASS-XDB---0.8FOF   being executed on SOT_MotLBj using /home/tptp/Systems/SPASS-XDB---0.8FOF/run-spass-xdb '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj' -EPrint=2
+RESULT: SOT_MotLBj - SPASS-XDB---0.8FOF says Unknown - CPU = 0.00 WC = 0.01 
+OUTPUT: SOT_MotLBj - SPASS-XDB---0.8FOF says None - CPU = 0 WC = 0 
+Vampire---4.3   system information being retrieved
+Vampire---4.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x vampire --mode casc -t %d %s
+Vampire---4.3's SOT_MotLBj does not need preparation
+Vampire---4.3   being executed on SOT_MotLBj using /home/tptp/Systems/Vampire---4.3/vampire --mode casc -t 999 '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+RESULT: SOT_MotLBj - Vampire---4.3 says Unknown - CPU = 0.03 WC = 0.05 
+OUTPUT: SOT_MotLBj - Vampire---4.3 says None - CPU = 0 WC = 0 
+Vampire---SAT-4.3   system information being retrieved
+Vampire---SAT-4.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x vampire --mode casc_sat -t %d %s
+Vampire---SAT-4.3's SOT_MotLBj does not need preparation
+Vampire---SAT-4.3   being executed on SOT_MotLBj using /home/tptp/Systems/Vampire---SAT-4.3/vampire --mode casc_sat -t 999 '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+RESULT: SOT_MotLBj - Vampire---SAT-4.3 says Unknown - CPU = 0.03 WC = 0.04 
+OUTPUT: SOT_MotLBj - Vampire---SAT-4.3 says None - CPU = 0 WC = 0 
+Z3---4.4.1   system information being retrieved
+Z3---4.4.1's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x run_z3_tptp -proof -model -t:%d -file:%s
+Z3---4.4.1's SOT_MotLBj being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP120847 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply118471/SOT_MotLBj
+Z3---4.4.1   being executed on SOT_MotLBj using /home/tptp/Systems/Z3---4.4.1/run_z3_tptp -proof -model -t:999 -file:'/tmp/SystemOnTPTP120847/SOT_MotLBj.tptp'
+RESULT: SOT_MotLBj - Z3---4.4.1 says Theorem - CPU = 0.00 WC = 0.15 
+OUTPUT: SOT_MotLBj - Z3---4.4.1 says Proof - CPU = 1.84 WC = 1.88 
+Zenon---0.7.1   system information being retrieved
+Zenon---0.7.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_zenon %s %d
+Zenon---0.7.1's SOT_MotLBj does not need preparation
+Zenon---0.7.1   being executed on SOT_MotLBj using /home/tptp/Systems/Zenon---0.7.1/run_zenon '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj' 999
+RESULT: SOT_MotLBj - Zenon---0.7.1 says Theorem - CPU = 0.00 WC = 0.23 
+OUTPUT: SOT_MotLBj - Zenon---0.7.1 says Assurance - CPU = 0.00 WC = 0.23 
+ZenonModulo---0.4.2   system information being retrieved
+ZenonModulo---0.4.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_zenon_modulo %d %s
+ZenonModulo---0.4.2's SOT_MotLBj does not need preparation
+ZenonModulo---0.4.2   being executed on SOT_MotLBj using /home/tptp/Systems/ZenonModulo---0.4.2/run_zenon_modulo 999 '/tmp/SystemOnTPTPFormReply118471/SOT_MotLBj'
+RESULT: SOT_MotLBj - ZenonModulo---0.4.2 says Theorem - CPU = 0.00 WC = 0.38  NodesSearch = 2170 MaxBranchF = 646 ProofNodes = 205 Formulas = 8680
+OUTPUT: SOT_MotLBj - ZenonModulo---0.4.2 says Assurance - CPU = 0.00 WC = 0.38 

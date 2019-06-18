@@ -1,0 +1,494 @@
+fof(incidpg24,axiom,
+    ( 
+        ~incid(p0, l0) &
+        incid(p1, l0) &
+        incid(p2, l0) &
+        ~incid(p3, l0) &
+        ~incid(p4, l0) &
+          incid(p5, l0) &
+        ~incid(p6, l0) &
+        ~incid(p7, l0) &
+        ~incid(p8, l0) &
+        ~incid(p9, l0) &
+        ~incid(p10, l0) &
+        ~incid(p11, l0) &
+        ~incid(p12, l0) &
+        ~incid(p13, l0) &
+        ~incid(p14, l0) &
+        incid(p15, l0) &
+        ~incid(p16, l0) &
+        incid(p17, l0) &
+        ~incid(p18, l0) &
+        ~incid(p19, l0) &
+        ~incid(p20, l0) &
+
+        ~incid(p0, l1) &
+        ~incid(p1, l1) &
+        incid(p2, l1) &
+        incid(p3, l1) &
+        ~incid(p4, l1) &
+        ~incid(p5, l1) &
+        incid(p6, l1) &
+        ~incid(p7, l1) &
+        ~incid(p8, l1) &
+        ~incid(p9, l1) &
+        ~incid(p10, l1) &
+        ~incid(p11, l1) &
+        ~incid(p12, l1) &
+        ~incid(p13, l1) &
+        ~incid(p14, l1) &
+        ~incid(p15, l1) &
+        incid(p16, l1) &
+        ~incid(p17, l1) &
+        incid(p18, l1) &
+        ~incid(p19, l1) &
+        ~incid(p20, l1) &
+
+        ~incid(p0, l2) &
+        ~incid(p1, l2) &
+        ~incid(p2, l2) &
+        incid(p3, l2) &
+        incid(p4, l2) &
+        ~incid(p5, l2) &
+        ~incid(p6, l2) &
+        incid(p7, l2) &
+        ~incid(p8, l2) &
+        ~incid(p9, l2) &
+        ~incid(p10, l2) &
+        ~incid(p11, l2) &
+        ~incid(p12, l2) &
+        ~incid(p13, l2) &
+        ~incid(p14, l2) &
+        ~incid(p15, l2) &
+        ~incid(p16, l2) &
+        incid(p17, l2) &
+        ~incid(p18, l2) &
+        incid(p19, l2) &
+        ~incid(p20, l2) &
+
+        ~incid(p0, l3) &
+        ~incid(p1, l3) &
+        ~incid(p2, l3) &
+        ~incid(p3, l3) &
+        incid(p4, l3) &
+        incid(p5, l3) &
+        ~incid(p6, l3) &
+        ~incid(p7, l3) &
+        incid(p8, l3) &
+        ~incid(p9, l3) &
+        ~incid(p10, l3) &
+        ~incid(p11, l3) &
+        ~incid(p12, l3) &
+        ~incid(p13, l3) &
+        ~incid(p14, l3) &
+        ~incid(p15, l3) &
+        ~incid(p16, l3) &
+        ~incid(p17, l3) &
+        incid(p18, l3) &
+        ~incid(p19, l3) &
+        incid(p20, l3) &
+
+        incid(p0, l4) &
+        ~incid(p1, l4) &
+        ~incid(p2, l4) &
+        ~incid(p3, l4) &
+        ~incid(p4, l4) &
+        incid(p5, l4) &
+        incid(p6, l4) &
+        ~incid(p7, l4) &
+        ~incid(p8, l4) &
+        incid(p9, l4) &
+        ~incid(p10, l4) &
+        ~incid(p11, l4) &
+        ~incid(p12, l4) &
+        ~incid(p13, l4) &
+        ~incid(p14, l4) &
+        ~incid(p15, l4) &
+        ~incid(p16, l4) &
+        ~incid(p17, l4) &
+        ~incid(p18, l4) &
+        incid(p19, l4) &
+        ~incid(p20, l4) &
+
+        ~incid(p0, l5) &
+        incid(p1, l5) &
+        ~incid(p2, l5) &
+        ~incid(p3, l5) &
+        ~incid(p4, l5) &
+        ~incid(p5, l5) &
+        incid(p6, l5) &
+        incid(p7, l5) &
+        ~incid(p8, l5) &
+        ~incid(p9, l5) &
+        incid(p10, l5) &
+        ~incid(p11, l5) &
+        ~incid(p12, l5) &
+        ~incid(p13, l5) &
+        ~incid(p14, l5) &
+        ~incid(p15, l5) &
+        ~incid(p16, l5) &
+        ~incid(p17, l5) &
+        ~incid(p18, l5) &
+        ~incid(p19, l5) &
+        incid(p20, l5) &
+
+        incid(p0, l6) &
+        ~incid(p1, l6) &
+        incid(p2, l6) &
+        ~incid(p3, l6) &
+        ~incid(p4, l6) &
+        ~incid(p5, l6) &
+        ~incid(p6, l6) &
+        incid(p7, l6) &
+        incid(p8, l6) &
+        ~incid(p9, l6) &
+        ~incid(p10, l6) &
+        incid(p11, l6) &
+        ~incid(p12, l6) &
+        ~incid(p13, l6) &
+        ~incid(p14, l6) &
+        ~incid(p15, l6) &
+        ~incid(p16, l6) &
+        ~incid(p17, l6) &
+        ~incid(p18, l6) &
+        ~incid(p19, l6) &
+        ~incid(p20, l6) &
+
+        ~incid(p0, l7) &
+        incid(p1, l7) &
+        ~incid(p2, l7) &
+        incid(p3, l7) &
+        ~incid(p4, l7) &
+        ~incid(p5, l7) &
+        ~incid(p6, l7) &
+        ~incid(p7, l7) &
+        incid(p8, l7) &
+        incid(p9, l7) &
+        ~incid(p10, l7) &
+        ~incid(p11, l7) &
+        incid(p12, l7) &
+        ~incid(p13, l7) &
+        ~incid(p14, l7) &
+        ~incid(p15, l7) &
+        ~incid(p16, l7) &
+        ~incid(p17, l7) &
+        ~incid(p18, l7) &
+        ~incid(p19, l7) &
+        ~incid(p20, l7) &
+
+        ~incid(p0, l8) &
+        ~incid(p1, l8) &
+        incid(p2, l8) &
+        ~incid(p3, l8) &
+        incid(p4, l8) &
+        ~incid(p5, l8) &
+        ~incid(p6, l8) &
+        ~incid(p7, l8) &
+        ~incid(p8, l8) &
+        incid(p9, l8) &
+        incid(p10, l8) &
+        ~incid(p11, l8) &
+        ~incid(p12, l8) &
+        incid(p13, l8) &
+        ~incid(p14, l8) &
+        ~incid(p15, l8) &
+        ~incid(p16, l8) &
+        ~incid(p17, l8) &
+        ~incid(p18, l8) &
+        ~incid(p19, l8) &
+        ~incid(p20, l8) &
+
+        ~incid(p0, l9) &
+        ~incid(p1, l9) &
+        ~incid(p2, l9) &
+        incid(p3, l9) &
+        ~incid(p4, l9) &
+        incid(p5, l9) &
+        ~incid(p6, l9) &
+        ~incid(p7, l9) &
+        ~incid(p8, l9) &
+        ~incid(p9, l9) &
+        incid(p10, l9) &
+        incid(p11, l9) &
+        ~incid(p12, l9) &
+        ~incid(p13, l9) &
+        incid(p14, l9) &
+        ~incid(p15, l9) &
+        ~incid(p16, l9) &
+        ~incid(p17, l9) &
+        ~incid(p18, l9) &
+        ~incid(p19, l9) &
+        ~incid(p20, l9) &
+
+        ~incid(p0, l10) &
+        ~incid(p1, l10) &
+        ~incid(p2, l10) &
+        ~incid(p3, l10) &
+        incid(p4, l10) &
+        ~incid(p5, l10) &
+        incid(p6, l10) &
+        ~incid(p7, l10) &
+        ~incid(p8, l10) &
+        ~incid(p9, l10) &
+        ~incid(p10, l10) &
+        incid(p11, l10) &
+        incid(p12, l10) &
+        ~incid(p13, l10) &
+        ~incid(p14, l10) &
+        incid(p15, l10) &
+        ~incid(p16, l10) &
+        ~incid(p17, l10) &
+        ~incid(p18, l10) &
+        ~incid(p19, l10) &
+        ~incid(p20, l10) &
+
+        ~incid(p0, l11) &
+        ~incid(p1, l11) &
+        ~incid(p2, l11) &
+        ~incid(p3, l11) &
+        ~incid(p4, l11) &
+        incid(p5, l11) &
+        ~incid(p6, l11) &
+        incid(p7, l11) &
+        ~incid(p8, l11) &
+        ~incid(p9, l11) &
+        ~incid(p10, l11) &
+        ~incid(p11, l11) &
+        incid(p12, l11) &
+        incid(p13, l11) &
+        ~incid(p14, l11) &
+        ~incid(p15, l11) &
+        incid(p16, l11) &
+        ~incid(p17, l11) &
+        ~incid(p18, l11) &
+        ~incid(p19, l11) &
+        ~incid(p20, l11) &
+
+        ~incid(p0, l12) &
+        ~incid(p1, l12) &
+        ~incid(p2, l12) &
+        ~incid(p3, l12) &
+        ~incid(p4, l12) &
+        ~incid(p5, l12) &
+        incid(p6, l12) &
+        ~incid(p7, l12) &
+        incid(p8, l12) &
+        ~incid(p9, l12) &
+        ~incid(p10, l12) &
+        ~incid(p11, l12) &
+        ~incid(p12, l12) &
+        incid(p13, l12) &
+        incid(p14, l12) &
+        ~incid(p15, l12) &
+        ~incid(p16, l12) &
+        incid(p17, l12) &
+        ~incid(p18, l12) &
+        ~incid(p19, l12) &
+        ~incid(p20, l12) &
+
+        ~incid(p0, l13) &
+        ~incid(p1, l13) &
+        ~incid(p2, l13) &
+        ~incid(p3, l13) &
+        ~incid(p4, l13) &
+        ~incid(p5, l13) &
+        ~incid(p6, l13) &
+        incid(p7, l13) &
+        ~incid(p8, l13) &
+        incid(p9, l13) &
+        ~incid(p10, l13) &
+        ~incid(p11, l13) &
+        ~incid(p12, l13) &
+        ~incid(p13, l13) &
+        incid(p14, l13) &
+        incid(p15, l13) &
+        ~incid(p16, l13) &
+        ~incid(p17, l13) &
+        incid(p18, l13) &
+        ~incid(p19, l13) &
+        ~incid(p20, l13) &
+
+        ~incid(p0, l14) &
+        ~incid(p1, l14) &
+        ~incid(p2, l14) &
+        ~incid(p3, l14) &
+        ~incid(p4, l14) &
+        ~incid(p5, l14) &
+        ~incid(p6, l14) &
+        ~incid(p7, l14) &
+        incid(p8, l14) &
+        ~incid(p9, l14) &
+        incid(p10, l14) &
+        ~incid(p11, l14) &
+        ~incid(p12, l14) &
+        ~incid(p13, l14) &
+        ~incid(p14, l14) &
+        incid(p15, l14) &
+        incid(p16, l14) &
+        ~incid(p17, l14) &
+        ~incid(p18, l14) &
+        incid(p19, l14) &
+        ~incid(p20, l14) &
+
+        ~incid(p0, l15) &
+        ~incid(p1, l15) &
+        ~incid(p2, l15) &
+        ~incid(p3, l15) &
+        ~incid(p4, l15) &
+        ~incid(p5, l15) &
+        ~incid(p6, l15) &
+        ~incid(p7, l15) &
+        ~incid(p8, l15) &
+        incid(p9, l15) &
+        ~incid(p10, l15) &
+        incid(p11, l15) &
+        ~incid(p12, l15) &
+        ~incid(p13, l15) &
+        ~incid(p14, l15) &
+        ~incid(p15, l15) &
+        incid(p16, l15) &
+        incid(p17, l15) &
+        ~incid(p18, l15) &
+        ~incid(p19, l15) &
+        incid(p20, l15) &
+
+        incid(p0, l16) &
+        ~incid(p1, l16) &
+        ~incid(p2, l16) &
+        ~incid(p3, l16) &
+        ~incid(p4, l16) &
+        ~incid(p5, l16) &
+        ~incid(p6, l16) &
+        ~incid(p7, l16) &
+        ~incid(p8, l16) &
+        ~incid(p9, l16) &
+        incid(p10, l16) &
+        ~incid(p11, l16) &
+        incid(p12, l16) &
+        ~incid(p13, l16) &
+        ~incid(p14, l16) &
+        ~incid(p15, l16) &
+        ~incid(p16, l16) &
+        incid(p17, l16) &
+        incid(p18, l16) &
+        ~incid(p19, l16) &
+        ~incid(p20, l16) &
+
+        ~incid(p0, l17) &
+        incid(p1, l17) &
+        ~incid(p2, l17) &
+        ~incid(p3, l17) &
+        ~incid(p4, l17) &
+        ~incid(p5, l17) &
+        ~incid(p6, l17) &
+        ~incid(p7, l17) &
+        ~incid(p8, l17) &
+        ~incid(p9, l17) &
+        ~incid(p10, l17) &
+        incid(p11, l17) &
+        ~incid(p12, l17) &
+        incid(p13, l17) &
+        ~incid(p14, l17) &
+        ~incid(p15, l17) &
+        ~incid(p16, l17) &
+        ~incid(p17, l17) &
+        incid(p18, l17) &
+        incid(p19, l17) &
+        ~incid(p20, l17) &
+
+        ~incid(p0, l18) &
+        ~incid(p1, l18) &
+        incid(p2, l18) &
+        ~incid(p3, l18) &
+        ~incid(p4, l18) &
+        ~incid(p5, l18) &
+        ~incid(p6, l18) &
+        ~incid(p7, l18) &
+        ~incid(p8, l18) &
+        ~incid(p9, l18) &
+        ~incid(p10, l18) &
+        ~incid(p11, l18) &
+        incid(p12, l18) &
+        ~incid(p13, l18) &
+        incid(p14, l18) &
+        ~incid(p15, l18) &
+        ~incid(p16, l18) &
+        ~incid(p17, l18) &
+        ~incid(p18, l18) &
+        incid(p19, l18) &
+        incid(p20, l18) &
+
+        incid(p0, l19) &
+        ~incid(p1, l19) &
+        ~incid(p2, l19) &
+        incid(p3, l19) &
+        ~incid(p4, l19) &
+        ~incid(p5, l19) &
+        ~incid(p6, l19) &
+        ~incid(p7, l19) &
+        ~incid(p8, l19) &
+        ~incid(p9, l19) &
+        ~incid(p10, l19) &
+        ~incid(p11, l19) &
+        ~incid(p12, l19) &
+        incid(p13, l19) &
+        ~incid(p14, l19) &
+        incid(p15, l19) &
+        ~incid(p16, l19) &
+        ~incid(p17, l19) &
+        ~incid(p18, l19) &
+        ~incid(p19, l19) &
+        incid(p20, l19) &
+
+        incid(p0, l20) &
+        incid(p1, l20) &
+        ~incid(p2, l20) &
+        ~incid(p3, l20) &
+        incid(p4, l20) &
+        ~incid(p5, l20) &
+        ~incid(p6, l20) &
+        ~incid(p7, l20) &
+        ~incid(p8, l20) &
+        ~incid(p9, l20) &
+        ~incid(p10, l20) &
+        ~incid(p11, l20) &
+        ~incid(p12, l20) &
+        ~incid(p13, l20) &
+        incid(p14, l20) &
+        ~incid(p15, l20) &
+        incid(p16, l20) &
+        ~incid(p17, l20) &
+        ~incid(p18, l20) &
+        ~incid(p19, l20) &
+        ~incid(p20, l20)
+      )).
+
+fof(ispoint_def,axiom,
+	( ![X]: (ispoint(X) <=> (X=a | X=b | X=c | X=d | X=e | X=f | X=g)))).
+
+fof(isline_def, axiom,
+	( ![X]: (isline(X) <=> (X=abf | X=bcd | X=cae | X=adg | X=beg | X=cfg | X=def)))).
+
+fof(incid_type, axiom, ![X,Y]: ((incid(X,Y) | ~incid(X,Y)) => (ispoint(X) & isline(Y)))).
+ 
+fof(line_existence,conjecture,
+    ( ![P,Q]: (?[X]: (incid(P,X) & incid(Q,X))))).
+    
+fof(point_existence,conjecture,
+	( ![L,M]: (?[X]: (incid(X,L) & incid(X,M))))).
+  
+fof(line_uniqueness,conjecture,
+  ( ![A,B,L,M]: ( 
+                  (
+                   incid(A,L) & incid(B,L) & incid(A,M) & incid(B,M)) =>
+                   ( A=B | L=M)
+                )
+  )
+  ).
+
+fof(three_points,conjecture,
+	( ![L]: (?[X,Y,Z]: (~X=Y & ~X=Z & ~Y=Z & incid(X,L) & incid(Y,L) & incid(Z,L))))).
+
+fof(lower_dimension,conjecture,
+	( ?[X,Y]: (isline(X) & isline(Y) & ~X=Y))).
+

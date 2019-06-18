@@ -1,0 +1,273 @@
+% SZS start RequiredInformation
+% Congratulations - you have become a registered power user of SystemOnTPTP, at IP address 130.79.90.80.
+% Please consider donating to the TPTP project - see www.tptp.org for details.
+% When you donate this message will disappear.
+% If you do not donate a random delay might be added to your processing time.
+% SZS end RequiredInformation
+DarwinFM---1.4.5   system information being retrieved
+DarwinFM---1.4.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x darwin -fd true -ppp true -pl 0 -to %d -pmtptp true %s
+DarwinFM---1.4.5's SOT_j18crp does not need preparation
+DarwinFM---1.4.5   being executed on SOT_j18crp using /home/tptp/Systems/DarwinFM---1.4.5/darwin -fd true -ppp true -pl 0 -to 999 -pmtptp true '/tmp/SystemOnTPTPFormReply28349/SOT_j18crp'
+% 10 wall clock seconds gone, waiting for system output
+% 20 wall clock seconds gone, waiting for system output
+% 30 wall clock seconds gone, waiting for system output
+% 40 wall clock seconds gone, waiting for system output
+% 50 wall clock seconds gone, waiting for system output
+% 60 wall clock seconds gone, waiting for system output
+% 70 wall clock seconds gone, waiting for system output
+% 80 wall clock seconds gone, waiting for system output
+% 90 wall clock seconds gone, waiting for system output
+% 100 wall clock seconds gone, waiting for system output
+% 110 wall clock seconds gone, waiting for system output
+% 120 wall clock seconds gone, waiting for system output
+% 130 wall clock seconds gone, waiting for system output
+% 140 wall clock seconds gone, waiting for system output
+% 150 wall clock seconds gone, waiting for system output
+% 160 wall clock seconds gone, waiting for system output
+% 170 wall clock seconds gone, waiting for system output
+% 180 wall clock seconds gone, waiting for system output
+% 190 wall clock seconds gone, waiting for system output
+% 200 wall clock seconds gone, waiting for system output
+% 210 wall clock seconds gone, waiting for system output
+% 220 wall clock seconds gone, waiting for system output
+% 230 wall clock seconds gone, waiting for system output
+% 240 wall clock seconds gone, waiting for system output
+% 250 wall clock seconds gone, waiting for system output
+% 260 wall clock seconds gone, waiting for system output
+% 270 wall clock seconds gone, waiting for system output
+% 280 wall clock seconds gone, waiting for system output
+% 290 wall clock seconds gone, waiting for system output
+% 300 wall clock seconds gone, waiting for system output
+% 310 wall clock seconds gone, waiting for system output
+% 320 wall clock seconds gone, waiting for system output
+% 330 wall clock seconds gone, waiting for system output
+% 340 wall clock seconds gone, waiting for system output
+% 350 wall clock seconds gone, waiting for system output
+% 360 wall clock seconds gone, waiting for system output
+% 370 wall clock seconds gone, waiting for system output
+% 380 wall clock seconds gone, waiting for system output
+% 390 wall clock seconds gone, waiting for system output
+% 400 wall clock seconds gone, waiting for system output
+% 410 wall clock seconds gone, waiting for system output
+% 420 wall clock seconds gone, waiting for system output
+% 430 wall clock seconds gone, waiting for system output
+% 440 wall clock seconds gone, waiting for system output
+% 450 wall clock seconds gone, waiting for system output
+% 460 wall clock seconds gone, waiting for system output
+% 470 wall clock seconds gone, waiting for system output
+% 480 wall clock seconds gone, waiting for system output
+% 490 wall clock seconds gone, waiting for system output
+% 500 wall clock seconds gone, waiting for system output
+% 510 wall clock seconds gone, waiting for system output
+% 520 wall clock seconds gone, waiting for system output
+% 530 wall clock seconds gone, waiting for system output
+% 540 wall clock seconds gone, waiting for system output
+% 550 wall clock seconds gone, waiting for system output
+% 560 wall clock seconds gone, waiting for system output
+% 570 wall clock seconds gone, waiting for system output
+% 580 wall clock seconds gone, waiting for system output
+% 590 wall clock seconds gone, waiting for system output
+% 600 wall clock seconds gone, waiting for system output
+% 610 wall clock seconds gone, waiting for system output
+% 620 wall clock seconds gone, waiting for system output
+% 630 wall clock seconds gone, waiting for system output
+% 640 wall clock seconds gone, waiting for system output
+% 650 wall clock seconds gone, waiting for system output
+% 660 wall clock seconds gone, waiting for system output
+% 670 wall clock seconds gone, waiting for system output
+% 680 wall clock seconds gone, waiting for system output
+% 690 wall clock seconds gone, waiting for system output
+% 700 wall clock seconds gone, waiting for system output
+% 710 wall clock seconds gone, waiting for system output
+% 720 wall clock seconds gone, waiting for system output
+% 730 wall clock seconds gone, waiting for system output
+% 740 wall clock seconds gone, waiting for system output
+% 750 wall clock seconds gone, waiting for system output
+% 760 wall clock seconds gone, waiting for system output
+% 770 wall clock seconds gone, waiting for system output
+% 780 wall clock seconds gone, waiting for system output
+% 790 wall clock seconds gone, waiting for system output
+% 800 wall clock seconds gone, waiting for system output
+% 810 wall clock seconds gone, waiting for system output
+% 820 wall clock seconds gone, waiting for system output
+% 830 wall clock seconds gone, waiting for system output
+% 840 wall clock seconds gone, waiting for system output
+% 850 wall clock seconds gone, waiting for system output
+% 860 wall clock seconds gone, waiting for system output
+% 870 wall clock seconds gone, waiting for system output
+% 880 wall clock seconds gone, waiting for system output
+% 890 wall clock seconds gone, waiting for system output
+% 900 wall clock seconds gone, waiting for system output
+% 910 wall clock seconds gone, waiting for system output
+% 920 wall clock seconds gone, waiting for system output
+% 930 wall clock seconds gone, waiting for system output
+% 940 wall clock seconds gone, waiting for system output
+% 950 wall clock seconds gone, waiting for system output
+% 960 wall clock seconds gone, waiting for system output
+% 970 wall clock seconds gone, waiting for system output
+% 980 wall clock seconds gone, waiting for system output
+% 990 wall clock seconds gone, waiting for system output
+% 1000 wall clock seconds gone, waiting for system output
+RESULT: SOT_j18crp - DarwinFM---1.4.5 says Timeout - CPU = 999 WC = 999.41 
+OUTPUT: SOT_j18crp - DarwinFM---1.4.5 says None - CPU = 0 WC = 0 
+iProver---SAT-2.8   system information being retrieved
+iProver---SAT-2.8's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x iproveropt_run_sat.sh %d %s
+iProver---SAT-2.8's SOT_j18crp does not need preparation
+iProver---SAT-2.8   being executed on SOT_j18crp using /home/tptp/Systems/iProver---SAT-2.8/iproveropt_run_sat.sh 999 '/tmp/SystemOnTPTPFormReply28349/SOT_j18crp'
+% 1010 wall clock seconds gone, waiting for system output
+% 1020 wall clock seconds gone, waiting for system output
+% 1030 wall clock seconds gone, waiting for system output
+% 1040 wall clock seconds gone, waiting for system output
+% 1050 wall clock seconds gone, waiting for system output
+% 1060 wall clock seconds gone, waiting for system output
+% 1070 wall clock seconds gone, waiting for system output
+% 1080 wall clock seconds gone, waiting for system output
+% 1090 wall clock seconds gone, waiting for system output
+% 1100 wall clock seconds gone, waiting for system output
+% 1110 wall clock seconds gone, waiting for system output
+% 1120 wall clock seconds gone, waiting for system output
+RESULT: SOT_j18crp - iProver---SAT-2.8 says Theorem - CPU = 143.93 WC = 125.44  ILoops = 123042 RLoops = 28239 PropCalls = 252
+OUTPUT: SOT_j18crp - iProver---SAT-2.8 says CNFRefutation - CPU = 143.99 WC = 126.44 
+Paradox---4.0   system information being retrieved
+Paradox---4.0's non-default parameters being retrieved
+    -t none
+    -f tptp:short
+    -x paradox --no-progress --time %d --tstp --model %s
+Paradox---4.0's SOT_j18crp being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP31345 
+    -t none 
+    -f tptp:short
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply28349/SOT_j18crp
+Paradox---4.0   being executed on SOT_j18crp using /home/tptp/Systems/Paradox---4.0/paradox --no-progress --time 999 --tstp --model '/tmp/SystemOnTPTP31345/SOT_j18crp.tptp:short'
+% 1130 wall clock seconds gone, waiting for system output
+RESULT: SOT_j18crp - Paradox---4.0 says Theorem - CPU = 3.79 WC = 3.82 
+OUTPUT: SOT_j18crp - Paradox---4.0 says Assurance - CPU = 3.79 WC = 3.82 
+Vampire---SAT-4.3   system information being retrieved
+Vampire---SAT-4.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x vampire --mode casc_sat -t %d %s
+Vampire---SAT-4.3's SOT_j18crp does not need preparation
+Vampire---SAT-4.3   being executed on SOT_j18crp using /home/tptp/Systems/Vampire---SAT-4.3/vampire --mode casc_sat -t 999 '/tmp/SystemOnTPTPFormReply28349/SOT_j18crp'
+% 1140 wall clock seconds gone, waiting for system output
+% 1150 wall clock seconds gone, waiting for system output
+% 1160 wall clock seconds gone, waiting for system output
+% 1170 wall clock seconds gone, waiting for system output
+% 1180 wall clock seconds gone, waiting for system output
+% 1190 wall clock seconds gone, waiting for system output
+% 1200 wall clock seconds gone, waiting for system output
+% 1210 wall clock seconds gone, waiting for system output
+% 1220 wall clock seconds gone, waiting for system output
+% 1230 wall clock seconds gone, waiting for system output
+% 1240 wall clock seconds gone, waiting for system output
+% 1250 wall clock seconds gone, waiting for system output
+% 1260 wall clock seconds gone, waiting for system output
+% 1270 wall clock seconds gone, waiting for system output
+% 1280 wall clock seconds gone, waiting for system output
+% 1290 wall clock seconds gone, waiting for system output
+% 1300 wall clock seconds gone, waiting for system output
+% 1310 wall clock seconds gone, waiting for system output
+% 1320 wall clock seconds gone, waiting for system output
+% 1330 wall clock seconds gone, waiting for system output
+% 1340 wall clock seconds gone, waiting for system output
+% 1350 wall clock seconds gone, waiting for system output
+% 1360 wall clock seconds gone, waiting for system output
+% 1370 wall clock seconds gone, waiting for system output
+% 1380 wall clock seconds gone, waiting for system output
+% 1390 wall clock seconds gone, waiting for system output
+% 1400 wall clock seconds gone, waiting for system output
+% 1410 wall clock seconds gone, waiting for system output
+% 1420 wall clock seconds gone, waiting for system output
+% 1430 wall clock seconds gone, waiting for system output
+% 1440 wall clock seconds gone, waiting for system output
+% 1450 wall clock seconds gone, waiting for system output
+% 1460 wall clock seconds gone, waiting for system output
+% 1470 wall clock seconds gone, waiting for system output
+% 1480 wall clock seconds gone, waiting for system output
+% 1490 wall clock seconds gone, waiting for system output
+% 1500 wall clock seconds gone, waiting for system output
+% 1510 wall clock seconds gone, waiting for system output
+% 1520 wall clock seconds gone, waiting for system output
+% 1530 wall clock seconds gone, waiting for system output
+% 1540 wall clock seconds gone, waiting for system output
+% 1550 wall clock seconds gone, waiting for system output
+% 1560 wall clock seconds gone, waiting for system output
+% 1570 wall clock seconds gone, waiting for system output
+% 1580 wall clock seconds gone, waiting for system output
+% 1590 wall clock seconds gone, waiting for system output
+% 1600 wall clock seconds gone, waiting for system output
+% 1610 wall clock seconds gone, waiting for system output
+% 1620 wall clock seconds gone, waiting for system output
+% 1630 wall clock seconds gone, waiting for system output
+% 1640 wall clock seconds gone, waiting for system output
+% 1650 wall clock seconds gone, waiting for system output
+% 1660 wall clock seconds gone, waiting for system output
+% 1670 wall clock seconds gone, waiting for system output
+% 1680 wall clock seconds gone, waiting for system output
+% 1690 wall clock seconds gone, waiting for system output
+% 1700 wall clock seconds gone, waiting for system output
+% 1710 wall clock seconds gone, waiting for system output
+% 1720 wall clock seconds gone, waiting for system output
+% 1730 wall clock seconds gone, waiting for system output
+% 1740 wall clock seconds gone, waiting for system output
+% 1750 wall clock seconds gone, waiting for system output
+% 1760 wall clock seconds gone, waiting for system output
+% 1770 wall clock seconds gone, waiting for system output
+% 1780 wall clock seconds gone, waiting for system output
+% 1790 wall clock seconds gone, waiting for system output
+% 1800 wall clock seconds gone, waiting for system output
+% 1810 wall clock seconds gone, waiting for system output
+% 1820 wall clock seconds gone, waiting for system output
+% 1830 wall clock seconds gone, waiting for system output
+% 1840 wall clock seconds gone, waiting for system output
+% 1850 wall clock seconds gone, waiting for system output
+% 1860 wall clock seconds gone, waiting for system output
+% 1870 wall clock seconds gone, waiting for system output
+% 1880 wall clock seconds gone, waiting for system output
+% 1890 wall clock seconds gone, waiting for system output
+% 1900 wall clock seconds gone, waiting for system output
+% 1910 wall clock seconds gone, waiting for system output
+% 1920 wall clock seconds gone, waiting for system output
+% 1930 wall clock seconds gone, waiting for system output
+% 1940 wall clock seconds gone, waiting for system output
+% 1950 wall clock seconds gone, waiting for system output
+% 1960 wall clock seconds gone, waiting for system output
+% 1970 wall clock seconds gone, waiting for system output
+% 1980 wall clock seconds gone, waiting for system output
+% 1990 wall clock seconds gone, waiting for system output
+% 2000 wall clock seconds gone, waiting for system output
+% 2010 wall clock seconds gone, waiting for system output
+% 2020 wall clock seconds gone, waiting for system output
+% 2030 wall clock seconds gone, waiting for system output
+% 2040 wall clock seconds gone, waiting for system output
+% 2050 wall clock seconds gone, waiting for system output
+% 2060 wall clock seconds gone, waiting for system output
+% 2070 wall clock seconds gone, waiting for system output
+% 2080 wall clock seconds gone, waiting for system output
+% 2090 wall clock seconds gone, waiting for system output
+% 2100 wall clock seconds gone, waiting for system output
+RESULT: SOT_j18crp - Vampire---SAT-4.3 says Timeout - CPU = 999.03 WC = 970.06 
+OUTPUT: SOT_j18crp - Vampire---SAT-4.3 says None - CPU = 0 WC = 0 
+Z3---4.4.1   system information being retrieved
+Z3---4.4.1's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x run_z3_tptp -proof -model -t:%d -file:%s
+Z3---4.4.1's SOT_j18crp being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP31928 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply28349/SOT_j18crp
+Z3---4.4.1   being executed on SOT_j18crp using /home/tptp/Systems/Z3---4.4.1/run_z3_tptp -proof -model -t:999 -file:'/tmp/SystemOnTPTP31928/SOT_j18crp.tptp'
+RESULT: SOT_j18crp - Z3---4.4.1 says Theorem - CPU = 2.70 WC = 2.75 
+OUTPUT: SOT_j18crp - Z3---4.4.1 says Proof - CPU = 5.84 WC = 5.90 

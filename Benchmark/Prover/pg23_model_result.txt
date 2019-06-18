@@ -1,0 +1,1422 @@
+% SZS start RequiredInformation
+% Congratulations - you have become a registered power user of SystemOnTPTP, at IP address 130.79.90.80.
+% Please consider donating to the TPTP project - see www.tptp.org for details.
+% When you donate this message will disappear.
+% If you do not donate a random delay might be added to your processing time.
+% SZS end RequiredInformation
+agsyHOL---1.0   system information being retrieved
+agsyHOL---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x agsyHOL --proof --time-out %d --include-dir /home/tptp/TPTP/ %s
+agsyHOL---1.0's SOT_WxCpx6 does not need preparation
+agsyHOL---1.0   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - agsyHOL---1.0 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - agsyHOL---1.0 says None - CPU = 0 WC = 0 
+Alt-Ergo---0.95.2   system information being retrieved
+Alt-Ergo---0.95.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_alt_ergo %d %s
+Alt-Ergo---0.95.2's SOT_WxCpx6 does not need preparation
+Alt-Ergo---0.95.2   being executed on SOT_WxCpx6 using /home/tptp/Systems/Alt-Ergo---0.95.2/run_alt_ergo 999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - Alt-Ergo---0.95.2 says Unknown - CPU = 0.90 WC = 1.04 
+OUTPUT: SOT_WxCpx6 - Alt-Ergo---0.95.2 says None - CPU = 0 WC = 0 
+Beagle---0.9.47   system information being retrieved
+Beagle---0.9.47's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_beagle %d %s
+ERROR /home/tptp/Systems/Beagle---0.9.47/run_beagle is not executable
+Bliksem---1.12   system information being retrieved
+Bliksem---1.12's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_bliksem %s
+Bliksem---1.12's SOT_WxCpx6 does not need preparation
+Bliksem---1.12   being executed on SOT_WxCpx6 using /home/tptp/Systems/Bliksem---1.12/run_bliksem '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - Bliksem---1.12 says Theorem - CPU = 0.80 WC = 0.92  Generated = 26047 Kept = 9205
+OUTPUT: SOT_WxCpx6 - Bliksem---1.12 says Refutation - CPU = 0.80 WC = 0.92 
+CiME---2.01   system information being retrieved
+CiME---2.01's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x tptp2X_and_run_cime %s
+CiME---2.01's SOT_WxCpx6 does not need preparation
+CiME---2.01   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - CiME---2.01 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - CiME---2.01 says None - CPU = 0 WC = 0 
+cocATP---0.2.0   system information being retrieved
+cocATP---0.2.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x bin/CASC.py %s
+ERROR /home/tptp/Systems/cocATP---0.2.0/bin/CASC.py is not executable
+CSE---1.0   system information being retrieved
+CSE---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_CSE %d %s
+CSE---1.0's SOT_WxCpx6 does not need preparation
+CSE---1.0   being executed on SOT_WxCpx6 using /home/tptp/Systems/CSE---1.0/run_CSE 999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - CSE---1.0 says Theorem - CPU = 1.58 WC = 1.72 
+OUTPUT: SOT_WxCpx6 - CSE---1.0 says CNFRefutation - CPU = 1.58 WC = 1.72 
+CSE---1.1   system information being retrieved
+CSE---1.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_CSE %d %s
+CSE---1.1's SOT_WxCpx6 does not need preparation
+CSE---1.1   being executed on SOT_WxCpx6 using /home/tptp/Systems/CSE---1.1/run_CSE 999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - CSE---1.1 says Theorem - CPU = 1.56 WC = 1.61 
+OUTPUT: SOT_WxCpx6 - CSE---1.1 says CNFRefutation - CPU = 1.56 WC = 1.62 
+CSE_E---1.0   system information being retrieved
+CSE_E---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_CSE %d %s
+CSE_E---1.0's SOT_WxCpx6 does not need preparation
+CSE_E---1.0   being executed on SOT_WxCpx6 using /home/tptp/Systems/CSE_E---1.0/run_CSE 999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+% 10 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - CSE_E---1.0 says Theorem - CPU = 1.53 WC = 1.59 
+OUTPUT: SOT_WxCpx6 - CSE_E---1.0 says CNFRefutation - CPU = 1.53 WC = 1.59 
+CVC4---1.6   system information being retrieved
+CVC4---1.6's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x do_CVC4 %s THM
+CVC4---1.6's SOT_WxCpx6 does not need preparation
+CVC4---1.6   being executed on SOT_WxCpx6 using /home/tptp/Systems/CVC4---1.6/do_CVC4 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' THM
+RESULT: SOT_WxCpx6 - CVC4---1.6 says Unknown - CPU = 0.00 WC = 0.21 
+OUTPUT: SOT_WxCpx6 - CVC4---1.6 says None - CPU = 0 WC = 0 
+CVC4---SAT-1.6   system information being retrieved
+CVC4---SAT-1.6's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x do_CVC4 %s SAT
+CVC4---SAT-1.6's SOT_WxCpx6 does not need preparation
+CVC4---SAT-1.6   being executed on SOT_WxCpx6 using /home/tptp/Systems/CVC4---SAT-1.6/do_CVC4 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' SAT
+RESULT: SOT_WxCpx6 - CVC4---SAT-1.6 says Unknown - CPU = 0.00 WC = 0.20 
+OUTPUT: SOT_WxCpx6 - CVC4---SAT-1.6 says None - CPU = 0 WC = 0 
+Darwin---1.4.5   system information being retrieved
+Darwin---1.4.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x darwin -pl 0 -pmc true -to %d %s
+Darwin---1.4.5's SOT_WxCpx6 does not need preparation
+Darwin---1.4.5   being executed on SOT_WxCpx6 using /home/tptp/Systems/Darwin---1.4.5/darwin -pl 0 -pmc true -to 999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - Darwin---1.4.5 says Theorem - CPU = 0.00 WC = 0.06 
+OUTPUT: SOT_WxCpx6 - Darwin---1.4.5 says Assurance - CPU = 0.00 WC = 0.06 
+DarwinFM---1.4.5   system information being retrieved
+DarwinFM---1.4.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x darwin -fd true -ppp true -pl 0 -to %d -pmtptp true %s
+DarwinFM---1.4.5's SOT_WxCpx6 does not need preparation
+DarwinFM---1.4.5   being executed on SOT_WxCpx6 using /home/tptp/Systems/DarwinFM---1.4.5/darwin -fd true -ppp true -pl 0 -to 999 -pmtptp true '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - DarwinFM---1.4.5 says Theorem - CPU = 0.00 WC = 0.06 
+OUTPUT: SOT_WxCpx6 - DarwinFM---1.4.5 says Assurance - CPU = 0.00 WC = 0.06 
+Decider---0.1   system information being retrieved
+Decider---0.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x RunDecider %s
+Decider---0.1's SOT_WxCpx6 does not need preparation
+Decider---0.1   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - Decider---0.1 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - Decider---0.1 says None - CPU = 0 WC = 0 
+E---2.3   system information being retrieved
+E---2.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x eprover --delete-bad-limit=2000000000 --definitional-cnf=24 -s --print-statistics -R --print-version --auto-schedule --proof-object --cpu-limit=%d %s
+E---2.3's SOT_WxCpx6 does not need preparation
+E---2.3   being executed on SOT_WxCpx6 using /home/tptp/Systems/E---2.3/eprover --delete-bad-limit=2000000000 --definitional-cnf=24 -s --print-statistics -R --print-version --auto-schedule --proof-object --cpu-limit=999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - E---2.3 says Theorem - CPU = 0.00 WC = 0.03 
+OUTPUT: SOT_WxCpx6 - E---2.3 says CNFRefutation - CPU = 0.00 WC = 0.03 
+E---FNT-2.3   system information being retrieved
+E---FNT-2.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x eprover --delete-bad-limit=2000000000 --definitional-cnf=24 -s --print-statistics -R --print-version --proof-object --satauto-schedule --cpu-limit=%d %s
+E---FNT-2.3's SOT_WxCpx6 does not need preparation
+E---FNT-2.3   being executed on SOT_WxCpx6 using /home/tptp/Systems/E---FNT-2.3/eprover --delete-bad-limit=2000000000 --definitional-cnf=24 -s --print-statistics -R --print-version --proof-object --satauto-schedule --cpu-limit=999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - E---FNT-2.3 says Theorem - CPU = 0.00 WC = 0.03 
+OUTPUT: SOT_WxCpx6 - E---FNT-2.3 says CNFRefutation - CPU = 0.00 WC = 0.03 
+E-Darwin---1.5   system information being retrieved
+E-Darwin---1.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x e-darwin -pev "TPTP" -pmd true -if tptp -pl 2 -pc false -ps false %s
+E-Darwin---1.5's SOT_WxCpx6 does not need preparation
+E-Darwin---1.5   being executed on SOT_WxCpx6 using /home/tptp/Systems/E-Darwin---1.5/e-darwin -pev "TPTP" -pmd true -if tptp -pl 2 -pc false -ps false '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - E-Darwin---1.5 says Theorem - CPU = 0.03 WC = 0.09 
+OUTPUT: SOT_WxCpx6 - E-Darwin---1.5 says Assurance - CPU = 0.03 WC = 0.09 
+E-MaLeS---1.2   system information being retrieved
+E-MaLeS---1.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x Source/MaLeS/males.py -t %d -p %s
+E-MaLeS---1.2's SOT_WxCpx6 does not need preparation
+E-MaLeS---1.2   being executed on SOT_WxCpx6 using /home/tptp/Systems/E-MaLeS---1.2/Source/MaLeS/males.py -t 999 -p '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - E-MaLeS---1.2 says Unknown - CPU = 0.37 WC = 0.68 
+OUTPUT: SOT_WxCpx6 - E-MaLeS---1.2 says None - CPU = 0 WC = 0 
+EQP---0.9e   system information being retrieved
+EQP---0.9e's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x tptp2X_and_run_eqp %s
+EQP---0.9e's SOT_WxCpx6 does not need preparation
+EQP---0.9e   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - EQP---0.9e says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - EQP---0.9e says None - CPU = 0 WC = 0 
+Equinox---6.0.1a   system information being retrieved
+Equinox---6.0.1a's non-default parameters being retrieved
+    -t none
+    -f tptp:short
+    -x equinox --modelfile /tmp/model --no-progress --time %d --tstp %s
+Equinox---6.0.1a's SOT_WxCpx6 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP14930 
+    -t none 
+    -f tptp:short
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6
+Equinox---6.0.1a   being executed on SOT_WxCpx6 using /home/tptp/Systems/Equinox---6.0.1a/equinox --modelfile /tmp/model --no-progress --time 999 --tstp '/tmp/SystemOnTPTP14930/SOT_WxCpx6.tptp:short'
+% 20 wall clock seconds gone, waiting for system output
+% 30 wall clock seconds gone, waiting for system output
+% 40 wall clock seconds gone, waiting for system output
+% 50 wall clock seconds gone, waiting for system output
+% 60 wall clock seconds gone, waiting for system output
+% 70 wall clock seconds gone, waiting for system output
+% 80 wall clock seconds gone, waiting for system output
+% 90 wall clock seconds gone, waiting for system output
+% 100 wall clock seconds gone, waiting for system output
+% 110 wall clock seconds gone, waiting for system output
+% 120 wall clock seconds gone, waiting for system output
+% 130 wall clock seconds gone, waiting for system output
+% 140 wall clock seconds gone, waiting for system output
+% 150 wall clock seconds gone, waiting for system output
+% 160 wall clock seconds gone, waiting for system output
+% 170 wall clock seconds gone, waiting for system output
+% 180 wall clock seconds gone, waiting for system output
+% 190 wall clock seconds gone, waiting for system output
+% 200 wall clock seconds gone, waiting for system output
+% 210 wall clock seconds gone, waiting for system output
+% 220 wall clock seconds gone, waiting for system output
+% 230 wall clock seconds gone, waiting for system output
+% 240 wall clock seconds gone, waiting for system output
+% 250 wall clock seconds gone, waiting for system output
+% 260 wall clock seconds gone, waiting for system output
+% 270 wall clock seconds gone, waiting for system output
+% 280 wall clock seconds gone, waiting for system output
+% 290 wall clock seconds gone, waiting for system output
+% 300 wall clock seconds gone, waiting for system output
+% 310 wall clock seconds gone, waiting for system output
+% 320 wall clock seconds gone, waiting for system output
+% 330 wall clock seconds gone, waiting for system output
+% 340 wall clock seconds gone, waiting for system output
+% 350 wall clock seconds gone, waiting for system output
+% 360 wall clock seconds gone, waiting for system output
+% 370 wall clock seconds gone, waiting for system output
+% 380 wall clock seconds gone, waiting for system output
+% 390 wall clock seconds gone, waiting for system output
+% 400 wall clock seconds gone, waiting for system output
+% 410 wall clock seconds gone, waiting for system output
+% 420 wall clock seconds gone, waiting for system output
+% 430 wall clock seconds gone, waiting for system output
+% 440 wall clock seconds gone, waiting for system output
+% 450 wall clock seconds gone, waiting for system output
+% 460 wall clock seconds gone, waiting for system output
+% 470 wall clock seconds gone, waiting for system output
+% 480 wall clock seconds gone, waiting for system output
+% 490 wall clock seconds gone, waiting for system output
+% 500 wall clock seconds gone, waiting for system output
+% 510 wall clock seconds gone, waiting for system output
+% 520 wall clock seconds gone, waiting for system output
+% 530 wall clock seconds gone, waiting for system output
+% 540 wall clock seconds gone, waiting for system output
+% 550 wall clock seconds gone, waiting for system output
+% 560 wall clock seconds gone, waiting for system output
+% 570 wall clock seconds gone, waiting for system output
+% 580 wall clock seconds gone, waiting for system output
+% 590 wall clock seconds gone, waiting for system output
+% 600 wall clock seconds gone, waiting for system output
+% 610 wall clock seconds gone, waiting for system output
+% 620 wall clock seconds gone, waiting for system output
+% 630 wall clock seconds gone, waiting for system output
+% 640 wall clock seconds gone, waiting for system output
+% 650 wall clock seconds gone, waiting for system output
+% 660 wall clock seconds gone, waiting for system output
+% 670 wall clock seconds gone, waiting for system output
+% 680 wall clock seconds gone, waiting for system output
+% 690 wall clock seconds gone, waiting for system output
+% 700 wall clock seconds gone, waiting for system output
+% 710 wall clock seconds gone, waiting for system output
+% 720 wall clock seconds gone, waiting for system output
+% 730 wall clock seconds gone, waiting for system output
+% 740 wall clock seconds gone, waiting for system output
+% 750 wall clock seconds gone, waiting for system output
+% 760 wall clock seconds gone, waiting for system output
+% 770 wall clock seconds gone, waiting for system output
+% 780 wall clock seconds gone, waiting for system output
+% 790 wall clock seconds gone, waiting for system output
+% 800 wall clock seconds gone, waiting for system output
+% 810 wall clock seconds gone, waiting for system output
+% 820 wall clock seconds gone, waiting for system output
+% 830 wall clock seconds gone, waiting for system output
+% 840 wall clock seconds gone, waiting for system output
+% 850 wall clock seconds gone, waiting for system output
+% 860 wall clock seconds gone, waiting for system output
+% 870 wall clock seconds gone, waiting for system output
+% 880 wall clock seconds gone, waiting for system output
+% 890 wall clock seconds gone, waiting for system output
+% 900 wall clock seconds gone, waiting for system output
+% 910 wall clock seconds gone, waiting for system output
+% 920 wall clock seconds gone, waiting for system output
+% 930 wall clock seconds gone, waiting for system output
+% 940 wall clock seconds gone, waiting for system output
+% 950 wall clock seconds gone, waiting for system output
+% 960 wall clock seconds gone, waiting for system output
+% 970 wall clock seconds gone, waiting for system output
+% 980 wall clock seconds gone, waiting for system output
+% 990 wall clock seconds gone, waiting for system output
+% 1000 wall clock seconds gone, waiting for system output
+% 1010 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - Equinox---6.0.1a says Timeout - CPU = 999.08 WC = 998.86 
+OUTPUT: SOT_WxCpx6 - Equinox---6.0.1a says None - CPU = 0 WC = 0 
+ET---2.0   system information being retrieved
+ET---2.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x bin/run_ET %s %d
+ET---2.0's SOT_WxCpx6 does not need preparation
+ET---2.0   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - ET---2.0 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - ET---2.0 says None - CPU = 0 WC = 0 
+Fampire---1.3   system information being retrieved
+Fampire---1.3's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x FlotterOnTPTP.pl -f oldtptp -s vampire -t %d %s
+Fampire---1.3's SOT_WxCpx6 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP15426 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6
+Fampire---1.3   being executed on SOT_WxCpx6 using /home/tptp/Systems/Fampire---1.3/FlotterOnTPTP.pl -f oldtptp -s vampire -t 999 '/tmp/SystemOnTPTP15426/SOT_WxCpx6.tptp'
+RESULT: SOT_WxCpx6 - Fampire---1.3 says Theorem - CPU = 0.12 WC = 0.19 
+OUTPUT: SOT_WxCpx6 - Fampire---1.3 says Assurance - CPU = 0.12 WC = 0.19 
+Fiesta---2   system information being retrieved
+Fiesta---2's non-default parameters being retrieved
+    -t none
+    -f dedam
+    -x fiesta-wrapper %s
+Fiesta---2's SOT_WxCpx6 being prepared by /home/tptp/TPTP/TPTP2X/tptp2X
+    -d /tmp/SystemOnTPTP15476 
+    -t none 
+    -f dedam
+    /tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6
+% 1020 wall clock seconds gone, waiting for system output
+Fiesta---2   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - Fiesta---2 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - Fiesta---2 says None - CPU = 0 WC = 0 
+FIMO---0.3   system information being retrieved
+FIMO---0.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x bin/fimo -nosplit -iclingo-opts "--heuristic=Vsids --iheuristic=keep" %s
+FIMO---0.3's SOT_WxCpx6 does not need preparation
+FIMO---0.3   being executed on SOT_WxCpx6 using /home/tptp/Systems/FIMO---0.3/bin/fimo -nosplit -iclingo-opts "--heuristic=Vsids --iheuristic=keep" '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - FIMO---0.3 says Unknown - CPU = 0.13 WC = 0.21 
+OUTPUT: SOT_WxCpx6 - FIMO---0.3 says None - CPU = 0 WC = 0 
+Geo-III---2018C   system information being retrieved
+Geo-III---2018C's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x geo -tptp_input -nonempty -include /home/tptp/TPTP -inputfile %s
+Geo-III---2018C's SOT_WxCpx6 does not need preparation
+Geo-III---2018C   being executed on SOT_WxCpx6 using /home/tptp/Systems/Geo-III---2018C/geo -tptp_input -nonempty -include /home/tptp/TPTP -inputfile '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+% 1030 wall clock seconds gone, waiting for system output
+% 1040 wall clock seconds gone, waiting for system output
+% 1050 wall clock seconds gone, waiting for system output
+% 1060 wall clock seconds gone, waiting for system output
+% 1070 wall clock seconds gone, waiting for system output
+% 1080 wall clock seconds gone, waiting for system output
+% 1090 wall clock seconds gone, waiting for system output
+% 1100 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - Geo-III---2018C says Theorem - CPU = 85.23 WC = 85.33 
+OUTPUT: SOT_WxCpx6 - Geo-III---2018C says Refutation - CPU = 85.29 WC = 85.47 
+GrAnDe---1.1   system information being retrieved
+GrAnDe---1.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x And %s %d
+GrAnDe---1.1's SOT_WxCpx6 does not need preparation
+GrAnDe---1.1   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - GrAnDe---1.1 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - GrAnDe---1.1 says None - CPU = 0 WC = 0 
+HOLyHammer---0.21   system information being retrieved
+HOLyHammer---0.21's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_hh %d %s
+HOLyHammer---0.21's SOT_WxCpx6 does not need preparation
+HOLyHammer---0.21   being executed on SOT_WxCpx6 using /home/tptp/Systems/HOLyHammer---0.21/run_hh 999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - HOLyHammer---0.21 says Unknown - CPU = 0.01 WC = 0.07 
+OUTPUT: SOT_WxCpx6 - HOLyHammer---0.21 says None - CPU = 0 WC = 0 
+Imogen---2.0   system information being retrieved
+Imogen---2.0's non-default parameters being retrieved
+    -t stdfof+add_equality
+    -f tptp
+    -x imogen fol prove -c -f FileName -s Tptp -pt %s
+Imogen---2.0's SOT_WxCpx6 being prepared by /home/tptp/TPTP/TPTP2X/tptp2X
+    -d /tmp/SystemOnTPTP15711 
+    -t stdfof+add_equality 
+    -f tptp
+    /tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6
+Imogen---2.0   being executed on SOT_WxCpx6 using /home/tptp/Systems/Imogen---2.0/imogen fol prove -c -f FileName -s Tptp -pt '/tmp/SystemOnTPTP15711//SOT_WxCpx6+stdfof+eq_rstfp.tptp'
+RESULT: SOT_WxCpx6 - Imogen---2.0 says Unknown - CPU = 0.02 WC = 0.09 
+OUTPUT: SOT_WxCpx6 - Imogen---2.0 says None - CPU = 0 WC = 0 
+Infinox---1.0   system information being retrieved
+Infinox---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_infinox %s
+% 1110 wall clock seconds gone, waiting for system output
+Infinox---1.0's SOT_WxCpx6 does not need preparation
+Infinox---1.0   being executed on SOT_WxCpx6 using /home/tptp/Systems/Infinox---1.0/run_infinox '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+% 1120 wall clock seconds gone, waiting for system output
+% 1130 wall clock seconds gone, waiting for system output
+% 1140 wall clock seconds gone, waiting for system output
+% 1150 wall clock seconds gone, waiting for system output
+% 1160 wall clock seconds gone, waiting for system output
+% 1170 wall clock seconds gone, waiting for system output
+% 1180 wall clock seconds gone, waiting for system output
+% 1190 wall clock seconds gone, waiting for system output
+% 1200 wall clock seconds gone, waiting for system output
+% 1210 wall clock seconds gone, waiting for system output
+% 1220 wall clock seconds gone, waiting for system output
+% 1230 wall clock seconds gone, waiting for system output
+% 1240 wall clock seconds gone, waiting for system output
+% 1250 wall clock seconds gone, waiting for system output
+% 1260 wall clock seconds gone, waiting for system output
+% 1270 wall clock seconds gone, waiting for system output
+% 1280 wall clock seconds gone, waiting for system output
+% 1290 wall clock seconds gone, waiting for system output
+% 1300 wall clock seconds gone, waiting for system output
+% 1310 wall clock seconds gone, waiting for system output
+% 1320 wall clock seconds gone, waiting for system output
+% 1330 wall clock seconds gone, waiting for system output
+% 1340 wall clock seconds gone, waiting for system output
+% 1350 wall clock seconds gone, waiting for system output
+% 1360 wall clock seconds gone, waiting for system output
+% 1370 wall clock seconds gone, waiting for system output
+% 1380 wall clock seconds gone, waiting for system output
+% 1390 wall clock seconds gone, waiting for system output
+% 1400 wall clock seconds gone, waiting for system output
+% 1410 wall clock seconds gone, waiting for system output
+% 1420 wall clock seconds gone, waiting for system output
+% 1430 wall clock seconds gone, waiting for system output
+% 1440 wall clock seconds gone, waiting for system output
+% 1450 wall clock seconds gone, waiting for system output
+% 1460 wall clock seconds gone, waiting for system output
+% 1470 wall clock seconds gone, waiting for system output
+% 1480 wall clock seconds gone, waiting for system output
+% 1490 wall clock seconds gone, waiting for system output
+% 1500 wall clock seconds gone, waiting for system output
+% 1510 wall clock seconds gone, waiting for system output
+% 1520 wall clock seconds gone, waiting for system output
+% 1530 wall clock seconds gone, waiting for system output
+% 1540 wall clock seconds gone, waiting for system output
+% 1550 wall clock seconds gone, waiting for system output
+% 1560 wall clock seconds gone, waiting for system output
+% 1570 wall clock seconds gone, waiting for system output
+% 1580 wall clock seconds gone, waiting for system output
+% 1590 wall clock seconds gone, waiting for system output
+% 1600 wall clock seconds gone, waiting for system output
+% 1610 wall clock seconds gone, waiting for system output
+% 1620 wall clock seconds gone, waiting for system output
+% 1630 wall clock seconds gone, waiting for system output
+% 1640 wall clock seconds gone, waiting for system output
+% 1650 wall clock seconds gone, waiting for system output
+% 1660 wall clock seconds gone, waiting for system output
+% 1670 wall clock seconds gone, waiting for system output
+% 1680 wall clock seconds gone, waiting for system output
+% 1690 wall clock seconds gone, waiting for system output
+% 1700 wall clock seconds gone, waiting for system output
+% 1710 wall clock seconds gone, waiting for system output
+% 1720 wall clock seconds gone, waiting for system output
+% 1730 wall clock seconds gone, waiting for system output
+% 1740 wall clock seconds gone, waiting for system output
+% 1750 wall clock seconds gone, waiting for system output
+% 1760 wall clock seconds gone, waiting for system output
+% 1770 wall clock seconds gone, waiting for system output
+% 1780 wall clock seconds gone, waiting for system output
+% 1790 wall clock seconds gone, waiting for system output
+% 1800 wall clock seconds gone, waiting for system output
+% 1810 wall clock seconds gone, waiting for system output
+% 1820 wall clock seconds gone, waiting for system output
+% 1830 wall clock seconds gone, waiting for system output
+% 1840 wall clock seconds gone, waiting for system output
+% 1850 wall clock seconds gone, waiting for system output
+% 1860 wall clock seconds gone, waiting for system output
+% 1870 wall clock seconds gone, waiting for system output
+% 1880 wall clock seconds gone, waiting for system output
+% 1890 wall clock seconds gone, waiting for system output
+% 1900 wall clock seconds gone, waiting for system output
+% 1910 wall clock seconds gone, waiting for system output
+% 1920 wall clock seconds gone, waiting for system output
+% 1930 wall clock seconds gone, waiting for system output
+% 1940 wall clock seconds gone, waiting for system output
+% 1950 wall clock seconds gone, waiting for system output
+% 1960 wall clock seconds gone, waiting for system output
+% 1970 wall clock seconds gone, waiting for system output
+% 1980 wall clock seconds gone, waiting for system output
+% 1990 wall clock seconds gone, waiting for system output
+% 2000 wall clock seconds gone, waiting for system output
+% 2010 wall clock seconds gone, waiting for system output
+% 2020 wall clock seconds gone, waiting for system output
+% 2030 wall clock seconds gone, waiting for system output
+% 2040 wall clock seconds gone, waiting for system output
+% 2050 wall clock seconds gone, waiting for system output
+% 2060 wall clock seconds gone, waiting for system output
+% 2070 wall clock seconds gone, waiting for system output
+% 2080 wall clock seconds gone, waiting for system output
+% 2090 wall clock seconds gone, waiting for system output
+% 2100 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - Infinox---1.0 says Timeout - CPU = 999.05 WC = 996.60 
+OUTPUT: SOT_WxCpx6 - Infinox---1.0 says None - CPU = 0 WC = 0 
+iProver---2.8   system information being retrieved
+iProver---2.8's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x iproveropt_run.sh %d %s
+iProver---2.8's SOT_WxCpx6 does not need preparation
+iProver---2.8   being executed on SOT_WxCpx6 using /home/tptp/Systems/iProver---2.8/iproveropt_run.sh 999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - iProver---2.8 says Unknown - CPU = 0.00 WC = 0.15  ILoops = 0 RLoops = 0 PropCalls = 0
+OUTPUT: SOT_WxCpx6 - iProver---2.8 says None - CPU = 0 WC = 0 
+iProver---SAT-2.8   system information being retrieved
+iProver---SAT-2.8's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x iproveropt_run_sat.sh %d %s
+iProver---SAT-2.8's SOT_WxCpx6 does not need preparation
+iProver---SAT-2.8   being executed on SOT_WxCpx6 using /home/tptp/Systems/iProver---SAT-2.8/iproveropt_run_sat.sh 999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - iProver---SAT-2.8 says Theorem - CPU = 0.00 WC = 0.30  ILoops = 387 RLoops = 100 PropCalls = 27
+OUTPUT: SOT_WxCpx6 - iProver---SAT-2.8 says CNFRefutation - CPU = 0.00 WC = 0.30 
+iProver-Eq---0.85   system information being retrieved
+iProver-Eq---0.85's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x iprover-cvc4-eq-nc --time_out_virtual %d %s
+iProver-Eq---0.85's SOT_WxCpx6 does not need preparation
+% 2110 wall clock seconds gone, waiting for system output
+iProver-Eq---0.85   being executed on SOT_WxCpx6 using /home/tptp/Systems/iProver-Eq---0.85/iprover-cvc4-eq-nc --time_out_virtual 999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - iProver-Eq---0.85 says Unknown - CPU = 0.00 WC = 0.00 
+OUTPUT: SOT_WxCpx6 - iProver-Eq---0.85 says None - CPU = 0 WC = 0 
+iProverMo---2.5-0.1   system information being retrieved
+iProverMo---2.5-0.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x bin/run_iProverMo %s %d
+iProverMo---2.5-0.1's SOT_WxCpx6 does not need preparation
+iProverMo---2.5-0.1   being executed on SOT_WxCpx6 using /home/tptp/Systems/iProverMo---2.5-0.1/bin/run_iProverMo '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' 999
+RESULT: SOT_WxCpx6 - iProverMo---2.5-0.1 says Theorem - CPU = 0.01 WC = 0.16 
+OUTPUT: SOT_WxCpx6 - iProverMo---2.5-0.1 says CNFRefutation - CPU = 0.01 WC = 0.20 
+Isabelle---2016   system information being retrieved
+Isabelle---2016's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x Source/bin/isabelle tptp_isabelle %d %s
+Isabelle---2016's SOT_WxCpx6 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP16323 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6
+Isabelle---2016   being executed on SOT_WxCpx6 using /home/tptp/Systems/Isabelle---2016/Source/bin/isabelle tptp_isabelle 999 '/tmp/SystemOnTPTP16323/SOT_WxCpx6.tptp'
+% 2120 wall clock seconds gone, waiting for system output
+% 2130 wall clock seconds gone, waiting for system output
+% 2140 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - Isabelle---2016 says Theorem - CPU = 96.80 WC = 36.73  SolvedBy = blast
+OUTPUT: SOT_WxCpx6 - Isabelle---2016 says Assurance - CPU = 96.80 WC = 36.73 
+Isabelle-HOT---2016   system information being retrieved
+Isabelle-HOT---2016's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x Source/bin/isabelle tptp_isabelle_hot %d %s
+Isabelle-HOT---2016's SOT_WxCpx6 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP16625 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6
+Isabelle-HOT---2016   being executed on SOT_WxCpx6 using /home/tptp/Systems/Isabelle-HOT---2016/Source/bin/isabelle tptp_isabelle_hot 999 '/tmp/SystemOnTPTP16625/SOT_WxCpx6.tptp'
+% 2150 wall clock seconds gone, waiting for system output
+% 2160 wall clock seconds gone, waiting for system output
+% 2170 wall clock seconds gone, waiting for system output
+% 2180 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - Isabelle-HOT---2016 says Theorem - CPU = 95.18 WC = 33.57  SolvedBy = blast
+OUTPUT: SOT_WxCpx6 - Isabelle-HOT---2016 says Assurance - CPU = 95.18 WC = 33.57 
+JGXYZ---A3-0.2   system information being retrieved
+JGXYZ---A3-0.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x jgxyz %s %d a3 truth_evaluation designated vampire 80 vampirefmo 20
+JGXYZ---A3-0.2's SOT_WxCpx6 does not need preparation
+JGXYZ---A3-0.2   being executed on SOT_WxCpx6 using /home/tptp/Systems/JGXYZ---A3-0.2/jgxyz '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' 999 a3 truth_evaluation designated vampire 80 vampirefmo 20
+% 2190 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - JGXYZ---A3-0.2 says CounterSatisfiable - CPU = 14.66 WC = 14.84 
+OUTPUT: SOT_WxCpx6 - JGXYZ---A3-0.2 says Assurance - CPU = 14.66 WC = 14.84 
+JGXYZ---FDECmi-0.2   system information being retrieved
+JGXYZ---FDECmi-0.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x jgxyz %s %d fdeCmi truth_evaluation designated vampire 80 vampirefmo 20
+JGXYZ---FDECmi-0.2's SOT_WxCpx6 does not need preparation
+JGXYZ---FDECmi-0.2   being executed on SOT_WxCpx6 using /home/tptp/Systems/JGXYZ---FDECmi-0.2/jgxyz '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' 999 fdeCmi truth_evaluation designated vampire 80 vampirefmo 20
+% 2200 wall clock seconds gone, waiting for system output
+% 2210 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - JGXYZ---FDECmi-0.2 says CounterSatisfiable - CPU = 14.56 WC = 14.76 
+OUTPUT: SOT_WxCpx6 - JGXYZ---FDECmi-0.2 says Assurance - CPU = 14.56 WC = 14.76 
+JGXYZ---FDECon-0.2   system information being retrieved
+JGXYZ---FDECon-0.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x jgxyz %s %d fdeCon truth_evaluation designated vampire 80 vampirefmo 20
+JGXYZ---FDECon-0.2's SOT_WxCpx6 does not need preparation
+JGXYZ---FDECon-0.2   being executed on SOT_WxCpx6 using /home/tptp/Systems/JGXYZ---FDECon-0.2/jgxyz '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' 999 fdeCon truth_evaluation designated vampire 80 vampirefmo 20
+% 2220 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - JGXYZ---FDECon-0.2 says CounterSatisfiable - CPU = 14.59 WC = 14.82 
+OUTPUT: SOT_WxCpx6 - JGXYZ---FDECon-0.2 says Assurance - CPU = 14.59 WC = 14.82 
+JGXYZ---FDELuk-0.2   system information being retrieved
+JGXYZ---FDELuk-0.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x jgxyz %s %d fdeLuk truth_evaluation designated vampire 80 vampirefmo 20
+JGXYZ---FDELuk-0.2's SOT_WxCpx6 does not need preparation
+JGXYZ---FDELuk-0.2   being executed on SOT_WxCpx6 using /home/tptp/Systems/JGXYZ---FDELuk-0.2/jgxyz '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' 999 fdeLuk truth_evaluation designated vampire 80 vampirefmo 20
+% 2230 wall clock seconds gone, waiting for system output
+% 2240 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - JGXYZ---FDELuk-0.2 says CounterSatisfiable - CPU = 14.40 WC = 14.59 
+OUTPUT: SOT_WxCpx6 - JGXYZ---FDELuk-0.2 says Assurance - CPU = 14.40 WC = 14.59 
+JGXYZ---FOF-0.2   system information being retrieved
+JGXYZ---FOF-0.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x jgxyz %s %d fof truth_evaluation designated vampire 80 vampirefmo 20
+JGXYZ---FOF-0.2's SOT_WxCpx6 does not need preparation
+JGXYZ---FOF-0.2   being executed on SOT_WxCpx6 using /home/tptp/Systems/JGXYZ---FOF-0.2/jgxyz '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' 999 fof truth_evaluation designated vampire 80 vampirefmo 20
+% 2250 wall clock seconds gone, waiting for system output
+% 2260 wall clock seconds gone, waiting for system output
+% 2270 wall clock seconds gone, waiting for system output
+% 2280 wall clock seconds gone, waiting for system output
+% 2290 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - JGXYZ---FOF-0.2 says Unknown - CPU = 25.37 WC = 48.73 
+OUTPUT: SOT_WxCpx6 - JGXYZ---FOF-0.2 says None - CPU = 0 WC = 0 
+JGXYZ---L3-0.2   system information being retrieved
+JGXYZ---L3-0.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x jgxyz %s %d l3 truth_evaluation designated vampire 80 vampirefmo 20
+JGXYZ---L3-0.2's SOT_WxCpx6 does not need preparation
+JGXYZ---L3-0.2   being executed on SOT_WxCpx6 using /home/tptp/Systems/JGXYZ---L3-0.2/jgxyz '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' 999 l3 truth_evaluation designated vampire 80 vampirefmo 20
+% 2300 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - JGXYZ---L3-0.2 says CounterSatisfiable - CPU = 13.14 WC = 13.30 
+OUTPUT: SOT_WxCpx6 - JGXYZ---L3-0.2 says Assurance - CPU = 13.14 WC = 13.30 
+JGXYZ---RM3-0.2   system information being retrieved
+JGXYZ---RM3-0.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x jgxyz %s %d rm3 truth_evaluation designated vampire 80 vampirefmo 20
+JGXYZ---RM3-0.2's SOT_WxCpx6 does not need preparation
+JGXYZ---RM3-0.2   being executed on SOT_WxCpx6 using /home/tptp/Systems/JGXYZ---RM3-0.2/jgxyz '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' 999 rm3 truth_evaluation designated vampire 80 vampirefmo 20
+% 2310 wall clock seconds gone, waiting for system output
+% 2320 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - JGXYZ---RM3-0.2 says CounterSatisfiable - CPU = 14.46 WC = 14.66 
+OUTPUT: SOT_WxCpx6 - JGXYZ---RM3-0.2 says Assurance - CPU = 14.46 WC = 14.66 
+leanCoP---2.2   system information being retrieved
+leanCoP---2.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x leancop.sh %s %d
+leanCoP---2.2's SOT_WxCpx6 does not need preparation
+leanCoP---2.2   being executed on SOT_WxCpx6 using /home/tptp/Systems/leanCoP---2.2/leancop.sh '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' 999
+% 2330 wall clock seconds gone, waiting for system output
+% 2340 wall clock seconds gone, waiting for system output
+% 2350 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - leanCoP---2.2 says Unknown - CPU = 2.37 WC = 32.34 
+OUTPUT: SOT_WxCpx6 - leanCoP---2.2 says None - CPU = 0 WC = 0 
+leanCoP-Omega---0.1   system information being retrieved
+leanCoP-Omega---0.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x leancop_omega.sh %s %d
+leanCoP-Omega---0.1's SOT_WxCpx6 does not need preparation
+leanCoP-Omega---0.1   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - leanCoP-Omega---0.1 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - leanCoP-Omega---0.1 says None - CPU = 0 WC = 0 
+LEO-II---1.7.0   system information being retrieved
+LEO-II---1.7.0's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x leo --timeout %d --proofoutput 1 --foatp e --atp e=/home/tptp/Systems/LEO-II---1.7.0/eprover %s
+LEO-II---1.7.0's SOT_WxCpx6 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP17799 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6
+LEO-II---1.7.0   being executed on SOT_WxCpx6 using /home/tptp/Systems/LEO-II---1.7.0/leo --timeout 999 --proofoutput 1 --foatp e --atp e=/home/tptp/Systems/LEO-II---1.7.0/eprover '/tmp/SystemOnTPTP17799/SOT_WxCpx6.tptp'
+% 2360 wall clock seconds gone, waiting for system output
+% 2370 wall clock seconds gone, waiting for system output
+% 2380 wall clock seconds gone, waiting for system output
+% 2390 wall clock seconds gone, waiting for system output
+% 2400 wall clock seconds gone, waiting for system output
+% 2410 wall clock seconds gone, waiting for system output
+% 2420 wall clock seconds gone, waiting for system output
+% 2430 wall clock seconds gone, waiting for system output
+% 2440 wall clock seconds gone, waiting for system output
+% 2450 wall clock seconds gone, waiting for system output
+% 2460 wall clock seconds gone, waiting for system output
+% 2470 wall clock seconds gone, waiting for system output
+% 2480 wall clock seconds gone, waiting for system output
+% 2490 wall clock seconds gone, waiting for system output
+% 2500 wall clock seconds gone, waiting for system output
+% 2510 wall clock seconds gone, waiting for system output
+% 2520 wall clock seconds gone, waiting for system output
+% 2530 wall clock seconds gone, waiting for system output
+% 2540 wall clock seconds gone, waiting for system output
+% 2550 wall clock seconds gone, waiting for system output
+% 2560 wall clock seconds gone, waiting for system output
+% 2570 wall clock seconds gone, waiting for system output
+% 2580 wall clock seconds gone, waiting for system output
+% 2590 wall clock seconds gone, waiting for system output
+% 2600 wall clock seconds gone, waiting for system output
+% 2610 wall clock seconds gone, waiting for system output
+% 2620 wall clock seconds gone, waiting for system output
+% 2630 wall clock seconds gone, waiting for system output
+% 2640 wall clock seconds gone, waiting for system output
+% 2650 wall clock seconds gone, waiting for system output
+% 2660 wall clock seconds gone, waiting for system output
+% 2670 wall clock seconds gone, waiting for system output
+% 2680 wall clock seconds gone, waiting for system output
+% 2690 wall clock seconds gone, waiting for system output
+% 2700 wall clock seconds gone, waiting for system output
+% 2710 wall clock seconds gone, waiting for system output
+% 2720 wall clock seconds gone, waiting for system output
+% 2730 wall clock seconds gone, waiting for system output
+% 2740 wall clock seconds gone, waiting for system output
+% 2750 wall clock seconds gone, waiting for system output
+% 2760 wall clock seconds gone, waiting for system output
+% 2770 wall clock seconds gone, waiting for system output
+% 2780 wall clock seconds gone, waiting for system output
+% 2790 wall clock seconds gone, waiting for system output
+% 2800 wall clock seconds gone, waiting for system output
+% 2810 wall clock seconds gone, waiting for system output
+% 2820 wall clock seconds gone, waiting for system output
+% 2830 wall clock seconds gone, waiting for system output
+% 2840 wall clock seconds gone, waiting for system output
+% 2850 wall clock seconds gone, waiting for system output
+% 2860 wall clock seconds gone, waiting for system output
+% 2870 wall clock seconds gone, waiting for system output
+% 2880 wall clock seconds gone, waiting for system output
+% 2890 wall clock seconds gone, waiting for system output
+% 2900 wall clock seconds gone, waiting for system output
+% 2910 wall clock seconds gone, waiting for system output
+% 2920 wall clock seconds gone, waiting for system output
+% 2930 wall clock seconds gone, waiting for system output
+% 2940 wall clock seconds gone, waiting for system output
+% 2950 wall clock seconds gone, waiting for system output
+% 2960 wall clock seconds gone, waiting for system output
+% 2970 wall clock seconds gone, waiting for system output
+% 2980 wall clock seconds gone, waiting for system output
+% 2990 wall clock seconds gone, waiting for system output
+% 3000 wall clock seconds gone, waiting for system output
+% 3010 wall clock seconds gone, waiting for system output
+% 3020 wall clock seconds gone, waiting for system output
+% 3030 wall clock seconds gone, waiting for system output
+% 3040 wall clock seconds gone, waiting for system output
+% 3050 wall clock seconds gone, waiting for system output
+% 3060 wall clock seconds gone, waiting for system output
+% 3070 wall clock seconds gone, waiting for system output
+% 3080 wall clock seconds gone, waiting for system output
+% 3090 wall clock seconds gone, waiting for system output
+% 3100 wall clock seconds gone, waiting for system output
+% 3110 wall clock seconds gone, waiting for system output
+% 3120 wall clock seconds gone, waiting for system output
+% 3130 wall clock seconds gone, waiting for system output
+% 3140 wall clock seconds gone, waiting for system output
+% 3150 wall clock seconds gone, waiting for system output
+% 3160 wall clock seconds gone, waiting for system output
+% 3170 wall clock seconds gone, waiting for system output
+% 3180 wall clock seconds gone, waiting for system output
+% 3190 wall clock seconds gone, waiting for system output
+% 3200 wall clock seconds gone, waiting for system output
+% 3210 wall clock seconds gone, waiting for system output
+% 3220 wall clock seconds gone, waiting for system output
+% 3230 wall clock seconds gone, waiting for system output
+% 3240 wall clock seconds gone, waiting for system output
+% 3250 wall clock seconds gone, waiting for system output
+% 3260 wall clock seconds gone, waiting for system output
+% 3270 wall clock seconds gone, waiting for system output
+% 3280 wall clock seconds gone, waiting for system output
+% 3290 wall clock seconds gone, waiting for system output
+% 3300 wall clock seconds gone, waiting for system output
+% 3310 wall clock seconds gone, waiting for system output
+% 3320 wall clock seconds gone, waiting for system output
+% 3330 wall clock seconds gone, waiting for system output
+% 3340 wall clock seconds gone, waiting for system output
+% 3350 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - LEO-II---1.7.0 says Timeout - CPU = 999.05 WC = 1000.42 
+OUTPUT: SOT_WxCpx6 - LEO-II---1.7.0 says None - CPU = 0 WC = 0 
+Leo-III---1.3   system information being retrieved
+Leo-III---1.3's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x run_Leo-III %s %d
+Leo-III---1.3's SOT_WxCpx6 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP18031 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6
+Leo-III---1.3   being executed on SOT_WxCpx6 using /home/tptp/Systems/Leo-III---1.3/run_Leo-III '/tmp/SystemOnTPTP18031/SOT_WxCpx6.tptp' 999
+RESULT: SOT_WxCpx6 - Leo-III---1.3 says Unknown - CPU = 6.23 WC = 1.81 
+OUTPUT: SOT_WxCpx6 - Leo-III---1.3 says None - CPU = 0 WC = 0 
+Mace2---2.2   system information being retrieved
+Mace2---2.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x tptp2X_and_run_mace2 %d %s
+Mace2---2.2's SOT_WxCpx6 does not need preparation
+% 3360 wall clock seconds gone, waiting for system output
+Mace2---2.2   being executed on SOT_WxCpx6 using /home/tptp/Systems/Mace2---2.2/tptp2X_and_run_mace2 999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - Mace2---2.2 says CounterSatisfiable - CPU = 0.00 WC = 0.51  Size = 2
+OUTPUT: SOT_WxCpx6 - Mace2---2.2 says FiniteModel - CPU = 0.00 WC = 0.51 
+Mace4---1109a   system information being retrieved
+Mace4---1109a's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x tptp2X_and_run_mace4 %d %s
+Mace4---1109a's SOT_WxCpx6 does not need preparation
+Mace4---1109a   being executed on SOT_WxCpx6 using /home/tptp/Systems/Mace4---1109a/tptp2X_and_run_mace4 999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - Mace4---1109a says CounterSatisfiable - CPU = 0.00 WC = 0.49 
+OUTPUT: SOT_WxCpx6 - Mace4---1109a says FiniteModel - CPU = 0.00 WC = 0.50 
+MaedMax---0.9   system information being retrieved
+MaedMax---0.9's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x maedmax.native -T %d -P tstp %s
+MaedMax---0.9's SOT_WxCpx6 does not need preparation
+MaedMax---0.9   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - MaedMax---0.9 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - MaedMax---0.9 says None - CPU = 0 WC = 0 
+Matita---1.0   system information being retrieved
+Matita---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x matitaprover --timeout %d --tptppath /home/tptp/TPTP %s
+Matita---1.0's SOT_WxCpx6 does not need preparation
+Matita---1.0   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - Matita---1.0 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - Matita---1.0 says None - CPU = 0 WC = 0 
+Metis---2.4   system information being retrieved
+Metis---2.4's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x metis --show proof --show saturation %s
+Metis---2.4's SOT_WxCpx6 does not need preparation
+Metis---2.4   being executed on SOT_WxCpx6 using /home/tptp/Systems/Metis---2.4/metis --show proof --show saturation '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+% 3370 wall clock seconds gone, waiting for system output
+% 3380 wall clock seconds gone, waiting for system output
+% 3390 wall clock seconds gone, waiting for system output
+% 3400 wall clock seconds gone, waiting for system output
+% 3410 wall clock seconds gone, waiting for system output
+% 3420 wall clock seconds gone, waiting for system output
+% 3430 wall clock seconds gone, waiting for system output
+% 3440 wall clock seconds gone, waiting for system output
+% 3450 wall clock seconds gone, waiting for system output
+% 3460 wall clock seconds gone, waiting for system output
+% 3470 wall clock seconds gone, waiting for system output
+% 3480 wall clock seconds gone, waiting for system output
+% 3490 wall clock seconds gone, waiting for system output
+% 3500 wall clock seconds gone, waiting for system output
+% 3510 wall clock seconds gone, waiting for system output
+% 3520 wall clock seconds gone, waiting for system output
+% 3530 wall clock seconds gone, waiting for system output
+% 3540 wall clock seconds gone, waiting for system output
+% 3550 wall clock seconds gone, waiting for system output
+% 3560 wall clock seconds gone, waiting for system output
+% 3570 wall clock seconds gone, waiting for system output
+% 3580 wall clock seconds gone, waiting for system output
+% 3590 wall clock seconds gone, waiting for system output
+% 3600 wall clock seconds gone, waiting for system output
+% 3610 wall clock seconds gone, waiting for system output
+% 3620 wall clock seconds gone, waiting for system output
+% 3630 wall clock seconds gone, waiting for system output
+% 3640 wall clock seconds gone, waiting for system output
+% 3650 wall clock seconds gone, waiting for system output
+% 3660 wall clock seconds gone, waiting for system output
+% 3670 wall clock seconds gone, waiting for system output
+% 3680 wall clock seconds gone, waiting for system output
+% 3690 wall clock seconds gone, waiting for system output
+% 3700 wall clock seconds gone, waiting for system output
+% 3710 wall clock seconds gone, waiting for system output
+% 3720 wall clock seconds gone, waiting for system output
+% 3730 wall clock seconds gone, waiting for system output
+% 3740 wall clock seconds gone, waiting for system output
+% 3750 wall clock seconds gone, waiting for system output
+% 3760 wall clock seconds gone, waiting for system output
+% 3770 wall clock seconds gone, waiting for system output
+% 3780 wall clock seconds gone, waiting for system output
+% 3790 wall clock seconds gone, waiting for system output
+% 3800 wall clock seconds gone, waiting for system output
+% 3810 wall clock seconds gone, waiting for system output
+% 3820 wall clock seconds gone, waiting for system output
+% 3830 wall clock seconds gone, waiting for system output
+% 3840 wall clock seconds gone, waiting for system output
+% 3850 wall clock seconds gone, waiting for system output
+% 3860 wall clock seconds gone, waiting for system output
+% 3870 wall clock seconds gone, waiting for system output
+% 3880 wall clock seconds gone, waiting for system output
+% 3890 wall clock seconds gone, waiting for system output
+% 3900 wall clock seconds gone, waiting for system output
+% 3910 wall clock seconds gone, waiting for system output
+% 3920 wall clock seconds gone, waiting for system output
+% 3930 wall clock seconds gone, waiting for system output
+% 3940 wall clock seconds gone, waiting for system output
+% 3950 wall clock seconds gone, waiting for system output
+% 3960 wall clock seconds gone, waiting for system output
+% 3970 wall clock seconds gone, waiting for system output
+% 3980 wall clock seconds gone, waiting for system output
+% 3990 wall clock seconds gone, waiting for system output
+% 4000 wall clock seconds gone, waiting for system output
+% 4010 wall clock seconds gone, waiting for system output
+% 4020 wall clock seconds gone, waiting for system output
+% 4030 wall clock seconds gone, waiting for system output
+% 4040 wall clock seconds gone, waiting for system output
+% 4050 wall clock seconds gone, waiting for system output
+% 4060 wall clock seconds gone, waiting for system output
+% 4070 wall clock seconds gone, waiting for system output
+% 4080 wall clock seconds gone, waiting for system output
+% 4090 wall clock seconds gone, waiting for system output
+% 4100 wall clock seconds gone, waiting for system output
+% 4110 wall clock seconds gone, waiting for system output
+% 4120 wall clock seconds gone, waiting for system output
+% 4130 wall clock seconds gone, waiting for system output
+% 4140 wall clock seconds gone, waiting for system output
+% 4150 wall clock seconds gone, waiting for system output
+% 4160 wall clock seconds gone, waiting for system output
+% 4170 wall clock seconds gone, waiting for system output
+% 4180 wall clock seconds gone, waiting for system output
+% 4190 wall clock seconds gone, waiting for system output
+% 4200 wall clock seconds gone, waiting for system output
+% 4210 wall clock seconds gone, waiting for system output
+% 4220 wall clock seconds gone, waiting for system output
+% 4230 wall clock seconds gone, waiting for system output
+% 4240 wall clock seconds gone, waiting for system output
+% 4250 wall clock seconds gone, waiting for system output
+% 4260 wall clock seconds gone, waiting for system output
+% 4270 wall clock seconds gone, waiting for system output
+% 4280 wall clock seconds gone, waiting for system output
+% 4290 wall clock seconds gone, waiting for system output
+% 4300 wall clock seconds gone, waiting for system output
+% 4310 wall clock seconds gone, waiting for system output
+% 4320 wall clock seconds gone, waiting for system output
+% 4330 wall clock seconds gone, waiting for system output
+% 4340 wall clock seconds gone, waiting for system output
+% 4350 wall clock seconds gone, waiting for system output
+% 4360 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - Metis---2.4 says Timeout - CPU = 999.08 WC = 1002.60 
+OUTPUT: SOT_WxCpx6 - Metis---2.4 says None - CPU = 0 WC = 0 
+Muscadet---4.5   system information being retrieved
+Muscadet---4.5's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x muscadet %s
+Muscadet---4.5's SOT_WxCpx6 does not need preparation
+Muscadet---4.5   being executed on SOT_WxCpx6 using /home/tptp/Systems/Muscadet---4.5/muscadet '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+% 4370 wall clock seconds gone, waiting for system output
+% 4380 wall clock seconds gone, waiting for system output
+% 4390 wall clock seconds gone, waiting for system output
+% 4400 wall clock seconds gone, waiting for system output
+% 4410 wall clock seconds gone, waiting for system output
+% 4420 wall clock seconds gone, waiting for system output
+% 4430 wall clock seconds gone, waiting for system output
+% 4440 wall clock seconds gone, waiting for system output
+% 4450 wall clock seconds gone, waiting for system output
+% 4460 wall clock seconds gone, waiting for system output
+% 4470 wall clock seconds gone, waiting for system output
+% 4480 wall clock seconds gone, waiting for system output
+% 4490 wall clock seconds gone, waiting for system output
+% 4500 wall clock seconds gone, waiting for system output
+% 4510 wall clock seconds gone, waiting for system output
+% 4520 wall clock seconds gone, waiting for system output
+% 4530 wall clock seconds gone, waiting for system output
+% 4540 wall clock seconds gone, waiting for system output
+% 4550 wall clock seconds gone, waiting for system output
+% 4560 wall clock seconds gone, waiting for system output
+% 4570 wall clock seconds gone, waiting for system output
+% 4580 wall clock seconds gone, waiting for system output
+% 4590 wall clock seconds gone, waiting for system output
+% 4600 wall clock seconds gone, waiting for system output
+% 4610 wall clock seconds gone, waiting for system output
+% 4620 wall clock seconds gone, waiting for system output
+% 4630 wall clock seconds gone, waiting for system output
+% 4640 wall clock seconds gone, waiting for system output
+% 4650 wall clock seconds gone, waiting for system output
+% 4660 wall clock seconds gone, waiting for system output
+% 4670 wall clock seconds gone, waiting for system output
+% 4680 wall clock seconds gone, waiting for system output
+% 4690 wall clock seconds gone, waiting for system output
+% 4700 wall clock seconds gone, waiting for system output
+% 4710 wall clock seconds gone, waiting for system output
+% 4720 wall clock seconds gone, waiting for system output
+% 4730 wall clock seconds gone, waiting for system output
+% 4740 wall clock seconds gone, waiting for system output
+% 4750 wall clock seconds gone, waiting for system output
+% 4760 wall clock seconds gone, waiting for system output
+% 4770 wall clock seconds gone, waiting for system output
+% 4780 wall clock seconds gone, waiting for system output
+% 4790 wall clock seconds gone, waiting for system output
+% 4800 wall clock seconds gone, waiting for system output
+% 4810 wall clock seconds gone, waiting for system output
+% 4820 wall clock seconds gone, waiting for system output
+% 4830 wall clock seconds gone, waiting for system output
+% 4840 wall clock seconds gone, waiting for system output
+% 4850 wall clock seconds gone, waiting for system output
+% 4860 wall clock seconds gone, waiting for system output
+% 4870 wall clock seconds gone, waiting for system output
+% 4880 wall clock seconds gone, waiting for system output
+% 4890 wall clock seconds gone, waiting for system output
+% 4900 wall clock seconds gone, waiting for system output
+% 4910 wall clock seconds gone, waiting for system output
+% 4920 wall clock seconds gone, waiting for system output
+% 4930 wall clock seconds gone, waiting for system output
+% 4940 wall clock seconds gone, waiting for system output
+% 4950 wall clock seconds gone, waiting for system output
+% 4960 wall clock seconds gone, waiting for system output
+% 4970 wall clock seconds gone, waiting for system output
+% 4980 wall clock seconds gone, waiting for system output
+% 4990 wall clock seconds gone, waiting for system output
+% 5000 wall clock seconds gone, waiting for system output
+% 5010 wall clock seconds gone, waiting for system output
+% 5020 wall clock seconds gone, waiting for system output
+% 5030 wall clock seconds gone, waiting for system output
+% 5040 wall clock seconds gone, waiting for system output
+% 5050 wall clock seconds gone, waiting for system output
+% 5060 wall clock seconds gone, waiting for system output
+% 5070 wall clock seconds gone, waiting for system output
+% 5080 wall clock seconds gone, waiting for system output
+% 5090 wall clock seconds gone, waiting for system output
+% 5100 wall clock seconds gone, waiting for system output
+% 5110 wall clock seconds gone, waiting for system output
+% 5120 wall clock seconds gone, waiting for system output
+% 5130 wall clock seconds gone, waiting for system output
+% 5140 wall clock seconds gone, waiting for system output
+% 5150 wall clock seconds gone, waiting for system output
+% 5160 wall clock seconds gone, waiting for system output
+% 5170 wall clock seconds gone, waiting for system output
+% 5180 wall clock seconds gone, waiting for system output
+% 5190 wall clock seconds gone, waiting for system output
+% 5200 wall clock seconds gone, waiting for system output
+% 5210 wall clock seconds gone, waiting for system output
+% 5220 wall clock seconds gone, waiting for system output
+% 5230 wall clock seconds gone, waiting for system output
+% 5240 wall clock seconds gone, waiting for system output
+% 5250 wall clock seconds gone, waiting for system output
+% 5260 wall clock seconds gone, waiting for system output
+% 5270 wall clock seconds gone, waiting for system output
+% 5280 wall clock seconds gone, waiting for system output
+% 5290 wall clock seconds gone, waiting for system output
+% 5300 wall clock seconds gone, waiting for system output
+% 5310 wall clock seconds gone, waiting for system output
+% 5320 wall clock seconds gone, waiting for system output
+% 5330 wall clock seconds gone, waiting for system output
+% 5340 wall clock seconds gone, waiting for system output
+% 5350 wall clock seconds gone, waiting for system output
+% 5360 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - Muscadet---4.5 says Timeout - CPU = 999.03 WC = 1000.34 
+OUTPUT: SOT_WxCpx6 - Muscadet---4.5 says None - CPU = 0 WC = 0 
+nanoCoP---1.1   system information being retrieved
+nanoCoP---1.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x nanocop_casc.sh %s %d
+nanoCoP---1.1's SOT_WxCpx6 does not need preparation
+nanoCoP---1.1   being executed on SOT_WxCpx6 using /home/tptp/Systems/nanoCoP---1.1/nanocop_casc.sh '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' 999
+RESULT: SOT_WxCpx6 - nanoCoP---1.1 says Unknown - CPU = 0.04 WC = 0.05 
+OUTPUT: SOT_WxCpx6 - nanoCoP---1.1 says None - CPU = 0 WC = 0 
+Nitpick---2016   system information being retrieved
+Nitpick---2016's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x Source/bin/isabelle tptp_nitpick %d %s
+Nitpick---2016's SOT_WxCpx6 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP19081 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6
+Nitpick---2016   being executed on SOT_WxCpx6 using /home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 999 '/tmp/SystemOnTPTP19081/SOT_WxCpx6.tptp'
+% 5370 wall clock seconds gone, waiting for system output
+% 5380 wall clock seconds gone, waiting for system output
+% 5390 wall clock seconds gone, waiting for system output
+% 5400 wall clock seconds gone, waiting for system output
+% 5410 wall clock seconds gone, waiting for system output
+% 5420 wall clock seconds gone, waiting for system output
+% 5430 wall clock seconds gone, waiting for system output
+% 5440 wall clock seconds gone, waiting for system output
+% 5450 wall clock seconds gone, waiting for system output
+% 5460 wall clock seconds gone, waiting for system output
+% 5470 wall clock seconds gone, waiting for system output
+% 5480 wall clock seconds gone, waiting for system output
+% 5490 wall clock seconds gone, waiting for system output
+% 5500 wall clock seconds gone, waiting for system output
+% 5510 wall clock seconds gone, waiting for system output
+% 5520 wall clock seconds gone, waiting for system output
+% 5530 wall clock seconds gone, waiting for system output
+% 5540 wall clock seconds gone, waiting for system output
+% 5550 wall clock seconds gone, waiting for system output
+% 5560 wall clock seconds gone, waiting for system output
+% 5570 wall clock seconds gone, waiting for system output
+% 5580 wall clock seconds gone, waiting for system output
+% 5590 wall clock seconds gone, waiting for system output
+% 5600 wall clock seconds gone, waiting for system output
+% 5610 wall clock seconds gone, waiting for system output
+% 5620 wall clock seconds gone, waiting for system output
+% 5630 wall clock seconds gone, waiting for system output
+% 5640 wall clock seconds gone, waiting for system output
+% 5650 wall clock seconds gone, waiting for system output
+% 5660 wall clock seconds gone, waiting for system output
+% 5670 wall clock seconds gone, waiting for system output
+% 5680 wall clock seconds gone, waiting for system output
+% 5690 wall clock seconds gone, waiting for system output
+% 5700 wall clock seconds gone, waiting for system output
+% 5710 wall clock seconds gone, waiting for system output
+% 5720 wall clock seconds gone, waiting for system output
+% 5730 wall clock seconds gone, waiting for system output
+% 5740 wall clock seconds gone, waiting for system output
+% 5750 wall clock seconds gone, waiting for system output
+% 5760 wall clock seconds gone, waiting for system output
+% 5770 wall clock seconds gone, waiting for system output
+% 5780 wall clock seconds gone, waiting for system output
+% 5790 wall clock seconds gone, waiting for system output
+% 5800 wall clock seconds gone, waiting for system output
+% 5810 wall clock seconds gone, waiting for system output
+% 5820 wall clock seconds gone, waiting for system output
+% 5830 wall clock seconds gone, waiting for system output
+% 5840 wall clock seconds gone, waiting for system output
+% 5850 wall clock seconds gone, waiting for system output
+% 5860 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - Nitpick---2016 says Unknown - CPU = 762.23 WC = 491.17 
+OUTPUT: SOT_WxCpx6 - Nitpick---2016 says None - CPU = 0 WC = 0 
+omkbTT---1.0   system information being retrieved
+omkbTT---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x omkbtt -t %d %s -p
+omkbTT---1.0's SOT_WxCpx6 does not need preparation
+omkbTT---1.0   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - omkbTT---1.0 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - omkbTT---1.0 says None - CPU = 0 WC = 0 
+Otter---3.3   system information being retrieved
+Otter---3.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x otter-tptp-script %s
+Otter---3.3's SOT_WxCpx6 does not need preparation
+Otter---3.3   being executed on SOT_WxCpx6 using /home/tptp/Systems/Otter---3.3/otter-tptp-script '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - Otter---3.3 says GaveUp - CPU = 0.00 WC = 0.52  Given = 0 Generated = 0 Kept = 0
+OUTPUT: SOT_WxCpx6 - Otter---3.3 says None - CPU = 0 WC = 0 
+Paradox---4.0   system information being retrieved
+Paradox---4.0's non-default parameters being retrieved
+    -t none
+    -f tptp:short
+    -x paradox --no-progress --time %d --tstp --model %s
+Paradox---4.0's SOT_WxCpx6 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP21381 
+    -t none 
+    -f tptp:short
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6
+Paradox---4.0   being executed on SOT_WxCpx6 using /home/tptp/Systems/Paradox---4.0/paradox --no-progress --time 999 --tstp --model '/tmp/SystemOnTPTP21381/SOT_WxCpx6.tptp:short'
+RESULT: SOT_WxCpx6 - Paradox---4.0 says Theorem - CPU = 0.67 WC = 0.69 
+OUTPUT: SOT_WxCpx6 - Paradox---4.0 says Assurance - CPU = 0.67 WC = 0.69 
+PKRHyper---0805   system information being retrieved
+PKRHyper---0805's non-default parameters being retrieved
+    -t add_equality
+    -f protein
+    -x /bin/java -Xmx256m -jar /home/tptp/Systems/PKRHyper---0805/PocketKRHyper.jar %s
+PKRHyper---0805's SOT_WxCpx6 being prepared by /home/tptp/TPTP/TPTP2X/tptp2X
+    -d /tmp/SystemOnTPTP21429 
+    -t add_equality 
+    -f protein
+    /tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6
+ERROR: Formatter did not create all the PKRHyper---0805 format files
+ERROR: Undefined procedure: protein_format_information/2
+ERROR: In:
+ERROR:   [14] protein_format_information(_7738,_7740)
+ERROR:   [13] get_format_information(protein,_7766,_7768) at /home/tptp/TPTP/TPTP2X/tptp2X.main:886
+ERROR:   [12] output_formulae_in_format_to_file([],[],[fof(reflexivity,axiom,...),...|...],protein,'SOT_WxCpx6+eq_rstfp','/tmp/SystemOnTPTP21429/',protein,_7806) at /home/tptp/TPTP/TPTP2X/tptp2X.main:947
+ERROR:   [11] output_formulae_in_format_to_file([],[],[fof(reflexivity,axiom,...),...|...],[protein],'SOT_WxCpx6+eq_rstfp','/tmp/SystemOnTPTP21429/',protein,_7864) at /home/tptp/TPTP/TPTP2X/tptp2X.main:936
+ERROR:   [10] make_all_outputs('/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6','SOT_WxCpx6','.p',[],[add_equality],[protein],'/tmp/SystemOnTPTP21429/') at /home/tptp/TPTP/TPTP2X/tptp2X.main:1604
+ERROR:    [8] '<meta-call>'('<garbage_collected>') <foreign>
+ERROR:    [7] <user>
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+
+Princess---170717   system information being retrieved
+Princess---170717's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x princess-casc +printProof -timeout=%d %s
+Princess---170717's SOT_WxCpx6 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP21452 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6
+Princess---170717   being executed on SOT_WxCpx6 using /home/tptp/Systems/Princess---170717/princess-casc +printProof -timeout=999 '/tmp/SystemOnTPTP21452/SOT_WxCpx6.tptp'
+RESULT: SOT_WxCpx6 - Princess---170717 says Theorem - CPU = 9.11 WC = 1.94 
+OUTPUT: SOT_WxCpx6 - Princess---170717 says Proof - CPU = 20.82 WC = 3.29 
+Prover9---1109a   system information being retrieved
+Prover9---1109a's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x tptp2X_and_run_prover9 %d %s
+Prover9---1109a's SOT_WxCpx6 does not need preparation
+Prover9---1109a   being executed on SOT_WxCpx6 using /home/tptp/Systems/Prover9---1109a/tptp2X_and_run_prover9 999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - Prover9---1109a says GaveUp - CPU = 0.00 WC = 0.52  Given = 0 Generated = 0 Kept = 0
+OUTPUT: SOT_WxCpx6 - Prover9---1109a says None - CPU = 0 WC = 0 
+RPx---1.0   system information being retrieved
+% 5870 wall clock seconds gone, waiting for system output
+RPx---1.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x metis %s
+RPx---1.0's SOT_WxCpx6 does not need preparation
+RPx---1.0   being executed on SOT_WxCpx6 using /home/tptp/Systems/RPx---1.0/metis '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - RPx---1.0 says Unknown - CPU = 0.01 WC = 0.42 
+OUTPUT: SOT_WxCpx6 - RPx---1.0 says None - CPU = 0 WC = 0 
+SaKo---4.5-0.6.1   system information being retrieved
+SaKo---4.5-0.6.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_konclude %s
+SaKo---4.5-0.6.1's SOT_WxCpx6 does not need preparation
+SaKo---4.5-0.6.1   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - SaKo---4.5-0.6.1 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - SaKo---4.5-0.6.1 says None - CPU = 0 WC = 0 
+Satallax---3.3   system information being retrieved
+Satallax---3.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_satallax %d %s
+Satallax---3.3's SOT_WxCpx6 does not need preparation
+Satallax---3.3   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - Satallax---3.3 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - Satallax---3.3 says None - CPU = 0 WC = 0 
+Scavenger---EP-0.2   system information being retrieved
+Scavenger---EP-0.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_scavenger %s
+Scavenger---EP-0.2's SOT_WxCpx6 does not need preparation
+Scavenger---EP-0.2   being executed on SOT_WxCpx6 using /home/tptp/Systems/Scavenger---EP-0.2/run_scavenger '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+% 5880 wall clock seconds gone, waiting for system output
+RESULT: SOT_WxCpx6 - Scavenger---EP-0.2 says Theorem - CPU = 45.45 WC = 10.43 
+OUTPUT: SOT_WxCpx6 - Scavenger---EP-0.2 says CNFRefutation - CPU = 45.45 WC = 10.44 
+SNARK---20120808r022   system information being retrieved
+SNARK---20120808r022's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run-snark %s %d
+SNARK---20120808r022's SOT_WxCpx6 does not need preparation
+SNARK---20120808r022   being executed on SOT_WxCpx6 using /home/tptp/Systems/SNARK---20120808r022/run-snark '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' 999
+RESULT: SOT_WxCpx6 - SNARK---20120808r022 says Theorem - CPU = 0.00 WC = 0.10  Derived = 215 Kept = 212
+OUTPUT: SOT_WxCpx6 - SNARK---20120808r022 says Refutation - CPU = 0.00 WC = 0.10 
+SOS---2.0   system information being retrieved
+SOS---2.0's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x sos-script %s
+SOS---2.0's SOT_WxCpx6 does not need preparation
+SOS---2.0   being executed on SOT_WxCpx6 using /home/tptp/Systems/SOS---2.0/sos-script '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - SOS---2.0 says Unknown - CPU = 0.00 WC = 0.49 
+OUTPUT: SOT_WxCpx6 - SOS---2.0 says None - CPU = 0 WC = 0 
+SPASS+T---2.2.22   system information being retrieved
+SPASS+T---2.2.22's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x spasst-tptp-script %s %d
+SPASS+T---2.2.22's SOT_WxCpx6 does not need preparation
+SPASS+T---2.2.22   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - SPASS+T---2.2.22 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - SPASS+T---2.2.22 says None - CPU = 0 WC = 0 
+SPASS---3.9   system information being retrieved
+SPASS---3.9's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x run_spass %d %s
+SPASS---3.9's SOT_WxCpx6 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP22045 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6
+SPASS---3.9   being executed on SOT_WxCpx6 using /home/tptp/Systems/SPASS---3.9/run_spass 999 '/tmp/SystemOnTPTP22045/SOT_WxCpx6.tptp'
+RESULT: SOT_WxCpx6 - SPASS---3.9 says Theorem - CPU = 0.00 WC = 0.14  Memory = 97926 Derived = 2 Kept = 211 Used = 'line_uniqueness incid_type lower_dimension'
+OUTPUT: SOT_WxCpx6 - SPASS---3.9 says Refutation - CPU = 0.00 WC = 0.14 
+SPASS-XDB---0.8   system information being retrieved
+SPASS-XDB---0.8's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run-spass-xdb %s -EPrint=2
+SPASS-XDB---0.8's SOT_WxCpx6 does not need preparation
+SPASS-XDB---0.8   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - SPASS-XDB---0.8 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - SPASS-XDB---0.8 says None - CPU = 0 WC = 0 
+SPASS-XDB---0.8FOF   system information being retrieved
+SPASS-XDB---0.8FOF's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run-spass-xdb %s -EPrint=2
+SPASS-XDB---0.8FOF's SOT_WxCpx6 does not need preparation
+SPASS-XDB---0.8FOF   being executed on SOT_WxCpx6 using /home/tptp/Systems/SPASS-XDB---0.8FOF/run-spass-xdb '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' -EPrint=2
+RESULT: SOT_WxCpx6 - SPASS-XDB---0.8FOF says Unknown - CPU = 0.00 WC = 0.01 
+OUTPUT: SOT_WxCpx6 - SPASS-XDB---0.8FOF says None - CPU = 0 WC = 0 
+SRASS---0.1   system information being retrieved
+SRASS---0.1's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x SRASS -q2 -a 0 10 10 10 -i3 -n60 %s
+SRASS---0.1's SOT_WxCpx6 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP22164 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6
+SRASS---0.1   being executed on SOT_WxCpx6 using /home/tptp/Systems/SRASS---0.1/SRASS -q2 -a 0 10 10 10 -i3 -n60 '/tmp/SystemOnTPTP22164/SOT_WxCpx6.tptp'
+RESULT: SOT_WxCpx6 - SRASS---0.1 says Unknown - CPU = 0.00 WC = 0.01 
+OUTPUT: SOT_WxCpx6 - SRASS---0.1 says None - CPU = 0 WC = 0 
+ToFoF---0.1   system information being retrieved
+ToFoF---0.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x tofof %d %s
+ToFoF---0.1's SOT_WxCpx6 does not need preparation
+ToFoF---0.1   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - ToFoF---0.1 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - ToFoF---0.1 says None - CPU = 0 WC = 0 
+ToFoF-SAT---0.1   system information being retrieved
+ToFoF-SAT---0.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x tofof %d %s --model
+ToFoF-SAT---0.1's SOT_WxCpx6 does not need preparation
+ToFoF-SAT---0.1   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - ToFoF-SAT---0.1 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - ToFoF-SAT---0.1 says None - CPU = 0 WC = 0 
+TPS---3.120601S1b   system information being retrieved
+TPS---3.120601S1b's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run-tps-S1b %s %d
+TPS---3.120601S1b's SOT_WxCpx6 does not need preparation
+TPS---3.120601S1b   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - TPS---3.120601S1b says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - TPS---3.120601S1b says None - CPU = 0 WC = 0 
+Twee---2.2   system information being retrieved
+Twee---2.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x twee --conditional-encoding if --smaller --drop-non-horn --quiet --tstp %s
+Twee---2.2's SOT_WxCpx6 does not need preparation
+Twee---2.2   being executed on SOT_WxCpx6 using /home/tptp/Systems/Twee---2.2/twee --conditional-encoding if --smaller --drop-non-horn --quiet --tstp '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - Twee---2.2 says GaveUp - CPU = 0.03 WC = 0.09 
+OUTPUT: SOT_WxCpx6 - Twee---2.2 says None - CPU = 0 WC = 0 
+Vampire---4.3   system information being retrieved
+Vampire---4.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x vampire --mode casc -t %d %s
+Vampire---4.3's SOT_WxCpx6 does not need preparation
+Vampire---4.3   being executed on SOT_WxCpx6 using /home/tptp/Systems/Vampire---4.3/vampire --mode casc -t 999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - Vampire---4.3 says Unknown - CPU = 0.04 WC = 0.05 
+OUTPUT: SOT_WxCpx6 - Vampire---4.3 says None - CPU = 0 WC = 0 
+% 5890 wall clock seconds gone, waiting for system output
+Vampire---SAT-4.3   system information being retrieved
+Vampire---SAT-4.3's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x vampire --mode casc_sat -t %d %s
+Vampire---SAT-4.3's SOT_WxCpx6 does not need preparation
+Vampire---SAT-4.3   being executed on SOT_WxCpx6 using /home/tptp/Systems/Vampire---SAT-4.3/vampire --mode casc_sat -t 999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - Vampire---SAT-4.3 says Unknown - CPU = 0.03 WC = 0.05 
+OUTPUT: SOT_WxCpx6 - Vampire---SAT-4.3 says None - CPU = 0 WC = 0 
+Waldmeister---710   system information being retrieved
+Waldmeister---710's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x woody %s
+Waldmeister---710's SOT_WxCpx6 does not need preparation
+Waldmeister---710   is unable to process that form of problem/solution
+RESULT: SOT_WxCpx6 - Waldmeister---710 says Inappropriate - CPU = 0 WC = 0 
+OUTPUT: SOT_WxCpx6 - Waldmeister---710 says None - CPU = 0 WC = 0 
+Z3---4.4.1   system information being retrieved
+Z3---4.4.1's non-default parameters being retrieved
+    -t none
+    -f tptp
+    -x run_z3_tptp -proof -model -t:%d -file:%s
+Z3---4.4.1's SOT_WxCpx6 being prepared by /home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP22420 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    /tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6
+Z3---4.4.1   being executed on SOT_WxCpx6 using /home/tptp/Systems/Z3---4.4.1/run_z3_tptp -proof -model -t:999 -file:'/tmp/SystemOnTPTP22420/SOT_WxCpx6.tptp'
+RESULT: SOT_WxCpx6 - Z3---4.4.1 says Theorem - CPU = 0.00 WC = 0.10 
+OUTPUT: SOT_WxCpx6 - Z3---4.4.1 says Proof - CPU = 0.00 WC = 0.40 
+Zenon---0.7.1   system information being retrieved
+Zenon---0.7.1's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_zenon %s %d
+Zenon---0.7.1's SOT_WxCpx6 does not need preparation
+Zenon---0.7.1   being executed on SOT_WxCpx6 using /home/tptp/Systems/Zenon---0.7.1/run_zenon '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' 999
+RESULT: SOT_WxCpx6 - Zenon---0.7.1 says Theorem - CPU = 0.00 WC = 0.49 
+OUTPUT: SOT_WxCpx6 - Zenon---0.7.1 says Assurance - CPU = 0.00 WC = 0.49 
+ZenonModulo---0.4.2   system information being retrieved
+ZenonModulo---0.4.2's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x run_zenon_modulo %d %s
+ZenonModulo---0.4.2's SOT_WxCpx6 does not need preparation
+ZenonModulo---0.4.2   being executed on SOT_WxCpx6 using /home/tptp/Systems/ZenonModulo---0.4.2/run_zenon_modulo 999 '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6'
+RESULT: SOT_WxCpx6 - ZenonModulo---0.4.2 says Theorem - CPU = 0.76 WC = 0.79  NodesSearch = 8329 MaxBranchF = 796 ProofNodes = 316 Formulas = 9180
+OUTPUT: SOT_WxCpx6 - ZenonModulo---0.4.2 says Assurance - CPU = 0.76 WC = 0.79 
+Zipperpin---1.4   system information being retrieved
+Zipperpin---1.4's non-default parameters being retrieved
+    -t none
+    -f tptp:raw
+    -x bin/run_zipperposition %s %d
+Zipperpin---1.4's SOT_WxCpx6 does not need preparation
+Zipperpin---1.4   being executed on SOT_WxCpx6 using /home/tptp/Systems/Zipperpin---1.4/bin/run_zipperposition '/tmp/SystemOnTPTPFormReply13968/SOT_WxCpx6' 999
+RESULT: SOT_WxCpx6 - Zipperpin---1.4 says Unknown - CPU = 0.00 WC = 0.03 
+OUTPUT: SOT_WxCpx6 - Zipperpin---1.4 says None - CPU = 0 WC = 0 
