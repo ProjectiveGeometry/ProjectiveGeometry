@@ -188,8 +188,8 @@ Lemma rk_inter : forall P Q R S, exists J, rk (P :: Q :: J :: nil) = 2 /\ rk (R 
 Proof.
 intros.
 assert(HH := rk_distinct_points);assert(HH0 := rk_lines);use HH;use HH0.
-time(case_clear P;case_clear Q;
-abstract(case_clear R;case_clear S;rk_inter_simplify_bis_bis)).
+case_clear P;case_clear Q;
+abstract(case_clear R;case_clear S;rk_inter_simplify_bis_bis).
 Qed.
 
 (** rk-lower_dim : There exist three points which are not collinear **)

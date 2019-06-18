@@ -161,7 +161,7 @@ Lemma rk_singleton_ge : forall P, rk (P :: nil) >= 1.
 Proof.
 intros.
 assert(HH := rk_points);use HH.
-time(case_clear P;intuition).
+case_clear P;intuition.
 Qed.
 
 Lemma rk_singleton_1 : forall A, rk(A :: nil) <= 1.
@@ -343,7 +343,7 @@ rk (P :: Q :: R :: nil) = 2 /\ rk (Q :: R :: nil) = 2 /\ rk (P :: R :: nil) = 2.
 Proof.
 intros.
 assert(HH := rk_distinct_points);assert(HH0 := rk_lines);use HH;use HH0.
-time(case_clear P;case_clear Q;rk_three_points_simplify_bis).
+case_clear P;case_clear Q;rk_three_points_simplify_bis.
 Qed.
 
 Ltac rk_inter_simplify P Q R S X X' Y Y' :=
