@@ -144,50 +144,46 @@ Definition Incid p l := Incid_bool p l= true.
 
 Lemma incid_dec (P:Point) (l:Line): {Incid P l} + {~Incid P l}.
 Proof.
-  idtac "-> proving incid_dec".
-  Time (unfold Incid; destruct l; destruct P; simpl; solve [left;reflexivity | right; discriminate]).
-Time Qed.
+  unfold Incid; destruct l; destruct P; simpl; solve [left;reflexivity | right; discriminate].
+Qed.
 Check incid_dec.
 
 (** A1 : existence and unicity of line generated from 2 points **)
 
 Lemma a1_exists : forall A B : Point, {l : Line | Incid A l /\ Incid B l}.
 Proof.
-  idtac "-> proving a1_exists".
-  Time (intros P Q; unfold Incid; destruct P; destruct Q; simpl; solve_ex_l tac1).
-Time Defined.
+  intros P Q; unfold Incid; destruct P; destruct Q; simpl; solve_ex_l tac1.
+Defined.
 Check a1_exists.
 
 Lemma a1_unique:forall (A B :Point)(l1 l2:Line),
 ~A=B -> Incid A l1 -> Incid B l1  -> Incid A l2 -> Incid B l2 -> l1=l2.
 Proof.
-  idtac "-> proving a1_unique".
-  Time (unfold Incid; intros X Y l1 l2 HXY H1 H2 H3 H4;
+  unfold Incid; intros X Y l1 l2 HXY H1 H2 H3 H4;
     destruct X;destruct Y; try clean;
       destruct l1; simpl in H1,H2; try clean; clear H1 H2;
-        destruct l2; simpl in H3,H4; try clean; reflexivity).
-Time Qed.
+        destruct l2; simpl in H3,H4; try clean; reflexivity.
+Qed.
 Check a1_unique.
 
 Lemma a2_unique : forall(l1 l2 :Line)(A B :Point),
   ~l1=l2 -> Incid A l1 -> Incid A l2 -> Incid B l1 -> Incid B l2 -> A=B.
 Proof.
-  Time (unfold Incid; intros X Y l1 l2 HXY H1 H2 H3 H4;
+  unfold Incid; intros X Y l1 l2 HXY H1 H2 H3 H4;
     destruct X;destruct Y; try clean;
       destruct l1; simpl in H1,H2; try clean; clear H1 H2;
-        destruct l2; simpl in H3,H4; try clean; reflexivity).
-Time Qed.
+        destruct l2; simpl in H3,H4; try clean; reflexivity.
+Qed.
 Check a2_unique.
 
 Lemma uniqueness : forall (A B :Point)(l1 l2:Line),
   Incid A l1 -> Incid B l1  -> Incid A l2 -> Incid B l2 -> A = B \/ l1 = l2.
 Proof.
-  idtac "-> proving uniqueness".
-  Time (unfold Incid; intros P Q l1 l2 ha1 hb1 ha2 hb2;
+  unfold Incid; intros P Q l1 l2 ha1 hb1 ha2 hb2;
     destruct P; destruct Q; try first [left; reflexivity | right; reflexivity];
       abstract (destruct l1;simpl in *;try clean; clear ha1 hb1; destruct l2; simpl in *; try clean; clear ha2 hb2;
-        solve [left;reflexivity | right;reflexivity])).
-Time Qed.
+        solve [left;reflexivity | right;reflexivity]).
+Qed.
 Check uniqueness.
 
 (** A3 : dimension-related axioms *)
@@ -234,9 +230,8 @@ Lemma a3_1 :
   forall l:Line,{A:Point &{B:Point &{ C:Point|
   dist_3 _ A B C/\Incid A l /\Incid B l /\ Incid C l}}}.
 Proof.
-  idtac "-> proving a3_1".
-  Time intros l; destruct l; many_ex_p.
-Time Defined.
+  intros l; destruct l; many_ex_p.
+Defined.
 Check a3_1.
 
   (** A2_2 : there exists 2 lines which do not intersect *)
@@ -289,9 +284,8 @@ end.
 
 Lemma a3_2 (* dim >= 3 *) : exists l1:Line, exists l2:Line, forall p:Point, ~(Incid p l1/\Incid p l2). 
 Proof.
-  idtac "-> proving a3_2".
-  Time many_ex_l. (* we could have chosen GKL and EHM for instance *)
-Time Qed.
+  many_ex_l. (* we could have chosen GKL and EHM for instance *)
+Qed.
 Check a3_2.
 
   (** A3_3 *)
@@ -354,10 +348,9 @@ Lemma a3_3 : forall l1 l2 l3:Line,
   dist_3 Line l1 l2 l3 -> exists l4 :Line,  exists J1:Point, exists J2:Point, exists J3:Point,
   (Intersect_In l1 l4 J1) /\ (Intersect_In l2 l4 J2) /\ (Intersect_In l3 l4 J3).
 Proof.
-  idtac "-> proving a3_3".
-  Time (unfold dist_3; intros l1 l2 l3 (hd1,(hd2,hd3)); destruct l1; destruct l2; try clean; clear hd1; 
-  abstract (destruct l3; try clean; clear hd2 hd3; solve_ex_ll)).
-Time Qed.
+  unfold dist_3; intros l1 l2 l3 (hd1,(hd2,hd3)); destruct l1; destruct l2; try clean; clear hd1; 
+  abstract (destruct l3; try clean; clear hd2 hd3; solve_ex_ll).
+Qed.
 Check a3_3.
 
   (** A2 : Pasch's axiom *)
@@ -391,18 +384,17 @@ Lemma a2 : forall A B C D:Point, forall lAB lCD lAC lBD :Line,
 	Incid B lBD/\Incid D lBD -> 
 	(exists I:Point, (Incid I lAB /\ Incid I lCD)) -> exists J:Point, (Incid J lAC /\Incid J lBD). 
 Proof.
-  idtac "-> proving a2".
   unfold dist_4, Incid;
   intros P Q R S l1 l2 l3 l4 (hd1,(hd2,(hd3,(hd4,(hd5,hd6))))) (hp1,hq1) (hr2,hs2) (hp3,hr3) (hq4,hs4) Ht.
-  Time (destruct P; destruct Q; try clean;
+  destruct P; destruct Q; try clean;
           abstract (
               handle l1;
                 abstract (
                     destruct R; try clean; handle l3;
                       abstract (
                           destruct S; try clean; handle l2; handle l4;
-                            destruct Ht as [t (Ht1,Ht2)]; destruct t; simpl in Ht1, Ht2; try discriminate; clear Ht1 Ht2;findp)))).
-Time Qed.
+                            destruct Ht as [t (Ht1,Ht2)]; destruct t; simpl in Ht1, Ht2; try discriminate; clear Ht1 Ht2;findp))).
+Qed.
 Check a2.
 
 End s_fanoSpaceModelPG32.
