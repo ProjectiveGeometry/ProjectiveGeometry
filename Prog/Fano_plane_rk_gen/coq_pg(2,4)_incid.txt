@@ -1,0 +1,76 @@
+Parameter Point: Set.
+Parameter p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20: Point.
+ 
+Parameter Line: Set.
+Parameter l0 l1 l2 l3 l4 l5 l6 l7 l8 l9 l10 l11 l12 l13 l14 l15 l16 l17 l18 l19 l20 : Line.
+ 
+Parameter Incid : Point -> Line -> Prop.
+ 
+Axiom is_only_21_pts : forall P:Point, {P=p0}+{P=p1}+{P=p2}+{P=p3}+{P=p4}+{P=p5}+{P=p6}+{P=p7}+{P=p8}+{P=p9}+{P=p10}+{P=p11}+{P=p12}+{P=p13}+{P=p14}+{P=p15}+{P=p16}+{P=p17}+{P=p18}+{P=p19}+{P=p20}.
+ 
+Axiom is_only_21_lines : forall P:Line, {P=l0}+{P=l1}+{P=l2}+{P=l3}+{P=l4}+{P=l5}+{P=l6}+{P=l7}+{P=l8}+{P=l9}+{P=l10}+{P=l11}+{P=l12}+{P=l13}+{P=l14}+{P=l15}+{P=l16}+{P=l17}+{P=l18}+{P=l19}+{P=l20}.
+ 
+Definition is_fano_plane p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 l0 l1 l2 l3 l4 l5 l6 l7 l8 l9 l10 l11 l12 l13 l14 l15 l16 l17 l18 l19 l20 :=
+(~p0=p1 /\ ~p0=p2 /\ ~p0=p3 /\ ~p0=p4 /\ ~p0=p5 /\ ~p0=p6 /\ ~p0=p7 /\ ~p0=p8 /\ ~p0=p9 /\ ~p0=p10 /\ ~p0=p11 /\ ~p0=p12 /\ ~p0=p13 /\ ~p0=p14 /\ ~p0=p15 /\ ~p0=p16 /\ ~p0=p17 /\ ~p0=p18 /\ ~p0=p19 /\ ~p0=p20 /\ 
+~p1=p2 /\ ~p1=p3 /\ ~p1=p4 /\ ~p1=p5 /\ ~p1=p6 /\ ~p1=p7 /\ ~p1=p8 /\ ~p1=p9 /\ ~p1=p10 /\ ~p1=p11 /\ ~p1=p12 /\ ~p1=p13 /\ ~p1=p14 /\ ~p1=p15 /\ ~p1=p16 /\ ~p1=p17 /\ ~p1=p18 /\ ~p1=p19 /\ ~p1=p20 /\ 
+~p2=p3 /\ ~p2=p4 /\ ~p2=p5 /\ ~p2=p6 /\ ~p2=p7 /\ ~p2=p8 /\ ~p2=p9 /\ ~p2=p10 /\ ~p2=p11 /\ ~p2=p12 /\ ~p2=p13 /\ ~p2=p14 /\ ~p2=p15 /\ ~p2=p16 /\ ~p2=p17 /\ ~p2=p18 /\ ~p2=p19 /\ ~p2=p20 /\ 
+~p3=p4 /\ ~p3=p5 /\ ~p3=p6 /\ ~p3=p7 /\ ~p3=p8 /\ ~p3=p9 /\ ~p3=p10 /\ ~p3=p11 /\ ~p3=p12 /\ ~p3=p13 /\ ~p3=p14 /\ ~p3=p15 /\ ~p3=p16 /\ ~p3=p17 /\ ~p3=p18 /\ ~p3=p19 /\ ~p3=p20 /\ 
+~p4=p5 /\ ~p4=p6 /\ ~p4=p7 /\ ~p4=p8 /\ ~p4=p9 /\ ~p4=p10 /\ ~p4=p11 /\ ~p4=p12 /\ ~p4=p13 /\ ~p4=p14 /\ ~p4=p15 /\ ~p4=p16 /\ ~p4=p17 /\ ~p4=p18 /\ ~p4=p19 /\ ~p4=p20 /\ 
+~p5=p6 /\ ~p5=p7 /\ ~p5=p8 /\ ~p5=p9 /\ ~p5=p10 /\ ~p5=p11 /\ ~p5=p12 /\ ~p5=p13 /\ ~p5=p14 /\ ~p5=p15 /\ ~p5=p16 /\ ~p5=p17 /\ ~p5=p18 /\ ~p5=p19 /\ ~p5=p20 /\ 
+~p6=p7 /\ ~p6=p8 /\ ~p6=p9 /\ ~p6=p10 /\ ~p6=p11 /\ ~p6=p12 /\ ~p6=p13 /\ ~p6=p14 /\ ~p6=p15 /\ ~p6=p16 /\ ~p6=p17 /\ ~p6=p18 /\ ~p6=p19 /\ ~p6=p20 /\ 
+~p7=p8 /\ ~p7=p9 /\ ~p7=p10 /\ ~p7=p11 /\ ~p7=p12 /\ ~p7=p13 /\ ~p7=p14 /\ ~p7=p15 /\ ~p7=p16 /\ ~p7=p17 /\ ~p7=p18 /\ ~p7=p19 /\ ~p7=p20 /\ 
+~p8=p9 /\ ~p8=p10 /\ ~p8=p11 /\ ~p8=p12 /\ ~p8=p13 /\ ~p8=p14 /\ ~p8=p15 /\ ~p8=p16 /\ ~p8=p17 /\ ~p8=p18 /\ ~p8=p19 /\ ~p8=p20 /\ 
+~p9=p10 /\ ~p9=p11 /\ ~p9=p12 /\ ~p9=p13 /\ ~p9=p14 /\ ~p9=p15 /\ ~p9=p16 /\ ~p9=p17 /\ ~p9=p18 /\ ~p9=p19 /\ ~p9=p20 /\ 
+~p10=p11 /\ ~p10=p12 /\ ~p10=p13 /\ ~p10=p14 /\ ~p10=p15 /\ ~p10=p16 /\ ~p10=p17 /\ ~p10=p18 /\ ~p10=p19 /\ ~p10=p20 /\ 
+~p11=p12 /\ ~p11=p13 /\ ~p11=p14 /\ ~p11=p15 /\ ~p11=p16 /\ ~p11=p17 /\ ~p11=p18 /\ ~p11=p19 /\ ~p11=p20 /\ 
+~p12=p13 /\ ~p12=p14 /\ ~p12=p15 /\ ~p12=p16 /\ ~p12=p17 /\ ~p12=p18 /\ ~p12=p19 /\ ~p12=p20 /\ 
+~p13=p14 /\ ~p13=p15 /\ ~p13=p16 /\ ~p13=p17 /\ ~p13=p18 /\ ~p13=p19 /\ ~p13=p20 /\ 
+~p14=p15 /\ ~p14=p16 /\ ~p14=p17 /\ ~p14=p18 /\ ~p14=p19 /\ ~p14=p20 /\ 
+~p15=p16 /\ ~p15=p17 /\ ~p15=p18 /\ ~p15=p19 /\ ~p15=p20 /\ 
+~p16=p17 /\ ~p16=p18 /\ ~p16=p19 /\ ~p16=p20 /\ 
+~p17=p18 /\ ~p17=p19 /\ ~p17=p20 /\ 
+~p18=p19 /\ ~p18=p20 /\ 
+~p19=p20) /\ 
+(l0<>l1 /\ l0<>l2 /\ l0<>l3 /\ l0<>l4 /\ l0<>l5 /\ l0<>l6 /\ l0<>l7 /\ l0<>l8 /\ l0<>l9 /\ l0<>l10 /\ l0<>l11 /\ l0<>l12 /\ l0<>l13 /\ l0<>l14 /\ l0<>l15 /\ l0<>l16 /\ l0<>l17 /\ l0<>l18 /\ l0<>l19 /\ l0<>l20 /\ 
+l1<>l2 /\ l1<>l3 /\ l1<>l4 /\ l1<>l5 /\ l1<>l6 /\ l1<>l7 /\ l1<>l8 /\ l1<>l9 /\ l1<>l10 /\ l1<>l11 /\ l1<>l12 /\ l1<>l13 /\ l1<>l14 /\ l1<>l15 /\ l1<>l16 /\ l1<>l17 /\ l1<>l18 /\ l1<>l19 /\ l1<>l20 /\ 
+l2<>l3 /\ l2<>l4 /\ l2<>l5 /\ l2<>l6 /\ l2<>l7 /\ l2<>l8 /\ l2<>l9 /\ l2<>l10 /\ l2<>l11 /\ l2<>l12 /\ l2<>l13 /\ l2<>l14 /\ l2<>l15 /\ l2<>l16 /\ l2<>l17 /\ l2<>l18 /\ l2<>l19 /\ l2<>l20 /\ 
+l3<>l4 /\ l3<>l5 /\ l3<>l6 /\ l3<>l7 /\ l3<>l8 /\ l3<>l9 /\ l3<>l10 /\ l3<>l11 /\ l3<>l12 /\ l3<>l13 /\ l3<>l14 /\ l3<>l15 /\ l3<>l16 /\ l3<>l17 /\ l3<>l18 /\ l3<>l19 /\ l3<>l20 /\ 
+l4<>l5 /\ l4<>l6 /\ l4<>l7 /\ l4<>l8 /\ l4<>l9 /\ l4<>l10 /\ l4<>l11 /\ l4<>l12 /\ l4<>l13 /\ l4<>l14 /\ l4<>l15 /\ l4<>l16 /\ l4<>l17 /\ l4<>l18 /\ l4<>l19 /\ l4<>l20 /\ 
+l5<>l6 /\ l5<>l7 /\ l5<>l8 /\ l5<>l9 /\ l5<>l10 /\ l5<>l11 /\ l5<>l12 /\ l5<>l13 /\ l5<>l14 /\ l5<>l15 /\ l5<>l16 /\ l5<>l17 /\ l5<>l18 /\ l5<>l19 /\ l5<>l20 /\ 
+l6<>l7 /\ l6<>l8 /\ l6<>l9 /\ l6<>l10 /\ l6<>l11 /\ l6<>l12 /\ l6<>l13 /\ l6<>l14 /\ l6<>l15 /\ l6<>l16 /\ l6<>l17 /\ l6<>l18 /\ l6<>l19 /\ l6<>l20 /\ 
+l7<>l8 /\ l7<>l9 /\ l7<>l10 /\ l7<>l11 /\ l7<>l12 /\ l7<>l13 /\ l7<>l14 /\ l7<>l15 /\ l7<>l16 /\ l7<>l17 /\ l7<>l18 /\ l7<>l19 /\ l7<>l20 /\ 
+l8<>l9 /\ l8<>l10 /\ l8<>l11 /\ l8<>l12 /\ l8<>l13 /\ l8<>l14 /\ l8<>l15 /\ l8<>l16 /\ l8<>l17 /\ l8<>l18 /\ l8<>l19 /\ l8<>l20 /\ 
+l9<>l10 /\ l9<>l11 /\ l9<>l12 /\ l9<>l13 /\ l9<>l14 /\ l9<>l15 /\ l9<>l16 /\ l9<>l17 /\ l9<>l18 /\ l9<>l19 /\ l9<>l20 /\ 
+l10<>l11 /\ l10<>l12 /\ l10<>l13 /\ l10<>l14 /\ l10<>l15 /\ l10<>l16 /\ l10<>l17 /\ l10<>l18 /\ l10<>l19 /\ l10<>l20 /\ 
+l11<>l12 /\ l11<>l13 /\ l11<>l14 /\ l11<>l15 /\ l11<>l16 /\ l11<>l17 /\ l11<>l18 /\ l11<>l19 /\ l11<>l20 /\ 
+l12<>l13 /\ l12<>l14 /\ l12<>l15 /\ l12<>l16 /\ l12<>l17 /\ l12<>l18 /\ l12<>l19 /\ l12<>l20 /\ 
+l13<>l14 /\ l13<>l15 /\ l13<>l16 /\ l13<>l17 /\ l13<>l18 /\ l13<>l19 /\ l13<>l20 /\ 
+l14<>l15 /\ l14<>l16 /\ l14<>l17 /\ l14<>l18 /\ l14<>l19 /\ l14<>l20 /\ 
+l15<>l16 /\ l15<>l17 /\ l15<>l18 /\ l15<>l19 /\ l15<>l20 /\ 
+l16<>l17 /\ l16<>l18 /\ l16<>l19 /\ l16<>l20 /\ 
+l17<>l18 /\ l17<>l19 /\ l17<>l20 /\ 
+l18<>l19 /\ l18<>l20 /\ 
+l19<>l20) /\ 
+(~Incid p0 l0 /\ ~Incid p0 l1 /\ ~Incid p0 l2 /\ ~Incid p0 l3 /\ Incid p0 l4 /\ ~Incid p0 l5 /\ Incid p0 l6 /\ ~Incid p0 l7 /\ ~Incid p0 l8 /\ ~Incid p0 l9 /\ ~Incid p0 l10 /\ ~Incid p0 l11 /\ ~Incid p0 l12 /\ ~Incid p0 l13 /\ ~Incid p0 l14 /\ ~Incid p0 l15 /\ Incid p0 l16 /\ ~Incid p0 l17 /\ ~Incid p0 l18 /\ Incid p0 l19 /\ Incid p0 l20 /\ 
+Incid p1 l0 /\ ~Incid p1 l1 /\ ~Incid p1 l2 /\ ~Incid p1 l3 /\ ~Incid p1 l4 /\ Incid p1 l5 /\ ~Incid p1 l6 /\ Incid p1 l7 /\ ~Incid p1 l8 /\ ~Incid p1 l9 /\ ~Incid p1 l10 /\ ~Incid p1 l11 /\ ~Incid p1 l12 /\ ~Incid p1 l13 /\ ~Incid p1 l14 /\ ~Incid p1 l15 /\ ~Incid p1 l16 /\ Incid p1 l17 /\ ~Incid p1 l18 /\ ~Incid p1 l19 /\ Incid p1 l20 /\ 
+Incid p2 l0 /\ Incid p2 l1 /\ ~Incid p2 l2 /\ ~Incid p2 l3 /\ ~Incid p2 l4 /\ ~Incid p2 l5 /\ Incid p2 l6 /\ ~Incid p2 l7 /\ Incid p2 l8 /\ ~Incid p2 l9 /\ ~Incid p2 l10 /\ ~Incid p2 l11 /\ ~Incid p2 l12 /\ ~Incid p2 l13 /\ ~Incid p2 l14 /\ ~Incid p2 l15 /\ ~Incid p2 l16 /\ ~Incid p2 l17 /\ Incid p2 l18 /\ ~Incid p2 l19 /\ ~Incid p2 l20 /\ 
+~Incid p3 l0 /\ Incid p3 l1 /\ Incid p3 l2 /\ ~Incid p3 l3 /\ ~Incid p3 l4 /\ ~Incid p3 l5 /\ ~Incid p3 l6 /\ Incid p3 l7 /\ ~Incid p3 l8 /\ Incid p3 l9 /\ ~Incid p3 l10 /\ ~Incid p3 l11 /\ ~Incid p3 l12 /\ ~Incid p3 l13 /\ ~Incid p3 l14 /\ ~Incid p3 l15 /\ ~Incid p3 l16 /\ ~Incid p3 l17 /\ ~Incid p3 l18 /\ Incid p3 l19 /\ ~Incid p3 l20 /\ 
+~Incid p4 l0 /\ ~Incid p4 l1 /\ Incid p4 l2 /\ Incid p4 l3 /\ ~Incid p4 l4 /\ ~Incid p4 l5 /\ ~Incid p4 l6 /\ ~Incid p4 l7 /\ Incid p4 l8 /\ ~Incid p4 l9 /\ Incid p4 l10 /\ ~Incid p4 l11 /\ ~Incid p4 l12 /\ ~Incid p4 l13 /\ ~Incid p4 l14 /\ ~Incid p4 l15 /\ ~Incid p4 l16 /\ ~Incid p4 l17 /\ ~Incid p4 l18 /\ ~Incid p4 l19 /\ Incid p4 l20 /\ 
+Incid p5 l0 /\ ~Incid p5 l1 /\ ~Incid p5 l2 /\ Incid p5 l3 /\ Incid p5 l4 /\ ~Incid p5 l5 /\ ~Incid p5 l6 /\ ~Incid p5 l7 /\ ~Incid p5 l8 /\ Incid p5 l9 /\ ~Incid p5 l10 /\ Incid p5 l11 /\ ~Incid p5 l12 /\ ~Incid p5 l13 /\ ~Incid p5 l14 /\ ~Incid p5 l15 /\ ~Incid p5 l16 /\ ~Incid p5 l17 /\ ~Incid p5 l18 /\ ~Incid p5 l19 /\ ~Incid p5 l20 /\ 
+~Incid p6 l0 /\ Incid p6 l1 /\ ~Incid p6 l2 /\ ~Incid p6 l3 /\ Incid p6 l4 /\ Incid p6 l5 /\ ~Incid p6 l6 /\ ~Incid p6 l7 /\ ~Incid p6 l8 /\ ~Incid p6 l9 /\ Incid p6 l10 /\ ~Incid p6 l11 /\ Incid p6 l12 /\ ~Incid p6 l13 /\ ~Incid p6 l14 /\ ~Incid p6 l15 /\ ~Incid p6 l16 /\ ~Incid p6 l17 /\ ~Incid p6 l18 /\ ~Incid p6 l19 /\ ~Incid p6 l20 /\ 
+~Incid p7 l0 /\ ~Incid p7 l1 /\ Incid p7 l2 /\ ~Incid p7 l3 /\ ~Incid p7 l4 /\ Incid p7 l5 /\ Incid p7 l6 /\ ~Incid p7 l7 /\ ~Incid p7 l8 /\ ~Incid p7 l9 /\ ~Incid p7 l10 /\ Incid p7 l11 /\ ~Incid p7 l12 /\ Incid p7 l13 /\ ~Incid p7 l14 /\ ~Incid p7 l15 /\ ~Incid p7 l16 /\ ~Incid p7 l17 /\ ~Incid p7 l18 /\ ~Incid p7 l19 /\ ~Incid p7 l20 /\ 
+~Incid p8 l0 /\ ~Incid p8 l1 /\ ~Incid p8 l2 /\ Incid p8 l3 /\ ~Incid p8 l4 /\ ~Incid p8 l5 /\ Incid p8 l6 /\ Incid p8 l7 /\ ~Incid p8 l8 /\ ~Incid p8 l9 /\ ~Incid p8 l10 /\ ~Incid p8 l11 /\ Incid p8 l12 /\ ~Incid p8 l13 /\ Incid p8 l14 /\ ~Incid p8 l15 /\ ~Incid p8 l16 /\ ~Incid p8 l17 /\ ~Incid p8 l18 /\ ~Incid p8 l19 /\ ~Incid p8 l20 /\ 
+~Incid p9 l0 /\ ~Incid p9 l1 /\ ~Incid p9 l2 /\ ~Incid p9 l3 /\ Incid p9 l4 /\ ~Incid p9 l5 /\ ~Incid p9 l6 /\ Incid p9 l7 /\ Incid p9 l8 /\ ~Incid p9 l9 /\ ~Incid p9 l10 /\ ~Incid p9 l11 /\ ~Incid p9 l12 /\ Incid p9 l13 /\ ~Incid p9 l14 /\ Incid p9 l15 /\ ~Incid p9 l16 /\ ~Incid p9 l17 /\ ~Incid p9 l18 /\ ~Incid p9 l19 /\ ~Incid p9 l20 /\ 
+~Incid p10 l0 /\ ~Incid p10 l1 /\ ~Incid p10 l2 /\ ~Incid p10 l3 /\ ~Incid p10 l4 /\ Incid p10 l5 /\ ~Incid p10 l6 /\ ~Incid p10 l7 /\ Incid p10 l8 /\ Incid p10 l9 /\ ~Incid p10 l10 /\ ~Incid p10 l11 /\ ~Incid p10 l12 /\ ~Incid p10 l13 /\ Incid p10 l14 /\ ~Incid p10 l15 /\ Incid p10 l16 /\ ~Incid p10 l17 /\ ~Incid p10 l18 /\ ~Incid p10 l19 /\ ~Incid p10 l20 /\ 
+~Incid p11 l0 /\ ~Incid p11 l1 /\ ~Incid p11 l2 /\ ~Incid p11 l3 /\ ~Incid p11 l4 /\ ~Incid p11 l5 /\ Incid p11 l6 /\ ~Incid p11 l7 /\ ~Incid p11 l8 /\ Incid p11 l9 /\ Incid p11 l10 /\ ~Incid p11 l11 /\ ~Incid p11 l12 /\ ~Incid p11 l13 /\ ~Incid p11 l14 /\ Incid p11 l15 /\ ~Incid p11 l16 /\ Incid p11 l17 /\ ~Incid p11 l18 /\ ~Incid p11 l19 /\ ~Incid p11 l20 /\ 
+~Incid p12 l0 /\ ~Incid p12 l1 /\ ~Incid p12 l2 /\ ~Incid p12 l3 /\ ~Incid p12 l4 /\ ~Incid p12 l5 /\ ~Incid p12 l6 /\ Incid p12 l7 /\ ~Incid p12 l8 /\ ~Incid p12 l9 /\ Incid p12 l10 /\ Incid p12 l11 /\ ~Incid p12 l12 /\ ~Incid p12 l13 /\ ~Incid p12 l14 /\ ~Incid p12 l15 /\ Incid p12 l16 /\ ~Incid p12 l17 /\ Incid p12 l18 /\ ~Incid p12 l19 /\ ~Incid p12 l20 /\ 
+~Incid p13 l0 /\ ~Incid p13 l1 /\ ~Incid p13 l2 /\ ~Incid p13 l3 /\ ~Incid p13 l4 /\ ~Incid p13 l5 /\ ~Incid p13 l6 /\ ~Incid p13 l7 /\ Incid p13 l8 /\ ~Incid p13 l9 /\ ~Incid p13 l10 /\ Incid p13 l11 /\ Incid p13 l12 /\ ~Incid p13 l13 /\ ~Incid p13 l14 /\ ~Incid p13 l15 /\ ~Incid p13 l16 /\ Incid p13 l17 /\ ~Incid p13 l18 /\ Incid p13 l19 /\ ~Incid p13 l20 /\ 
+~Incid p14 l0 /\ ~Incid p14 l1 /\ ~Incid p14 l2 /\ ~Incid p14 l3 /\ ~Incid p14 l4 /\ ~Incid p14 l5 /\ ~Incid p14 l6 /\ ~Incid p14 l7 /\ ~Incid p14 l8 /\ Incid p14 l9 /\ ~Incid p14 l10 /\ ~Incid p14 l11 /\ Incid p14 l12 /\ Incid p14 l13 /\ ~Incid p14 l14 /\ ~Incid p14 l15 /\ ~Incid p14 l16 /\ ~Incid p14 l17 /\ Incid p14 l18 /\ ~Incid p14 l19 /\ Incid p14 l20 /\ 
+Incid p15 l0 /\ ~Incid p15 l1 /\ ~Incid p15 l2 /\ ~Incid p15 l3 /\ ~Incid p15 l4 /\ ~Incid p15 l5 /\ ~Incid p15 l6 /\ ~Incid p15 l7 /\ ~Incid p15 l8 /\ ~Incid p15 l9 /\ Incid p15 l10 /\ ~Incid p15 l11 /\ ~Incid p15 l12 /\ Incid p15 l13 /\ Incid p15 l14 /\ ~Incid p15 l15 /\ ~Incid p15 l16 /\ ~Incid p15 l17 /\ ~Incid p15 l18 /\ Incid p15 l19 /\ ~Incid p15 l20 /\ 
+~Incid p16 l0 /\ Incid p16 l1 /\ ~Incid p16 l2 /\ ~Incid p16 l3 /\ ~Incid p16 l4 /\ ~Incid p16 l5 /\ ~Incid p16 l6 /\ ~Incid p16 l7 /\ ~Incid p16 l8 /\ ~Incid p16 l9 /\ ~Incid p16 l10 /\ Incid p16 l11 /\ ~Incid p16 l12 /\ ~Incid p16 l13 /\ Incid p16 l14 /\ Incid p16 l15 /\ ~Incid p16 l16 /\ ~Incid p16 l17 /\ ~Incid p16 l18 /\ ~Incid p16 l19 /\ Incid p16 l20 /\ 
+Incid p17 l0 /\ ~Incid p17 l1 /\ Incid p17 l2 /\ ~Incid p17 l3 /\ ~Incid p17 l4 /\ ~Incid p17 l5 /\ ~Incid p17 l6 /\ ~Incid p17 l7 /\ ~Incid p17 l8 /\ ~Incid p17 l9 /\ ~Incid p17 l10 /\ ~Incid p17 l11 /\ Incid p17 l12 /\ ~Incid p17 l13 /\ ~Incid p17 l14 /\ Incid p17 l15 /\ Incid p17 l16 /\ ~Incid p17 l17 /\ ~Incid p17 l18 /\ ~Incid p17 l19 /\ ~Incid p17 l20 /\ 
+~Incid p18 l0 /\ Incid p18 l1 /\ ~Incid p18 l2 /\ Incid p18 l3 /\ ~Incid p18 l4 /\ ~Incid p18 l5 /\ ~Incid p18 l6 /\ ~Incid p18 l7 /\ ~Incid p18 l8 /\ ~Incid p18 l9 /\ ~Incid p18 l10 /\ ~Incid p18 l11 /\ ~Incid p18 l12 /\ Incid p18 l13 /\ ~Incid p18 l14 /\ ~Incid p18 l15 /\ Incid p18 l16 /\ Incid p18 l17 /\ ~Incid p18 l18 /\ ~Incid p18 l19 /\ ~Incid p18 l20 /\ 
+~Incid p19 l0 /\ ~Incid p19 l1 /\ Incid p19 l2 /\ ~Incid p19 l3 /\ Incid p19 l4 /\ ~Incid p19 l5 /\ ~Incid p19 l6 /\ ~Incid p19 l7 /\ ~Incid p19 l8 /\ ~Incid p19 l9 /\ ~Incid p19 l10 /\ ~Incid p19 l11 /\ ~Incid p19 l12 /\ ~Incid p19 l13 /\ Incid p19 l14 /\ ~Incid p19 l15 /\ ~Incid p19 l16 /\ Incid p19 l17 /\ Incid p19 l18 /\ ~Incid p19 l19 /\ ~Incid p19 l20 /\ 
+~Incid p20 l0 /\ ~Incid p20 l1 /\ ~Incid p20 l2 /\ Incid p20 l3 /\ ~Incid p20 l4 /\ Incid p20 l5 /\ ~Incid p20 l6 /\ ~Incid p20 l7 /\ ~Incid p20 l8 /\ ~Incid p20 l9 /\ ~Incid p20 l10 /\ ~Incid p20 l11 /\ ~Incid p20 l12 /\ ~Incid p20 l13 /\ ~Incid p20 l14 /\ Incid p20 l15 /\ ~Incid p20 l16 /\ ~Incid p20 l17 /\ Incid p20 l18 /\ Incid p20 l19 /\ ~Incid p20 l20).
+ 
+Axiom is_fano_plane_inst :  is_fano_plane p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 l0 l1 l2 l3 l4 l5 l6 l7 l8 l9 l10 l11 l12 l13 l14 l15 l16 l17 l18 l19 l20.

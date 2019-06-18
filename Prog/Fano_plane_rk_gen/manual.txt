@@ -1,0 +1,8 @@
+//Compilation
+gcc -o g gen.c
+
+//Execution
+./g conf_pg# fano_plane_model_rk_pg#_spec.v #points #lines 
+
+//Fusion spec + proofs
+cat fano_plane_model_rk_pg25_spec.v fano_plane_model_rk_pg25_proofs.v > fano_plane_model_rk_pg25.v

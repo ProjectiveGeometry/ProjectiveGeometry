@@ -1,0 +1,37 @@
+#!/bin/bash
+
+FICHIER=pg33_proofs.v
+if [ "$#" -ne 1 ]; then echo "usage: $0 file"; fi
+#if [ -f $1 ]; then FICHIER=$1; 
+#else echo "$1 does not exist; running default benchmark with $FICHIER"; fi
+
+VERSIONS="8.7.2"
+
+RES=result
+for VERSION in $VERSIONS
+do
+    rm -f $RES.$FICHIER.$VERSION
+done
+
+echo $FICHIER
+for VERSION in $VERSIONS
+do 
+  echo $VERSION
+   if [[ $VERSION = "8.4.6" ]]; then opam switch 4.02.3; eval `opam config env`; fi
+   if [[ $VERSION = "8.5" ]]; then opam switch 4.03.0; eval `opam config env`; fi 
+   if [[ $VERSION = "8.6" ]]; then opam switch 4.04.0; eval `opam config env`; fi
+   if [[ $VERSION = "trunk" ]]; then opam switch 4.05.0+beta3; eval `opam config env`;export PATH=/home/magaud/coq-8.7.1/bin:$PATH; fi
+   if [[ $VERSION = "8.7.2" ]]; then opam switch 4.06.1; eval `opam config env`; fi
+   coqworkmgr -j 4
+   date >> $RES.$FICHIER.$VERSION
+   coqc -v >> $RES.$FICHIER.$VERSION 2>&1 
+   #coqc -R . Top -R /home/magaud/math-comp/mathcomp mathcomp -I . $FICHIER  >> $RES.$FICHIER.$VERSION 2>&1 
+   make $(echo $FICHIER)o  >> $RES.$FICHIER.$VERSION 2>&1 
+   date >> $RES.$FICHIER.$VERSION
+   echo "finished - ok"
+done
+exit 0
+
+
+
+

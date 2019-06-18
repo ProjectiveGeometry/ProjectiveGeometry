@@ -1,0 +1,63 @@
+#!/bin/sh
+
+FILE=/dev/null
+
+SOURCE=pg33_proofs.v
+TARGET=$(basename $SOURCE)o
+
+OPTIONS="-R $(echo $HOME)/math-comp/mathcomp mathcomp -R . Top"
+
+echo "---> coqworkmgr -j 24"
+rm -f $TARGET
+time coqtop $OPTIONS -async-proofs-tac-j 24 -compile-verbose  $SOURCE # >> $FILE 2>&1
+echo "-- end --"
+echo
+
+echo "---> coqworkmgr -j 16"
+rm -f $TARGET
+time coqtop $OPTIONS -async-proofs-tac-j 16 -compile-verbose  $SOURCE # >> $FILE 2>&1
+echo "-- end --"
+echo
+
+echo "---> coqworkmgr -j 8"
+rm -f $TARGET
+time coqtop $OPTIONS -async-proofs-tac-j 8 -compile-verbose  $SOURCE # >> $FILE 2>&1
+echo "-- end --"
+echo
+
+echo "---> coqworkmgr -j 4"
+rm -f $TARGET
+time coqtop $OPTIONS -async-proofs-tac-j 4 -compile-verbose  $SOURCE # >> $FILE 2>&1
+echo "-- end --"
+echo
+
+echo "---> coqworkmgr -j 2"
+rm -f $TARGET
+time coqtop $OPTIONS -async-proofs-tac-j 2 -compile-verbose  $SOURCE # >> $FILE 2>&1
+echo "-- end --"
+echo
+
+echo "---> coqworkmgr -j 4"
+rm -f $TARGET
+time coqtop $OPTIONS -async-proofs-tac-j 4 -compile-verbose  $SOURCE # >> $FILE 2>&1
+echo "-- end --"
+echo
+
+echo "---> coqworkmgr -j 8"
+rm -f $TARGET
+time coqtop $OPTIONS -async-proofs-tac-j 8 -compile-verbose  $SOURCE # >> $FILE 2>&1
+echo "-- end --"
+echo
+
+echo "---> coqworkmgr -j 16"
+rm -f $TARGET
+time coqtop $OPTIONS -async-proofs-tac-j 16 -compile-verbose  $SOURCE # >> $FILE 2>&1
+echo "-- end --"
+echo
+
+echo "---> coqworkmgr -j 24"
+rm -f $TARGET
+time coqtop $OPTIONS -async-proofs-tac-j 24 -compile-verbose  $SOURCE # >> $FILE 2>&1
+echo "-- end --"
+echo
+

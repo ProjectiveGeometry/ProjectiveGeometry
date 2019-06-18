@@ -1,0 +1,231 @@
+Inductive ind_Point : Set := p0 | p1 | p2 | p3 | p4 | p5 | p6 | p7 | p8 | p9 | p10 | p11 | p12 | p13 | p14 | p15 | p16 | p17 | p18 | p19 | p20 | p21 | p22 | p23 | p24 | p25 | p26 | p27 | p28 | p29 | p30.
+ 
+Inductive ind_line : Set := l0 | l1 | l2 | l3 | l4 | l5 | l6 | l7 | l8 | l9 | l10 | l11 | l12 | l13 | l14 | l15 | l16 | l17 | l18 | l19 | l20 | l21 | l22 | l23 | l24 | l25 | l26 | l27 | l28 | l29 | l30.
+ 
+Definition Point : Set := ind_Point.
+Definition Line : Set := ind_line.
+ 
+Definition Incid_bool : Point -> Line -> bool := fun P l =>
+ match P with
+| p0 =>
+	match l with
+	| l12| l18| l22| l27| l29| l30=> true
+	| _ => false
+	end
+| p1 =>
+	match l with
+	| l0| l13| l19| l23| l28| l30=> true
+	| _ => false
+	end
+| p2 =>
+	match l with
+	| l0| l1| l14| l20| l24| l29=> true
+	| _ => false
+	end
+| p3 =>
+	match l with
+	| l1| l2| l15| l21| l25| l30=> true
+	| _ => false
+	end
+| p4 =>
+	match l with
+	| l0| l2| l3| l16| l22| l26=> true
+	| _ => false
+	end
+| p5 =>
+	match l with
+	| l1| l3| l4| l17| l23| l27=> true
+	| _ => false
+	end
+| p6 =>
+	match l with
+	| l2| l4| l5| l18| l24| l28=> true
+	| _ => false
+	end
+| p7 =>
+	match l with
+	| l3| l5| l6| l19| l25| l29=> true
+	| _ => false
+	end
+| p8 =>
+	match l with
+	| l4| l6| l7| l20| l26| l30=> true
+	| _ => false
+	end
+| p9 =>
+	match l with
+	| l0| l5| l7| l8| l21| l27=> true
+	| _ => false
+	end
+| p10 =>
+	match l with
+	| l1| l6| l8| l9| l22| l28=> true
+	| _ => false
+	end
+| p11 =>
+	match l with
+	| l2| l7| l9| l10| l23| l29=> true
+	| _ => false
+	end
+| p12 =>
+	match l with
+	| l3| l8| l10| l11| l24| l30=> true
+	| _ => false
+	end
+| p13 =>
+	match l with
+	| l0| l4| l9| l11| l12| l25=> true
+	| _ => false
+	end
+| p14 =>
+	match l with
+	| l1| l5| l10| l12| l13| l26=> true
+	| _ => false
+	end
+| p15 =>
+	match l with
+	| l2| l6| l11| l13| l14| l27=> true
+	| _ => false
+	end
+| p16 =>
+	match l with
+	| l3| l7| l12| l14| l15| l28=> true
+	| _ => false
+	end
+| p17 =>
+	match l with
+	| l4| l8| l13| l15| l16| l29=> true
+	| _ => false
+	end
+| p18 =>
+	match l with
+	| l5| l9| l14| l16| l17| l30=> true
+	| _ => false
+	end
+| p19 =>
+	match l with
+	| l0| l6| l10| l15| l17| l18=> true
+	| _ => false
+	end
+| p20 =>
+	match l with
+	| l1| l7| l11| l16| l18| l19=> true
+	| _ => false
+	end
+| p21 =>
+	match l with
+	| l2| l8| l12| l17| l19| l20=> true
+	| _ => false
+	end
+| p22 =>
+	match l with
+	| l3| l9| l13| l18| l20| l21=> true
+	| _ => false
+	end
+| p23 =>
+	match l with
+	| l4| l10| l14| l19| l21| l22=> true
+	| _ => false
+	end
+| p24 =>
+	match l with
+	| l5| l11| l15| l20| l22| l23=> true
+	| _ => false
+	end
+| p25 =>
+	match l with
+	| l6| l12| l16| l21| l23| l24=> true
+	| _ => false
+	end
+| p26 =>
+	match l with
+	| l7| l13| l17| l22| l24| l25=> true
+	| _ => false
+	end
+| p27 =>
+	match l with
+	| l8| l14| l18| l23| l25| l26=> true
+	| _ => false
+	end
+| p28 =>
+	match l with
+	| l9| l15| l19| l24| l26| l27=> true
+	| _ => false
+	end
+| p29 =>
+	match l with
+	| l10| l16| l20| l25| l27| l28=> true
+	| _ => false
+	end
+| p30 =>
+	match l with
+	| l11| l17| l21| l26| l28| l29=> true
+	| _ => false
+	end
+end.
+Ltac solve_ex_p := first [
+		solve_ex p0
+	|	solve_ex p1
+	|	solve_ex p2
+	|	solve_ex p3
+	|	solve_ex p4
+	|	solve_ex p5
+	|	solve_ex p6
+	|	solve_ex p7
+	|	solve_ex p8
+	|	solve_ex p9
+	|	solve_ex p10
+	|	solve_ex p11
+	|	solve_ex p12
+	|	solve_ex p13
+	|	solve_ex p14
+	|	solve_ex p15
+	|	solve_ex p16
+	|	solve_ex p17
+	|	solve_ex p18
+	|	solve_ex p19
+	|	solve_ex p20
+	|	solve_ex p21
+	|	solve_ex p22
+	|	solve_ex p23
+	|	solve_ex p24
+	|	solve_ex p25
+	|	solve_ex p26
+	|	solve_ex p27
+	|	solve_ex p28
+	|	solve_ex p29
+	|	solve_ex p30
+].
+Ltac solve_ex_l := first [
+		solve_ex l0
+	|	solve_ex l1
+	|	solve_ex l2
+	|	solve_ex l3
+	|	solve_ex l4
+	|	solve_ex l5
+	|	solve_ex l6
+	|	solve_ex l7
+	|	solve_ex l8
+	|	solve_ex l9
+	|	solve_ex l10
+	|	solve_ex l11
+	|	solve_ex l12
+	|	solve_ex l13
+	|	solve_ex l14
+	|	solve_ex l15
+	|	solve_ex l16
+	|	solve_ex l17
+	|	solve_ex l18
+	|	solve_ex l19
+	|	solve_ex l20
+	|	solve_ex l21
+	|	solve_ex l22
+	|	solve_ex l23
+	|	solve_ex l24
+	|	solve_ex l25
+	|	solve_ex l26
+	|	solve_ex l27
+	|	solve_ex l28
+	|	solve_ex l29
+	|	solve_ex l30
+].
