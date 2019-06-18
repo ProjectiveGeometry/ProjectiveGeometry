@@ -6,7 +6,6 @@ Require Export ProjectiveGeometry.Dev.projective_plane_axioms.
 
 Section s_fanoPlaneModelPG24Generated.
 
-(** We define point and line by an inductive type representing the thirteen possibilities. **)
 (** We can not use directly the inductive type for a technical reason related to Coq's implementation. **)
 
 Inductive ind_Point : Set := p0 | p1 | p2 | p3 | p4 | p5 | p6 | p7 | p8 | p9 | p10 | p11 | p12 | p13 | p14 | p15 | p16 | p17 | p18 | p19 | p20.

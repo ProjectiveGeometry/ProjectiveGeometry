@@ -11,7 +11,6 @@ Section s_fanoSpaceModelPG32.
 (** PG(3,2) the smallest projective space: http://demonstrations.wolfram.com/15PointProjectiveSpace/ **)
 (** 15 points and 35 lines, 15 planes **)
 
-(** We define point and line by an inductive type representing the thirteen possibilities. **)
 (** We can not use directly the inductive type for a technical reason related to Coq's implementation. **)
 
 (* 15 points *)

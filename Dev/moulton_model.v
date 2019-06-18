@@ -1182,7 +1182,7 @@ case_eq o1; case_eq o0; case_eq o; try (solve[intuition]).
 intros r3 Hr3 r4 Hr4 r5 Hr5; repeat elim R_eq_dec; try (solve [intros;subst;intuition | intros;subst;fourier]).
 
 repeat elim R_pos_neg; try (solve [intros;subst;intuition | intros;subst;fourier]).
-intros; subst.
+intros. subst.
 
 rewrite H0 in *; right.
 assert (r1=r2) by nsatz.

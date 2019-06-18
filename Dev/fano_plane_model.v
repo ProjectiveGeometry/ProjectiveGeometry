@@ -230,7 +230,6 @@ a3 := a3
 End s_fanoPlaneModel.
 
 
-
 Module fano_plane_inst : fano_plane
 
 with Definition Point:= Point

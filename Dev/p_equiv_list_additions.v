@@ -61,6 +61,21 @@ Ltac my_inA :=
                                             assert(T : InA eq P (Q :: P :: Z)) by (apply InA_cons_tl;intuition)
   end.
 
+Ltac my_inAS :=
+  intuition;unfold inclA in *;unfold equivlistA in *;
+  repeat match goal with
+  |[H : _ |- _] => progress intros
+  |[H : _ |- _] => progress intro
+  |[H : _ |- _] => progress intuition
+  |[H : _ |- _] => split;intuition
+  |[H : InA eq _ (?P ::  _ ) |- _] => inversion H;clear H
+  |[H : _ = _ |- _] => rewrite <-H
+  |[H : InA eq _ nil |- _] => inversion H
+         | [H : InA eq ?P ( ?Q :: ?R ) -> _ |- _] => let T:=fresh in
+                                            assert(T : InA eq P (Q :: R)) by (my_inAS);
+                                            generalize (H T);clear H;clear T;intro
+  end.
+
 
 Section s_pEquivListAdditions_2.
 
@@ -71,7 +86,7 @@ Context `{OP : OrderedType Point}.
 Lemma inclA_aux4_bis : 
 forall a l m, inclA (@eq Point) l m -> inclA eq l (a :: m).
 Proof.
-my_inA.
+my_inAS.
 Qed.
 
 Lemma inclA_aux5 :
@@ -148,23 +163,50 @@ my_inA;induction l;my_inA.
 - unfold list_inter;simpl;case_eq(Inb a0 m);my_inA.
 Qed.
 
+End s_pEquivListAdditions_2.
+
+
+Ltac solve_equivlistA := first [assumption |  apply InA_cons_hd;reflexivity | apply InA_cons_tl ; solve_equivlistA].
+
+Ltac inv_unifA :=
+  unfold inclA in *; try split; intros;
+  repeat match goal with 
+         | [H : InA eq _ (?P ::  _ ) |- _] => inversion H;clear H
+         | [H: _ = _ |- _] => rewrite <- H in *;try solve [contradiction|apply eq_sym in H;contradiction];clear H
+         | [H : InA eq _ nil |- _] => inversion H
+         | [H : InA eq _ (?L++?M) |- _] => apply InA_app_iff in H; destruct H
+         | [H :_ |- InA eq _ (?L++?M) ] => apply InA_app_iff
+         | [H : InA eq _ (list_inter ?L ?M) |- _] => apply list_inter_split_bis in H; destruct H
+         | [H : _ |- InA eq _ (list_inter ?L ?M)] => apply list_inter_split_reverse
+         | [H : InA eq ?P ( ?Q :: ?R ) -> _ |- _] => let T:=fresh in
+                                            assert(T : InA eq P (Q :: R)) by (solve_equivlistA);
+                                            generalize (H T);clear H;clear T;intro
+         end.
+
+Ltac my_inAO := solve[inv_unifA ; solve_equivlistA].
+
+
+Section s_pEquivListAdditions_3.
+
+Context `{PS : ProjectiveStructure}.
+Context `{EP : EqDecidability Point}.
+Context `{OP : OrderedType Point}.
+
 Lemma inclA_inter :
 forall l m, inclA eq (list_inter l m) l.
 Proof.
-my_inA;apply list_inter_split_bis in H;my_inA.
+my_inAO.
 Qed.
 
 Lemma inclA_inter_bis :
 forall l m, inclA eq (list_inter l m) m.
 Proof.
-my_inA;apply list_inter_split_bis in H;my_inA.
+my_inAO.
 Qed.
 
 Lemma list_inter_reverse : forall l m, equivlistA eq (list_inter l m) (list_inter m l).
 Proof.
-my_inA.
-- apply list_inter_split_reverse;apply list_inter_split_bis in H;my_inA.
-- apply list_inter_split_reverse;apply list_inter_split_bis in H;my_inA.
+my_inAO.
 Qed.
 
 Global Instance list_inter_morph: Proper (equivlistA eq ==> equivlistA eq ==> equivlistA eq) list_inter.
@@ -182,4 +224,5 @@ unfold list_inter.
 reflexivity.
 Qed.
 
-End s_pEquivListAdditions_2.
+End s_pEquivListAdditions_3.
+

@@ -182,6 +182,7 @@ match goal with
 | H : rk(?X :: ?Q :: ?P :: nil) = 2 |- exists J, rk (?P :: ?Q :: _ :: nil) = 2 /\ rk (?R :: ?S :: _ :: nil) = 2 => rk_inter_simplify_bis P Q R S X
 end.
 
+
 (** rk-inter : Two lines always intersect in the plane **)
 Lemma rk_inter : forall P Q R S, exists J, rk (P :: Q :: J :: nil) = 2 /\ rk (R :: S :: J :: nil) = 2.
 Proof.

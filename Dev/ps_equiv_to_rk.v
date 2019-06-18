@@ -71,21 +71,21 @@ Qed.
 
 Lemma matroid2 : forall e e', inclA eq e e' -> rkl(e)<=rkl(e').
 Proof.
-my_rank;unfold rkl;case_eq e;case_eq e';my_rank.
-my_inA;assert( HH := H p);my_inA.
-my_inA;assert( HH := H p);my_inA.
-my_inA;assert( HH := H p);my_inA.
-my_inA;assert( HH := H p);my_inA.
-my_inA;assert( HH := H p);my_inA.
-subst;assert( HH := contains_four_non_coplanar_points_sublist (p0 :: p1 :: l1) (p :: nil) H H3);simpl in HH;my_rank.
-subst;assert( HH := contains_four_non_coplanar_points_sublist (p0 :: p1 :: l1) (p :: p2 :: l2) H H3);rewrite HH in H5;my_rank.
-subst;assert( HH := contains_four_non_coplanar_points_sublist (p0 :: p1 :: l1) (p :: p2 :: l2) H H3);rewrite HH in H5;my_rank.
-subst;assert( HH := contains_four_non_coplanar_points_sublist (p0 :: p1 :: l1) (p :: p2 :: l2) H H3);rewrite HH in H5;my_rank.
-subst;assert( HH := contains_three_non_collinear_points_sublist (p0 :: p1 :: l1) (p :: nil) H H4);simpl in HH;my_rank.
-subst;assert( HH := contains_three_non_collinear_points_sublist (p0 :: p1 :: l1) (p :: p2 :: l2) H H4);rewrite H7 in HH;my_rank.
-subst;assert( HH := contains_three_non_collinear_points_sublist (p0 :: p1 :: l1) (p :: p2 :: l2) H H4);rewrite H7 in HH;my_rank.
-subst;assert( HH := contains_two_distinct_points_sublist (p0 :: p1 :: l1) (p :: nil) H H5);simpl in HH;my_rank.
-subst;assert( HH := contains_two_distinct_points_sublist (p0 :: p1 :: l1) (p :: p2 :: l2) H H5);rewrite H9 in HH;my_rank.
+intros;case_eq e;case_eq e';
+
+try my_inAO;my_rank.
+
+my_rank;subst;unfold inclA in *;assert( HH := H p);my_inAO.
+unfold rkl;my_rank;subst.
+assert( HH := contains_four_non_coplanar_points_sublist (p0 :: p1 :: l1) (p :: nil) H H3);simpl in HH;my_rank.
+assert( HH := contains_four_non_coplanar_points_sublist (p0 :: p1 :: l1) (p :: p2 :: l2) H H3);rewrite HH in H5;my_rank.
+assert( HH := contains_four_non_coplanar_points_sublist (p0 :: p1 :: l1) (p :: p2 :: l2) H H3);rewrite HH in H5;my_rank.
+assert( HH := contains_four_non_coplanar_points_sublist (p0 :: p1 :: l1) (p :: p2 :: l2) H H3);rewrite HH in H5;my_rank.
+assert( HH := contains_three_non_collinear_points_sublist (p0 :: p1 :: l1) (p :: nil) H H4);simpl in HH;my_rank.
+assert( HH := contains_three_non_collinear_points_sublist (p0 :: p1 :: l1) (p :: p2 :: l2) H H4);rewrite H7 in HH;my_rank.
+assert( HH := contains_three_non_collinear_points_sublist (p0 :: p1 :: l1) (p :: p2 :: l2) H H4);rewrite H7 in HH;my_rank.
+assert( HH := contains_two_distinct_points_sublist (p0 :: p1 :: l1) (p :: nil) H H5);simpl in HH;my_rank.
+assert( HH := contains_two_distinct_points_sublist (p0 :: p1 :: l1) (p :: p2 :: l2) H H5);rewrite H9 in HH;my_rank.
 Qed.
 
 Lemma matroid3:
