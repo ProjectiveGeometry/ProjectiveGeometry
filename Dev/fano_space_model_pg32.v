@@ -146,7 +146,6 @@ Lemma incid_dec (P:Point) (l:Line): {Incid P l} + {~Incid P l}.
 Proof.
   unfold Incid; destruct l; destruct P; simpl; solve [left;reflexivity | right; discriminate].
 Qed.
-Check incid_dec.
 
 (** A1 : existence and unicity of line generated from 2 points **)
 
@@ -154,7 +153,6 @@ Lemma a1_exists : forall A B : Point, {l : Line | Incid A l /\ Incid B l}.
 Proof.
   intros P Q; unfold Incid; destruct P; destruct Q; simpl; solve_ex_l tac1.
 Defined.
-Check a1_exists.
 
 Lemma a1_unique:forall (A B :Point)(l1 l2:Line),
 ~A=B -> Incid A l1 -> Incid B l1  -> Incid A l2 -> Incid B l2 -> l1=l2.
@@ -164,7 +162,6 @@ Proof.
       destruct l1; simpl in H1,H2; try clean; clear H1 H2;
         destruct l2; simpl in H3,H4; try clean; reflexivity.
 Qed.
-Check a1_unique.
 
 Lemma a2_unique : forall(l1 l2 :Line)(A B :Point),
   ~l1=l2 -> Incid A l1 -> Incid A l2 -> Incid B l1 -> Incid B l2 -> A=B.
@@ -174,7 +171,6 @@ Proof.
       destruct l1; simpl in H1,H2; try clean; clear H1 H2;
         destruct l2; simpl in H3,H4; try clean; reflexivity.
 Qed.
-Check a2_unique.
 
 Lemma uniqueness : forall (A B :Point)(l1 l2:Line),
   Incid A l1 -> Incid B l1  -> Incid A l2 -> Incid B l2 -> A = B \/ l1 = l2.
@@ -184,7 +180,6 @@ Proof.
       abstract (destruct l1;simpl in *;try clean; clear ha1 hb1; destruct l2; simpl in *; try clean; clear ha2 hb2;
         solve [left;reflexivity | right;reflexivity]).
 Qed.
-Check uniqueness.
 
 (** A3 : dimension-related axioms *)
 
@@ -232,7 +227,6 @@ Lemma a3_1 :
 Proof.
   intros l; destruct l; many_ex_p.
 Defined.
-Check a3_1.
 
   (** A2_2 : there exists 2 lines which do not intersect *)
 
@@ -286,7 +280,6 @@ Lemma a3_2 (* dim >= 3 *) : exists l1:Line, exists l2:Line, forall p:Point, ~(In
 Proof.
   many_ex_l. (* we could have chosen GKL and EHM for instance *)
 Qed.
-Check a3_2.
 
   (** A3_3 *)
 
@@ -351,7 +344,6 @@ Proof.
   unfold dist_3; intros l1 l2 l3 (hd1,(hd2,hd3)); destruct l1; destruct l2; try clean; clear hd1; 
   abstract (destruct l3; try clean; clear hd2 hd3; solve_ex_ll).
 Qed.
-Check a3_3.
 
   (** A2 : Pasch's axiom *)
 
@@ -368,9 +360,9 @@ Ltac findp := match goal with
 
 Lemma points_line : forall T Z, forall x,  Incid_bool T x = true -> Incid_bool Z x =true -> T<>Z -> x=(l_from_points(T,Z)).
 Proof.
-  Time (intros T Z x HTx HZx HTZ;
-  destruct T; destruct Z; try clean; destruct x; simpl in HTx,HZx;first [reflexivity | discriminate ]).
-Time Qed.
+  intros T Z x HTx HZx HTZ;
+  destruct T; destruct Z; try clean; destruct x; simpl in HTx,HZx;first [reflexivity | discriminate ].
+Qed.
 
 Ltac handle x :=
   match goal with Ht: Incid_bool ?T x = _, Hz:Incid_bool ?Z x =_ |- _ =>
@@ -395,6 +387,5 @@ Proof.
                           destruct S; try clean; handle l2; handle l4;
                             destruct Ht as [t (Ht1,Ht2)]; destruct t; simpl in Ht1, Ht2; try discriminate; clear Ht1 Ht2;findp))).
 Qed.
-Check a2.
 
 End s_fanoSpaceModelPG32.
