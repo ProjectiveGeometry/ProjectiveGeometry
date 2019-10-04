@@ -1,0 +1,51 @@
+Configuration et compilation :
+
+Création de l'environnement (dossier obj/ bin/) : make init
+Compilation du prouveur : make all
+Exécution et redirection de l'affichage ./bin/main > ranks.txt
+
+Décomposition du projet :
+
+maths_addon.c : fonctions mathématiques
+set.c : encodage des ensembles sur des entiers binaires
+graph.c : création et manipulation des noeuds dans un graphe
+parties. c : création  et manipulation du graphe de déductions; algorithme de saturation, règle de Pappus; reconstruction de la preuve et export en Coq
+main.c : fonction main et exemples d'énoncés géométriques à saturer
+
+Fonctionnement du prouveur :
+
+Ouverture du fichier file
+Allocation de la table sizeTab qui va stocker la décomposition de l'énoncé géométrique en plusieurs couches (si l'optimisation est utilisée) :
+- nombre de points
+- nombre de parties en fonction de ce nombre de points
+Allocation du graphe en fonction du nombre de points
+Chargement de l'énoncé géométrique (écriture dans une fonction à part de cet énoncé) :
+- nombre de points
+- nombre de parties
+- hypothèses
+- coloration des hypothèses (si l'optimisation est utilisée)
+Mise à jour de la table sizeTab avec les informations de l'énoncé géométrique
+Application de l'algorithme de saturation pour chercher le résultat à la ligne res
+(Affichage du graphe)
+Reconstruction de la preuve :
+- prémarquage du graphe à partir du résultat
+- construction de l'énoncé du lemme
+- construction de l'introduction du lemme
+- construction de la preuve dans son intégralité
+Fermeture du fichier
+
+Algorithme de saturation :
+
+Application de la boucle de saturation sur les 6 règles matroïdales (8-2 car fonctionnement croissant) jusqu'à saturation 
+Puis application de la règle de Pappus
+Si Pappus provoque un changement, on recommence la saturation
+On s'arrête dès que le système a convergé
+
+Mode affichage & mode debug permettant d'afficher pleins d'informations supplémentaires
+
+Notes supplémentaires :
+
+L'algorithme utilise par défaut la coloration, cette optimisation peut être enlevé dans l'algorithme de saturation
+Un exemple de reconstruction en 3 couches de l'énoncé de Dandelin-Gallucci est disponible dans le fichier main.c
+ranks.txt pour l'affichage
+proof.txt pour la preuve obtenue
