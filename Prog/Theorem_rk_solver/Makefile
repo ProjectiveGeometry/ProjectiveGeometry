@@ -9,6 +9,10 @@ vpath main bin
 
 all : main
 
+init :
+	mkdir obj/
+	mkdir bin/
+
 main : main.o parties.o graph.o set.o maths_addon.o
 	gcc $(CFLAGS) -o main $(OPATH)main.o $(OPATH)parties.o $(OPATH)graph.o $(OPATH)set.o $(OPATH)maths_addon.o -lm 
 	mv $@ bin/
