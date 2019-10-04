@@ -1,5 +1,4 @@
 Make
-Makefile
 *.vo
 *.glob
 *.v.d
